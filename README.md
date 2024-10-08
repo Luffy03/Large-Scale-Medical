@@ -9,7 +9,7 @@
 <a href='https://huggingface.co/datasets/Luffy503/VoComni'><img src='https://img.shields.io/badge/Dataset-VoComni-pink' alt='Dataset'></a>
 </div>
 
-This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including 160K CT volumes (42M slices) for pre-training, 31M-1.2B params of pre-trained models, and 50+ downstream tasks implementation.
+This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** CT volumes (42M slices) for pre-training, **31M~1.2B** params of pre-trained models, and **50+** downstream tasks implementation.
 
 ![teaser](assets/data.png)
 
@@ -76,35 +76,47 @@ pip install -r requirements.txt
 
 ### Download Downstream Datasets
 
+Please refer to [Acknowledgment](#Important). Download our pre-processed [downstream datasets](https://huggingface.co/datasets/Luffy503/VoCo_Downstream) for downstream tasks.
+
 ### Implementations
+Please refer to [Downstream](./Downstream).
 
 ## Pre-training
 
 ### Download Pre-training Dataset
 
+Please refer to [Acknowledgment](#Important). Download our  [PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K) for pre-training.
+
 ### Various Pre-training recipes
 
+Please refer to:
+
+- [Self-supervised learning](./Self-supervised).
+
+- [Semi-supervised learning](./Semi-supervised). 
+
+- [Omni-supervised learning](./Omni-supervised). 
 
 
-## VoComni Benchmark
 
-Please refer to [metric depth estimation](./metric_depth).
+## VoComni Dataset
+
+Please refer to [VoComni](./VoComni).
 
 
-## VoCovid Benchmark
+## Acknowledgement <a name="Important"></a>
 
-Please refer to [DA-2K benchmark](./DA-2K.md).
-
+ **NOTE THAT** we are not the authors of these datasets. Although all these datasets are publicly available for academic research, you need to cite the original works as shown in our paper. For certain datasets (e.g., [WORD](https://github.com/HiLab-git/WORD)) that necessitate approval from the authors, you need to download it from the original link.
 
 ## Citation
 
 If you find this repo useful for your research, please consider citing the paper as follows:
 
 ```bibtex
-@InProceedings{voco,
+@InProceedings{voco-v1,
     author    = {Wu, Linshan and Zhuang, Jiaxin and Chen, Hao},
     title     = {VoCo: A Simple-yet-Effective Volume Contrastive Learning Framework for 3D Medical Image Analysis},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle = {CVPR},
     month     = {June},
     year      = {2024},
     pages     = {22873-22882}
