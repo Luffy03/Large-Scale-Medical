@@ -24,7 +24,7 @@ We use VoCo to generate pseudo labels for semi-supervised covid segmentation, ju
 ```
 
 ## Usage
-We provide a simple baseline for covid segmentation. **NOTE THAT** labels in 'labelsUn' are noisy. You can investigate to develop algorithms to overcome it
+We provide a simple baseline for covid segmentation. **NOTE THAT** labels in 'labelsUn' are noisy. You can develop algorithms to overcome it
 
 ### Fine-tuning
 
