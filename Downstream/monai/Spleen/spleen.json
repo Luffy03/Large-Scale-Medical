@@ -1,0 +1,207 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "spleen"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "Task009_spleen",
+    "numTest": 20,
+    "numTraining": 32,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/spleen_11_0000.nii.gz",
+        "./imagesTs/spleen_15_0000.nii.gz",
+        "./imagesTs/spleen_1_0000.nii.gz",
+        "./imagesTs/spleen_23_0000.nii.gz",
+        "./imagesTs/spleen_30_0000.nii.gz",
+        "./imagesTs/spleen_34_0000.nii.gz",
+        "./imagesTs/spleen_35_0000.nii.gz",
+        "./imagesTs/spleen_36_0000.nii.gz",
+        "./imagesTs/spleen_37_0000.nii.gz",
+        "./imagesTs/spleen_39_0000.nii.gz",
+        "./imagesTs/spleen_42_0000.nii.gz",
+        "./imagesTs/spleen_43_0000.nii.gz",
+        "./imagesTs/spleen_48_0000.nii.gz",
+        "./imagesTs/spleen_50_0000.nii.gz",
+        "./imagesTs/spleen_51_0000.nii.gz",
+        "./imagesTs/spleen_54_0000.nii.gz",
+        "./imagesTs/spleen_55_0000.nii.gz",
+        "./imagesTs/spleen_57_0000.nii.gz",
+        "./imagesTs/spleen_58_0000.nii.gz",
+        "./imagesTs/spleen_7_0000.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/spleen_12_0000.nii.gz",
+            "label": "./labelsTr/spleen_12.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_16_0000.nii.gz",
+            "label": "./labelsTr/spleen_16.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_18_0000.nii.gz",
+            "label": "./labelsTr/spleen_18.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_19_0000.nii.gz",
+            "label": "./labelsTr/spleen_19.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_20_0000.nii.gz",
+            "label": "./labelsTr/spleen_20.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_21_0000.nii.gz",
+            "label": "./labelsTr/spleen_21.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_22_0000.nii.gz",
+            "label": "./labelsTr/spleen_22.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_24_0000.nii.gz",
+            "label": "./labelsTr/spleen_24.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_25_0000.nii.gz",
+            "label": "./labelsTr/spleen_25.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_26_0000.nii.gz",
+            "label": "./labelsTr/spleen_26.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_27_0000.nii.gz",
+            "label": "./labelsTr/spleen_27.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_28_0000.nii.gz",
+            "label": "./labelsTr/spleen_28.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_29_0000.nii.gz",
+            "label": "./labelsTr/spleen_29.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_2_0000.nii.gz",
+            "label": "./labelsTr/spleen_2.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_32_0000.nii.gz",
+            "label": "./labelsTr/spleen_32.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_38_0000.nii.gz",
+            "label": "./labelsTr/spleen_38.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_3_0000.nii.gz",
+            "label": "./labelsTr/spleen_3.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_40_0000.nii.gz",
+            "label": "./labelsTr/spleen_40.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_41_0000.nii.gz",
+            "label": "./labelsTr/spleen_41.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_45_0000.nii.gz",
+            "label": "./labelsTr/spleen_45.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_46_0000.nii.gz",
+            "label": "./labelsTr/spleen_46.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_49_0000.nii.gz",
+            "label": "./labelsTr/spleen_49.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_52_0000.nii.gz",
+            "label": "./labelsTr/spleen_52.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_53_0000.nii.gz",
+            "label": "./labelsTr/spleen_53.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_59_0000.nii.gz",
+            "label": "./labelsTr/spleen_59.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_60_0000.nii.gz",
+            "label": "./labelsTr/spleen_60.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_61_0000.nii.gz",
+            "label": "./labelsTr/spleen_61.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_62_0000.nii.gz",
+            "label": "./labelsTr/spleen_62.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_63_0000.nii.gz",
+            "label": "./labelsTr/spleen_63.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_6_0000.nii.gz",
+            "label": "./labelsTr/spleen_6.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_8_0000.nii.gz",
+            "label": "./labelsTr/spleen_8.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_9_0000.nii.gz",
+            "label": "./labelsTr/spleen_9.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/spleen_10_0000.nii.gz",
+            "label": "./labelsTr/spleen_10.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_13_0000.nii.gz",
+            "label": "./labelsTr/spleen_13.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_14_0000.nii.gz",
+            "label": "./labelsTr/spleen_14.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_17_0000.nii.gz",
+            "label": "./labelsTr/spleen_17.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_31_0000.nii.gz",
+            "label": "./labelsTr/spleen_31.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_33_0000.nii.gz",
+            "label": "./labelsTr/spleen_33.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_44_0000.nii.gz",
+            "label": "./labelsTr/spleen_44.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_47_0000.nii.gz",
+            "label": "./labelsTr/spleen_47.nii.gz"
+        },
+        {
+            "image": "./imagesTr/spleen_56_0000.nii.gz",
+            "label": "./labelsTr/spleen_56.nii.gz"
+        }
+    ]
+}

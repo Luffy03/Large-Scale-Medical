@@ -1,0 +1,340 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "pancreas"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "TCIA_panc",
+    "numTraining": 64,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./imagesTr/PANCREAS_0001_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0002_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0004_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0006_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0008_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0009_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0010_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0011_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0012_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0013_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0015_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0016_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0016.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0017_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0018_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0019_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0020_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0020.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0022_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0022.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0023_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0024_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0024.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0026_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0026.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0028_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0028.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0029_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0029.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0031_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0032_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0032.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0033_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0033.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0034_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0034.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0035_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0035.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0036_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0036.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0037_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0037.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0038_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0038.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0039_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0039.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0040_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0040.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0041_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0041.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0042_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0042.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0043_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0043.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0044_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0044.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0045_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0045.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0046_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0046.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0048_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0048.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0049_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0049.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0051_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0051.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0052_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0052.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0053_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0053.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0055_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0055.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0057_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0057.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0058_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0058.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0059_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0059.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0060_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0060.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0061_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0061.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0064_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0064.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0065_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0065.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0066_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0066.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0067_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0067.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0068_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0068.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0069_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0069.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0072_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0072.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0073_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0073.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0074_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0074.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0075_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0075.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0077_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0077.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0078_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0078.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0080_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0080.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0081_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0081.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0082_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0082.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/PANCREAS_0003_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0005_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0007_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0014_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0021_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0021.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0027_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0027.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0030_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0030.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0047_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0047.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0050_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0050.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0054_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0054.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0056_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0056.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0062_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0062.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0063_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0063.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0071_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0071.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0076_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0076.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PANCREAS_0079_0000.nii.gz",
+            "label": "./labelsTr/PANCREAS_0079.nii.gz"
+        }
+    ]
+}

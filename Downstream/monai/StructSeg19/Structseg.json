@@ -1,0 +1,241 @@
+{
+    "description": "0",
+    "labels": {
+        "1": 1,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "2": 2,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "background": 0
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "Structseg19",
+    "numTraining": 40,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./imagesTr/10_0000.nii.gz",
+            "label": "./labelsTr/10.nii.gz"
+        },
+        {
+            "image": "./imagesTr/11_0000.nii.gz",
+            "label": "./labelsTr/11.nii.gz"
+        },
+        {
+            "image": "./imagesTr/12_0000.nii.gz",
+            "label": "./labelsTr/12.nii.gz"
+        },
+        {
+            "image": "./imagesTr/13_0000.nii.gz",
+            "label": "./labelsTr/13.nii.gz"
+        },
+        {
+            "image": "./imagesTr/14_0000.nii.gz",
+            "label": "./labelsTr/14.nii.gz"
+        },
+        {
+            "image": "./imagesTr/15_0000.nii.gz",
+            "label": "./labelsTr/15.nii.gz"
+        },
+        {
+            "image": "./imagesTr/16_0000.nii.gz",
+            "label": "./labelsTr/16.nii.gz"
+        },
+        {
+            "image": "./imagesTr/18_0000.nii.gz",
+            "label": "./labelsTr/18.nii.gz"
+        },
+        {
+            "image": "./imagesTr/19_0000.nii.gz",
+            "label": "./labelsTr/19.nii.gz"
+        },
+        {
+            "image": "./imagesTr/1_0000.nii.gz",
+            "label": "./labelsTr/1.nii.gz"
+        },
+        {
+            "image": "./imagesTr/21_0000.nii.gz",
+            "label": "./labelsTr/21.nii.gz"
+        },
+        {
+            "image": "./imagesTr/22_0000.nii.gz",
+            "label": "./labelsTr/22.nii.gz"
+        },
+        {
+            "image": "./imagesTr/23_0000.nii.gz",
+            "label": "./labelsTr/23.nii.gz"
+        },
+        {
+            "image": "./imagesTr/24_0000.nii.gz",
+            "label": "./labelsTr/24.nii.gz"
+        },
+        {
+            "image": "./imagesTr/25_0000.nii.gz",
+            "label": "./labelsTr/25.nii.gz"
+        },
+        {
+            "image": "./imagesTr/26_0000.nii.gz",
+            "label": "./labelsTr/26.nii.gz"
+        },
+        {
+            "image": "./imagesTr/27_0000.nii.gz",
+            "label": "./labelsTr/27.nii.gz"
+        },
+        {
+            "image": "./imagesTr/28_0000.nii.gz",
+            "label": "./labelsTr/28.nii.gz"
+        },
+        {
+            "image": "./imagesTr/2_0000.nii.gz",
+            "label": "./labelsTr/2.nii.gz"
+        },
+        {
+            "image": "./imagesTr/30_0000.nii.gz",
+            "label": "./labelsTr/30.nii.gz"
+        },
+        {
+            "image": "./imagesTr/31_0000.nii.gz",
+            "label": "./labelsTr/31.nii.gz"
+        },
+        {
+            "image": "./imagesTr/32_0000.nii.gz",
+            "label": "./labelsTr/32.nii.gz"
+        },
+        {
+            "image": "./imagesTr/33_0000.nii.gz",
+            "label": "./labelsTr/33.nii.gz"
+        },
+        {
+            "image": "./imagesTr/34_0000.nii.gz",
+            "label": "./labelsTr/34.nii.gz"
+        },
+        {
+            "image": "./imagesTr/35_0000.nii.gz",
+            "label": "./labelsTr/35.nii.gz"
+        },
+        {
+            "image": "./imagesTr/36_0000.nii.gz",
+            "label": "./labelsTr/36.nii.gz"
+        },
+        {
+            "image": "./imagesTr/38_0000.nii.gz",
+            "label": "./labelsTr/38.nii.gz"
+        },
+        {
+            "image": "./imagesTr/40_0000.nii.gz",
+            "label": "./labelsTr/40.nii.gz"
+        },
+        {
+            "image": "./imagesTr/41_0000.nii.gz",
+            "label": "./labelsTr/41.nii.gz"
+        },
+        {
+            "image": "./imagesTr/42_0000.nii.gz",
+            "label": "./labelsTr/42.nii.gz"
+        },
+        {
+            "image": "./imagesTr/43_0000.nii.gz",
+            "label": "./labelsTr/43.nii.gz"
+        },
+        {
+            "image": "./imagesTr/45_0000.nii.gz",
+            "label": "./labelsTr/45.nii.gz"
+        },
+        {
+            "image": "./imagesTr/46_0000.nii.gz",
+            "label": "./labelsTr/46.nii.gz"
+        },
+        {
+            "image": "./imagesTr/47_0000.nii.gz",
+            "label": "./labelsTr/47.nii.gz"
+        },
+        {
+            "image": "./imagesTr/49_0000.nii.gz",
+            "label": "./labelsTr/49.nii.gz"
+        },
+        {
+            "image": "./imagesTr/5_0000.nii.gz",
+            "label": "./labelsTr/5.nii.gz"
+        },
+        {
+            "image": "./imagesTr/6_0000.nii.gz",
+            "label": "./labelsTr/6.nii.gz"
+        },
+        {
+            "image": "./imagesTr/7_0000.nii.gz",
+            "label": "./labelsTr/7.nii.gz"
+        },
+        {
+            "image": "./imagesTr/8_0000.nii.gz",
+            "label": "./labelsTr/8.nii.gz"
+        },
+        {
+            "image": "./imagesTr/9_0000.nii.gz",
+            "label": "./labelsTr/9.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/17_0000.nii.gz",
+            "label": "./labelsTr/17.nii.gz"
+        },
+        {
+            "image": "./imagesTr/20_0000.nii.gz",
+            "label": "./labelsTr/20.nii.gz"
+        },
+        {
+            "image": "./imagesTr/29_0000.nii.gz",
+            "label": "./labelsTr/29.nii.gz"
+        },
+        {
+            "image": "./imagesTr/37_0000.nii.gz",
+            "label": "./labelsTr/37.nii.gz"
+        },
+        {
+            "image": "./imagesTr/39_0000.nii.gz",
+            "label": "./labelsTr/39.nii.gz"
+        },
+        {
+            "image": "./imagesTr/3_0000.nii.gz",
+            "label": "./labelsTr/3.nii.gz"
+        },
+        {
+            "image": "./imagesTr/44_0000.nii.gz",
+            "label": "./labelsTr/44.nii.gz"
+        },
+        {
+            "image": "./imagesTr/48_0000.nii.gz",
+            "label": "./labelsTr/48.nii.gz"
+        },
+        {
+            "image": "./imagesTr/4_0000.nii.gz",
+            "label": "./labelsTr/4.nii.gz"
+        },
+        {
+            "image": "./imagesTr/50_0000.nii.gz",
+            "label": "./labelsTr/50.nii.gz"
+        }
+    ]
+}
