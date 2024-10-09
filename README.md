@@ -19,7 +19,7 @@ This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-train
 
 ## Pre-trained Models
 
-We provide various models for fine-tuning downstream tasks (小杯，中杯，大杯，超大杯）. For nnUNet, please refer to [nnunet trainer](./Downstream/nnUNet).
+We provide various models for fine-tuning downstream tasks. For nnUNet, please refer to [nnunet trainer](./Downstream/nnUNet).
 
 - SSL_head represents trained by [Self-supervised pre-training](./Self-supervised).
 - Omni represents trained by [Omni-supervised pre-training](./Omni-supervised). 
@@ -115,7 +115,7 @@ Please refer to [Acknowledgment](#Acknowledgment). Download our  [PreCT-160K](ht
 
 **WARNING**: 
 - It requires **22.6 TB** space to store the original datasets. For pre-training, it requires **30 TB** more space to cache the data, otherwise the pre-training will be very slow. And please store them in SSD.
-- If you do not have enough space for PreCT-160K, you can try our [VoComni](https://huggingface.co/datasets/Luffy503/VoComni). It requires less than **10 TB** only (?).
+- If you do not have enough space for PreCT-160K, you can try our [VoComni dataset](https://huggingface.co/datasets/Luffy503/VoComni). It requires less than **10 TB** only (?).
 
 ### Various Pre-training recipes
 
