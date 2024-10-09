@@ -18,7 +18,7 @@ This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-train
 [//]: # ()
 [//]: # (- **2024-10-14:** Paper, code, models, and datasets are all released.)
 
-## Quick start
+## Quick Start
 
 - **[Models](https://huggingface.co/Luffy503/VoCo/tree/main):** **31M~1.2B** params of pre-trained models.
 - **[Downstream](Downstream):** **50+** downstream tasks (segmentation, classification, registration, and vision-language).
@@ -44,7 +44,7 @@ We provide various models for fine-tuning downstream tasks. For nnUNet, please r
 | VoComni_L       |   290M |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_L.pt?download=true)    |
 | VoComni_H       |   1.2B |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_H.pt?download=true)    |
 
-We download checkpoints of other methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!). 
+We download checkpoints of other methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!).
 
 The path of pre-trained models should be organized as:
 ```
