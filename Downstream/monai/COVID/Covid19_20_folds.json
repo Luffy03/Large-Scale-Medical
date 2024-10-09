@@ -1,0 +1,1006 @@
+{
+    "name": "Covidv2_1920",
+    "modality": "CT",
+    "labels": {
+        "0": "background",
+        "1": "lesion"
+    },
+    "numTraining": 199,
+    "training": [
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0003_ct.nii.gz",
+            "label": "volume-covid19-A-0003_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0011_ct.nii.gz",
+            "label": "volume-covid19-A-0011_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0013_ct.nii.gz",
+            "label": "volume-covid19-A-0013_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0014_ct.nii.gz",
+            "label": "volume-covid19-A-0014_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0016_ct.nii.gz",
+            "label": "volume-covid19-A-0016_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0025_ct.nii.gz",
+            "label": "volume-covid19-A-0025_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0031_ct.nii.gz",
+            "label": "volume-covid19-A-0031_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0034_ct.nii.gz",
+            "label": "volume-covid19-A-0034_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0038_ct.nii.gz",
+            "label": "volume-covid19-A-0038_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0039_ct.nii.gz",
+            "label": "volume-covid19-A-0039_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0041_ct.nii.gz",
+            "label": "volume-covid19-A-0041_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0044_ct.nii.gz",
+            "label": "volume-covid19-A-0044_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0046_ct.nii.gz",
+            "label": "volume-covid19-A-0046_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0047_1_ct.nii.gz",
+            "label": "volume-covid19-A-0047_1_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0053_ct.nii.gz",
+            "label": "volume-covid19-A-0053_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0054_ct.nii.gz",
+            "label": "volume-covid19-A-0054_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0066_ct.nii.gz",
+            "label": "volume-covid19-A-0066_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0070_ct.nii.gz",
+            "label": "volume-covid19-A-0070_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0072_ct.nii.gz",
+            "label": "volume-covid19-A-0072_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0073_ct.nii.gz",
+            "label": "volume-covid19-A-0073_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0074_1_ct.nii.gz",
+            "label": "volume-covid19-A-0074_1_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0077_ct.nii.gz",
+            "label": "volume-covid19-A-0077_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0083_ct.nii.gz",
+            "label": "volume-covid19-A-0083_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0090_ct.nii.gz",
+            "label": "volume-covid19-A-0090_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0092_ct.nii.gz",
+            "label": "volume-covid19-A-0092_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0096_ct.nii.gz",
+            "label": "volume-covid19-A-0096_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0106_ct.nii.gz",
+            "label": "volume-covid19-A-0106_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0110_ct.nii.gz",
+            "label": "volume-covid19-A-0110_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0112_ct.nii.gz",
+            "label": "volume-covid19-A-0112_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0114_ct.nii.gz",
+            "label": "volume-covid19-A-0114_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0120_ct.nii.gz",
+            "label": "volume-covid19-A-0120_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0129_ct.nii.gz",
+            "label": "volume-covid19-A-0129_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0130_ct.nii.gz",
+            "label": "volume-covid19-A-0130_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0133_ct.nii.gz",
+            "label": "volume-covid19-A-0133_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0147_ct.nii.gz",
+            "label": "volume-covid19-A-0147_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0151_ct.nii.gz",
+            "label": "volume-covid19-A-0151_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0154_ct.nii.gz",
+            "label": "volume-covid19-A-0154_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0161_ct.nii.gz",
+            "label": "volume-covid19-A-0161_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0164_ct.nii.gz",
+            "label": "volume-covid19-A-0164_seg.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "volume-covid19-A-0165_ct.nii.gz",
+            "label": "volume-covid19-A-0165_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0167_1_ct.nii.gz",
+            "label": "volume-covid19-A-0167_1_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0173_ct.nii.gz",
+            "label": "volume-covid19-A-0173_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0178_ct.nii.gz",
+            "label": "volume-covid19-A-0178_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0179_ct.nii.gz",
+            "label": "volume-covid19-A-0179_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0181_ct.nii.gz",
+            "label": "volume-covid19-A-0181_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0187_ct.nii.gz",
+            "label": "volume-covid19-A-0187_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0196_0_ct.nii.gz",
+            "label": "volume-covid19-A-0196_0_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0199_ct.nii.gz",
+            "label": "volume-covid19-A-0199_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0201_ct.nii.gz",
+            "label": "volume-covid19-A-0201_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0202_0_ct.nii.gz",
+            "label": "volume-covid19-A-0202_0_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0214_ct.nii.gz",
+            "label": "volume-covid19-A-0214_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0215_ct.nii.gz",
+            "label": "volume-covid19-A-0215_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0228_ct.nii.gz",
+            "label": "volume-covid19-A-0228_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0233_ct.nii.gz",
+            "label": "volume-covid19-A-0233_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0236_ct.nii.gz",
+            "label": "volume-covid19-A-0236_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0237_ct.nii.gz",
+            "label": "volume-covid19-A-0237_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0239_ct.nii.gz",
+            "label": "volume-covid19-A-0239_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0240_ct.nii.gz",
+            "label": "volume-covid19-A-0240_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0246_ct.nii.gz",
+            "label": "volume-covid19-A-0246_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0247_ct.nii.gz",
+            "label": "volume-covid19-A-0247_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0251_ct.nii.gz",
+            "label": "volume-covid19-A-0251_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0252_ct.nii.gz",
+            "label": "volume-covid19-A-0252_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0255_ct.nii.gz",
+            "label": "volume-covid19-A-0255_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0256_1_ct.nii.gz",
+            "label": "volume-covid19-A-0256_1_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0263_ct.nii.gz",
+            "label": "volume-covid19-A-0263_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0264_ct.nii.gz",
+            "label": "volume-covid19-A-0264_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0267_ct.nii.gz",
+            "label": "volume-covid19-A-0267_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0270_ct.nii.gz",
+            "label": "volume-covid19-A-0270_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0282_ct.nii.gz",
+            "label": "volume-covid19-A-0282_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0285_ct.nii.gz",
+            "label": "volume-covid19-A-0285_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0288_ct.nii.gz",
+            "label": "volume-covid19-A-0288_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0295_ct.nii.gz",
+            "label": "volume-covid19-A-0295_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0296_ct.nii.gz",
+            "label": "volume-covid19-A-0296_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0299_ct.nii.gz",
+            "label": "volume-covid19-A-0299_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0301_ct.nii.gz",
+            "label": "volume-covid19-A-0301_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0307_ct.nii.gz",
+            "label": "volume-covid19-A-0307_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0313_ct.nii.gz",
+            "label": "volume-covid19-A-0313_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0314_ct.nii.gz",
+            "label": "volume-covid19-A-0314_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0315_ct.nii.gz",
+            "label": "volume-covid19-A-0315_seg.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "volume-covid19-A-0316_ct.nii.gz",
+            "label": "volume-covid19-A-0316_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0319_ct.nii.gz",
+            "label": "volume-covid19-A-0319_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0320_ct.nii.gz",
+            "label": "volume-covid19-A-0320_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0323_ct.nii.gz",
+            "label": "volume-covid19-A-0323_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0329_ct.nii.gz",
+            "label": "volume-covid19-A-0329_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0331_ct.nii.gz",
+            "label": "volume-covid19-A-0331_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0332_ct.nii.gz",
+            "label": "volume-covid19-A-0332_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0338_ct.nii.gz",
+            "label": "volume-covid19-A-0338_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0339_ct.nii.gz",
+            "label": "volume-covid19-A-0339_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0342_ct.nii.gz",
+            "label": "volume-covid19-A-0342_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0347_ct.nii.gz",
+            "label": "volume-covid19-A-0347_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0351_ct.nii.gz",
+            "label": "volume-covid19-A-0351_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0354_ct.nii.gz",
+            "label": "volume-covid19-A-0354_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0355_ct.nii.gz",
+            "label": "volume-covid19-A-0355_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0360_ct.nii.gz",
+            "label": "volume-covid19-A-0360_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0361_ct.nii.gz",
+            "label": "volume-covid19-A-0361_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0366_ct.nii.gz",
+            "label": "volume-covid19-A-0366_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0372_ct.nii.gz",
+            "label": "volume-covid19-A-0372_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0377_ct.nii.gz",
+            "label": "volume-covid19-A-0377_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0380_ct.nii.gz",
+            "label": "volume-covid19-A-0380_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0382_ct.nii.gz",
+            "label": "volume-covid19-A-0382_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0383_1_ct.nii.gz",
+            "label": "volume-covid19-A-0383_1_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0386_ct.nii.gz",
+            "label": "volume-covid19-A-0386_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0387_ct.nii.gz",
+            "label": "volume-covid19-A-0387_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0388_ct.nii.gz",
+            "label": "volume-covid19-A-0388_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0391_ct.nii.gz",
+            "label": "volume-covid19-A-0391_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0392_ct.nii.gz",
+            "label": "volume-covid19-A-0392_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0394_ct.nii.gz",
+            "label": "volume-covid19-A-0394_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0397_ct.nii.gz",
+            "label": "volume-covid19-A-0397_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0400_ct.nii.gz",
+            "label": "volume-covid19-A-0400_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0402_ct.nii.gz",
+            "label": "volume-covid19-A-0402_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0407_ct.nii.gz",
+            "label": "volume-covid19-A-0407_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0413_ct.nii.gz",
+            "label": "volume-covid19-A-0413_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0414_ct.nii.gz",
+            "label": "volume-covid19-A-0414_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0416_ct.nii.gz",
+            "label": "volume-covid19-A-0416_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0417_ct.nii.gz",
+            "label": "volume-covid19-A-0417_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0418_ct.nii.gz",
+            "label": "volume-covid19-A-0418_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0421_ct.nii.gz",
+            "label": "volume-covid19-A-0421_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0422_ct.nii.gz",
+            "label": "volume-covid19-A-0422_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0423_ct.nii.gz",
+            "label": "volume-covid19-A-0423_seg.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "volume-covid19-A-0435_ct.nii.gz",
+            "label": "volume-covid19-A-0435_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0437_ct.nii.gz",
+            "label": "volume-covid19-A-0437_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0443_ct.nii.gz",
+            "label": "volume-covid19-A-0443_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0445_ct.nii.gz",
+            "label": "volume-covid19-A-0445_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0455_ct.nii.gz",
+            "label": "volume-covid19-A-0455_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0462_ct.nii.gz",
+            "label": "volume-covid19-A-0462_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0463_ct.nii.gz",
+            "label": "volume-covid19-A-0463_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0464_ct.nii.gz",
+            "label": "volume-covid19-A-0464_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0472_ct.nii.gz",
+            "label": "volume-covid19-A-0472_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0473_ct.nii.gz",
+            "label": "volume-covid19-A-0473_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0475_ct.nii.gz",
+            "label": "volume-covid19-A-0475_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0476_ct.nii.gz",
+            "label": "volume-covid19-A-0476_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0479_ct.nii.gz",
+            "label": "volume-covid19-A-0479_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0483_ct.nii.gz",
+            "label": "volume-covid19-A-0483_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0494_ct.nii.gz",
+            "label": "volume-covid19-A-0494_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0495_ct.nii.gz",
+            "label": "volume-covid19-A-0495_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0498_ct.nii.gz",
+            "label": "volume-covid19-A-0498_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0500_ct.nii.gz",
+            "label": "volume-covid19-A-0500_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0502_ct.nii.gz",
+            "label": "volume-covid19-A-0502_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0504_ct.nii.gz",
+            "label": "volume-covid19-A-0504_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0511_ct.nii.gz",
+            "label": "volume-covid19-A-0511_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0521_ct.nii.gz",
+            "label": "volume-covid19-A-0521_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0522_ct.nii.gz",
+            "label": "volume-covid19-A-0522_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0524_ct.nii.gz",
+            "label": "volume-covid19-A-0524_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0525_ct.nii.gz",
+            "label": "volume-covid19-A-0525_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0526_ct.nii.gz",
+            "label": "volume-covid19-A-0526_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0530_ct.nii.gz",
+            "label": "volume-covid19-A-0530_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0531_ct.nii.gz",
+            "label": "volume-covid19-A-0531_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0534_ct.nii.gz",
+            "label": "volume-covid19-A-0534_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0537_ct.nii.gz",
+            "label": "volume-covid19-A-0537_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0547_ct.nii.gz",
+            "label": "volume-covid19-A-0547_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0548_ct.nii.gz",
+            "label": "volume-covid19-A-0548_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0553_ct.nii.gz",
+            "label": "volume-covid19-A-0553_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0557_ct.nii.gz",
+            "label": "volume-covid19-A-0557_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0559_ct.nii.gz",
+            "label": "volume-covid19-A-0559_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0560_ct.nii.gz",
+            "label": "volume-covid19-A-0560_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0562_ct.nii.gz",
+            "label": "volume-covid19-A-0562_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0566_ct.nii.gz",
+            "label": "volume-covid19-A-0566_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0567_ct.nii.gz",
+            "label": "volume-covid19-A-0567_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0569_ct.nii.gz",
+            "label": "volume-covid19-A-0569_seg.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "volume-covid19-A-0570_ct.nii.gz",
+            "label": "volume-covid19-A-0570_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0573_ct.nii.gz",
+            "label": "volume-covid19-A-0573_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0575_ct.nii.gz",
+            "label": "volume-covid19-A-0575_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0576_ct.nii.gz",
+            "label": "volume-covid19-A-0576_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0579_ct.nii.gz",
+            "label": "volume-covid19-A-0579_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0581_ct.nii.gz",
+            "label": "volume-covid19-A-0581_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0585_ct.nii.gz",
+            "label": "volume-covid19-A-0585_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0586_ct.nii.gz",
+            "label": "volume-covid19-A-0586_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0589_ct.nii.gz",
+            "label": "volume-covid19-A-0589_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0590_ct.nii.gz",
+            "label": "volume-covid19-A-0590_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0599_ct.nii.gz",
+            "label": "volume-covid19-A-0599_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0600_ct.nii.gz",
+            "label": "volume-covid19-A-0600_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0604_ct.nii.gz",
+            "label": "volume-covid19-A-0604_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0612_ct.nii.gz",
+            "label": "volume-covid19-A-0612_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0614_ct.nii.gz",
+            "label": "volume-covid19-A-0614_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0623_ct.nii.gz",
+            "label": "volume-covid19-A-0623_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0626_ct.nii.gz",
+            "label": "volume-covid19-A-0626_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0627_ct.nii.gz",
+            "label": "volume-covid19-A-0627_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0629_ct.nii.gz",
+            "label": "volume-covid19-A-0629_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0635_ct.nii.gz",
+            "label": "volume-covid19-A-0635_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0636_ct.nii.gz",
+            "label": "volume-covid19-A-0636_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0638_ct.nii.gz",
+            "label": "volume-covid19-A-0638_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0643_ct.nii.gz",
+            "label": "volume-covid19-A-0643_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0648_ct.nii.gz",
+            "label": "volume-covid19-A-0648_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0652_ct.nii.gz",
+            "label": "volume-covid19-A-0652_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0656_ct.nii.gz",
+            "label": "volume-covid19-A-0656_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0657_ct.nii.gz",
+            "label": "volume-covid19-A-0657_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0658_ct.nii.gz",
+            "label": "volume-covid19-A-0658_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0659_ct.nii.gz",
+            "label": "volume-covid19-A-0659_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0660_ct.nii.gz",
+            "label": "volume-covid19-A-0660_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0665_ct.nii.gz",
+            "label": "volume-covid19-A-0665_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0666_ct.nii.gz",
+            "label": "volume-covid19-A-0666_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0669_ct.nii.gz",
+            "label": "volume-covid19-A-0669_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0670_ct.nii.gz",
+            "label": "volume-covid19-A-0670_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0678_ct.nii.gz",
+            "label": "volume-covid19-A-0678_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0685_ct.nii.gz",
+            "label": "volume-covid19-A-0685_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0686_ct.nii.gz",
+            "label": "volume-covid19-A-0686_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0694_ct.nii.gz",
+            "label": "volume-covid19-A-0694_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0696_ct.nii.gz",
+            "label": "volume-covid19-A-0696_seg.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "volume-covid19-A-0698_ct.nii.gz",
+            "label": "volume-covid19-A-0698_seg.nii.gz"
+        }
+    ]
+}
