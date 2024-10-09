@@ -12,7 +12,7 @@ We release implementations of **50+** downstream datasets across various medical
 
 | Dataset                                     | Modality | Task                    |
 |---------------------------------------------|----------|-------------------------|
-| [BTCV](MONAI/BTCV/)                         | CT       | Abdomen Seg.            |
+| [BTCV](./MONAI/BTCV/)                         | CT       | Abdomen Seg.            |
 | [AMOS22](MONAI/Amos/)                       | CT       | Abdomen Seg.            |
 | [WORD](MONAI/Word/)                         | CT       | Abdomen Seg.            |
 | [FLARE22](MONAI/Flare22/)                   | CT       | Abdomen Seg.            |
