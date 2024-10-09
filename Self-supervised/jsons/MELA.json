@@ -1,0 +1,2324 @@
+{
+    "description": "0",
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "MELA",
+    "numTraining": 770,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./mela_0001.nii.gz"
+        },
+        {
+            "image": "./mela_0002.nii.gz"
+        },
+        {
+            "image": "./mela_0003.nii.gz"
+        },
+        {
+            "image": "./mela_0004.nii.gz"
+        },
+        {
+            "image": "./mela_0005.nii.gz"
+        },
+        {
+            "image": "./mela_0006.nii.gz"
+        },
+        {
+            "image": "./mela_0007.nii.gz"
+        },
+        {
+            "image": "./mela_0008.nii.gz"
+        },
+        {
+            "image": "./mela_0009.nii.gz"
+        },
+        {
+            "image": "./mela_0010.nii.gz"
+        },
+        {
+            "image": "./mela_0011.nii.gz"
+        },
+        {
+            "image": "./mela_0012.nii.gz"
+        },
+        {
+            "image": "./mela_0013.nii.gz"
+        },
+        {
+            "image": "./mela_0014.nii.gz"
+        },
+        {
+            "image": "./mela_0015.nii.gz"
+        },
+        {
+            "image": "./mela_0016.nii.gz"
+        },
+        {
+            "image": "./mela_0017.nii.gz"
+        },
+        {
+            "image": "./mela_0018.nii.gz"
+        },
+        {
+            "image": "./mela_0019.nii.gz"
+        },
+        {
+            "image": "./mela_0020.nii.gz"
+        },
+        {
+            "image": "./mela_0021.nii.gz"
+        },
+        {
+            "image": "./mela_0022.nii.gz"
+        },
+        {
+            "image": "./mela_0023.nii.gz"
+        },
+        {
+            "image": "./mela_0024.nii.gz"
+        },
+        {
+            "image": "./mela_0025.nii.gz"
+        },
+        {
+            "image": "./mela_0026.nii.gz"
+        },
+        {
+            "image": "./mela_0027.nii.gz"
+        },
+        {
+            "image": "./mela_0028.nii.gz"
+        },
+        {
+            "image": "./mela_0029.nii.gz"
+        },
+        {
+            "image": "./mela_0030.nii.gz"
+        },
+        {
+            "image": "./mela_0031.nii.gz"
+        },
+        {
+            "image": "./mela_0032.nii.gz"
+        },
+        {
+            "image": "./mela_0033.nii.gz"
+        },
+        {
+            "image": "./mela_0034.nii.gz"
+        },
+        {
+            "image": "./mela_0035.nii.gz"
+        },
+        {
+            "image": "./mela_0036.nii.gz"
+        },
+        {
+            "image": "./mela_0037.nii.gz"
+        },
+        {
+            "image": "./mela_0038.nii.gz"
+        },
+        {
+            "image": "./mela_0039.nii.gz"
+        },
+        {
+            "image": "./mela_0040.nii.gz"
+        },
+        {
+            "image": "./mela_0041.nii.gz"
+        },
+        {
+            "image": "./mela_0042.nii.gz"
+        },
+        {
+            "image": "./mela_0043.nii.gz"
+        },
+        {
+            "image": "./mela_0044.nii.gz"
+        },
+        {
+            "image": "./mela_0045.nii.gz"
+        },
+        {
+            "image": "./mela_0046.nii.gz"
+        },
+        {
+            "image": "./mela_0047.nii.gz"
+        },
+        {
+            "image": "./mela_0048.nii.gz"
+        },
+        {
+            "image": "./mela_0049.nii.gz"
+        },
+        {
+            "image": "./mela_0050.nii.gz"
+        },
+        {
+            "image": "./mela_0051.nii.gz"
+        },
+        {
+            "image": "./mela_0052.nii.gz"
+        },
+        {
+            "image": "./mela_0053.nii.gz"
+        },
+        {
+            "image": "./mela_0054.nii.gz"
+        },
+        {
+            "image": "./mela_0055.nii.gz"
+        },
+        {
+            "image": "./mela_0056.nii.gz"
+        },
+        {
+            "image": "./mela_0057.nii.gz"
+        },
+        {
+            "image": "./mela_0058.nii.gz"
+        },
+        {
+            "image": "./mela_0059.nii.gz"
+        },
+        {
+            "image": "./mela_0060.nii.gz"
+        },
+        {
+            "image": "./mela_0061.nii.gz"
+        },
+        {
+            "image": "./mela_0062.nii.gz"
+        },
+        {
+            "image": "./mela_0063.nii.gz"
+        },
+        {
+            "image": "./mela_0064.nii.gz"
+        },
+        {
+            "image": "./mela_0065.nii.gz"
+        },
+        {
+            "image": "./mela_0066.nii.gz"
+        },
+        {
+            "image": "./mela_0067.nii.gz"
+        },
+        {
+            "image": "./mela_0068.nii.gz"
+        },
+        {
+            "image": "./mela_0069.nii.gz"
+        },
+        {
+            "image": "./mela_0070.nii.gz"
+        },
+        {
+            "image": "./mela_0071.nii.gz"
+        },
+        {
+            "image": "./mela_0072.nii.gz"
+        },
+        {
+            "image": "./mela_0073.nii.gz"
+        },
+        {
+            "image": "./mela_0074.nii.gz"
+        },
+        {
+            "image": "./mela_0075.nii.gz"
+        },
+        {
+            "image": "./mela_0076.nii.gz"
+        },
+        {
+            "image": "./mela_0077.nii.gz"
+        },
+        {
+            "image": "./mela_0078.nii.gz"
+        },
+        {
+            "image": "./mela_0079.nii.gz"
+        },
+        {
+            "image": "./mela_0080.nii.gz"
+        },
+        {
+            "image": "./mela_0081.nii.gz"
+        },
+        {
+            "image": "./mela_0082.nii.gz"
+        },
+        {
+            "image": "./mela_0083.nii.gz"
+        },
+        {
+            "image": "./mela_0084.nii.gz"
+        },
+        {
+            "image": "./mela_0085.nii.gz"
+        },
+        {
+            "image": "./mela_0086.nii.gz"
+        },
+        {
+            "image": "./mela_0087.nii.gz"
+        },
+        {
+            "image": "./mela_0088.nii.gz"
+        },
+        {
+            "image": "./mela_0089.nii.gz"
+        },
+        {
+            "image": "./mela_0090.nii.gz"
+        },
+        {
+            "image": "./mela_0091.nii.gz"
+        },
+        {
+            "image": "./mela_0092.nii.gz"
+        },
+        {
+            "image": "./mela_0093.nii.gz"
+        },
+        {
+            "image": "./mela_0094.nii.gz"
+        },
+        {
+            "image": "./mela_0095.nii.gz"
+        },
+        {
+            "image": "./mela_0096.nii.gz"
+        },
+        {
+            "image": "./mela_0097.nii.gz"
+        },
+        {
+            "image": "./mela_0098.nii.gz"
+        },
+        {
+            "image": "./mela_0099.nii.gz"
+        },
+        {
+            "image": "./mela_0100.nii.gz"
+        },
+        {
+            "image": "./mela_0101.nii.gz"
+        },
+        {
+            "image": "./mela_0102.nii.gz"
+        },
+        {
+            "image": "./mela_0103.nii.gz"
+        },
+        {
+            "image": "./mela_0104.nii.gz"
+        },
+        {
+            "image": "./mela_0105.nii.gz"
+        },
+        {
+            "image": "./mela_0106.nii.gz"
+        },
+        {
+            "image": "./mela_0107.nii.gz"
+        },
+        {
+            "image": "./mela_0108.nii.gz"
+        },
+        {
+            "image": "./mela_0109.nii.gz"
+        },
+        {
+            "image": "./mela_0110.nii.gz"
+        },
+        {
+            "image": "./mela_0111.nii.gz"
+        },
+        {
+            "image": "./mela_0112.nii.gz"
+        },
+        {
+            "image": "./mela_0113.nii.gz"
+        },
+        {
+            "image": "./mela_0114.nii.gz"
+        },
+        {
+            "image": "./mela_0115.nii.gz"
+        },
+        {
+            "image": "./mela_0116.nii.gz"
+        },
+        {
+            "image": "./mela_0117.nii.gz"
+        },
+        {
+            "image": "./mela_0118.nii.gz"
+        },
+        {
+            "image": "./mela_0119.nii.gz"
+        },
+        {
+            "image": "./mela_0120.nii.gz"
+        },
+        {
+            "image": "./mela_0121.nii.gz"
+        },
+        {
+            "image": "./mela_0122.nii.gz"
+        },
+        {
+            "image": "./mela_0123.nii.gz"
+        },
+        {
+            "image": "./mela_0124.nii.gz"
+        },
+        {
+            "image": "./mela_0125.nii.gz"
+        },
+        {
+            "image": "./mela_0126.nii.gz"
+        },
+        {
+            "image": "./mela_0127.nii.gz"
+        },
+        {
+            "image": "./mela_0128.nii.gz"
+        },
+        {
+            "image": "./mela_0129.nii.gz"
+        },
+        {
+            "image": "./mela_0130.nii.gz"
+        },
+        {
+            "image": "./mela_0131.nii.gz"
+        },
+        {
+            "image": "./mela_0132.nii.gz"
+        },
+        {
+            "image": "./mela_0133.nii.gz"
+        },
+        {
+            "image": "./mela_0134.nii.gz"
+        },
+        {
+            "image": "./mela_0135.nii.gz"
+        },
+        {
+            "image": "./mela_0136.nii.gz"
+        },
+        {
+            "image": "./mela_0137.nii.gz"
+        },
+        {
+            "image": "./mela_0138.nii.gz"
+        },
+        {
+            "image": "./mela_0139.nii.gz"
+        },
+        {
+            "image": "./mela_0140.nii.gz"
+        },
+        {
+            "image": "./mela_0141.nii.gz"
+        },
+        {
+            "image": "./mela_0142.nii.gz"
+        },
+        {
+            "image": "./mela_0143.nii.gz"
+        },
+        {
+            "image": "./mela_0144.nii.gz"
+        },
+        {
+            "image": "./mela_0145.nii.gz"
+        },
+        {
+            "image": "./mela_0146.nii.gz"
+        },
+        {
+            "image": "./mela_0147.nii.gz"
+        },
+        {
+            "image": "./mela_0148.nii.gz"
+        },
+        {
+            "image": "./mela_0149.nii.gz"
+        },
+        {
+            "image": "./mela_0150.nii.gz"
+        },
+        {
+            "image": "./mela_0151.nii.gz"
+        },
+        {
+            "image": "./mela_0152.nii.gz"
+        },
+        {
+            "image": "./mela_0153.nii.gz"
+        },
+        {
+            "image": "./mela_0154.nii.gz"
+        },
+        {
+            "image": "./mela_0155.nii.gz"
+        },
+        {
+            "image": "./mela_0156.nii.gz"
+        },
+        {
+            "image": "./mela_0157.nii.gz"
+        },
+        {
+            "image": "./mela_0158.nii.gz"
+        },
+        {
+            "image": "./mela_0159.nii.gz"
+        },
+        {
+            "image": "./mela_0160.nii.gz"
+        },
+        {
+            "image": "./mela_0161.nii.gz"
+        },
+        {
+            "image": "./mela_0162.nii.gz"
+        },
+        {
+            "image": "./mela_0163.nii.gz"
+        },
+        {
+            "image": "./mela_0164.nii.gz"
+        },
+        {
+            "image": "./mela_0165.nii.gz"
+        },
+        {
+            "image": "./mela_0166.nii.gz"
+        },
+        {
+            "image": "./mela_0167.nii.gz"
+        },
+        {
+            "image": "./mela_0168.nii.gz"
+        },
+        {
+            "image": "./mela_0169.nii.gz"
+        },
+        {
+            "image": "./mela_0170.nii.gz"
+        },
+        {
+            "image": "./mela_0171.nii.gz"
+        },
+        {
+            "image": "./mela_0172.nii.gz"
+        },
+        {
+            "image": "./mela_0173.nii.gz"
+        },
+        {
+            "image": "./mela_0174.nii.gz"
+        },
+        {
+            "image": "./mela_0175.nii.gz"
+        },
+        {
+            "image": "./mela_0176.nii.gz"
+        },
+        {
+            "image": "./mela_0177.nii.gz"
+        },
+        {
+            "image": "./mela_0178.nii.gz"
+        },
+        {
+            "image": "./mela_0179.nii.gz"
+        },
+        {
+            "image": "./mela_0180.nii.gz"
+        },
+        {
+            "image": "./mela_0181.nii.gz"
+        },
+        {
+            "image": "./mela_0182.nii.gz"
+        },
+        {
+            "image": "./mela_0183.nii.gz"
+        },
+        {
+            "image": "./mela_0184.nii.gz"
+        },
+        {
+            "image": "./mela_0185.nii.gz"
+        },
+        {
+            "image": "./mela_0186.nii.gz"
+        },
+        {
+            "image": "./mela_0187.nii.gz"
+        },
+        {
+            "image": "./mela_0188.nii.gz"
+        },
+        {
+            "image": "./mela_0189.nii.gz"
+        },
+        {
+            "image": "./mela_0190.nii.gz"
+        },
+        {
+            "image": "./mela_0191.nii.gz"
+        },
+        {
+            "image": "./mela_0192.nii.gz"
+        },
+        {
+            "image": "./mela_0193.nii.gz"
+        },
+        {
+            "image": "./mela_0194.nii.gz"
+        },
+        {
+            "image": "./mela_0195.nii.gz"
+        },
+        {
+            "image": "./mela_0196.nii.gz"
+        },
+        {
+            "image": "./mela_0197.nii.gz"
+        },
+        {
+            "image": "./mela_0198.nii.gz"
+        },
+        {
+            "image": "./mela_0199.nii.gz"
+        },
+        {
+            "image": "./mela_0200.nii.gz"
+        },
+        {
+            "image": "./mela_0201.nii.gz"
+        },
+        {
+            "image": "./mela_0202.nii.gz"
+        },
+        {
+            "image": "./mela_0203.nii.gz"
+        },
+        {
+            "image": "./mela_0204.nii.gz"
+        },
+        {
+            "image": "./mela_0205.nii.gz"
+        },
+        {
+            "image": "./mela_0206.nii.gz"
+        },
+        {
+            "image": "./mela_0207.nii.gz"
+        },
+        {
+            "image": "./mela_0208.nii.gz"
+        },
+        {
+            "image": "./mela_0209.nii.gz"
+        },
+        {
+            "image": "./mela_0210.nii.gz"
+        },
+        {
+            "image": "./mela_0211.nii.gz"
+        },
+        {
+            "image": "./mela_0212.nii.gz"
+        },
+        {
+            "image": "./mela_0213.nii.gz"
+        },
+        {
+            "image": "./mela_0214.nii.gz"
+        },
+        {
+            "image": "./mela_0215.nii.gz"
+        },
+        {
+            "image": "./mela_0216.nii.gz"
+        },
+        {
+            "image": "./mela_0217.nii.gz"
+        },
+        {
+            "image": "./mela_0218.nii.gz"
+        },
+        {
+            "image": "./mela_0219.nii.gz"
+        },
+        {
+            "image": "./mela_0220.nii.gz"
+        },
+        {
+            "image": "./mela_0221.nii.gz"
+        },
+        {
+            "image": "./mela_0222.nii.gz"
+        },
+        {
+            "image": "./mela_0223.nii.gz"
+        },
+        {
+            "image": "./mela_0224.nii.gz"
+        },
+        {
+            "image": "./mela_0225.nii.gz"
+        },
+        {
+            "image": "./mela_0226.nii.gz"
+        },
+        {
+            "image": "./mela_0227.nii.gz"
+        },
+        {
+            "image": "./mela_0228.nii.gz"
+        },
+        {
+            "image": "./mela_0229.nii.gz"
+        },
+        {
+            "image": "./mela_0230.nii.gz"
+        },
+        {
+            "image": "./mela_0231.nii.gz"
+        },
+        {
+            "image": "./mela_0232.nii.gz"
+        },
+        {
+            "image": "./mela_0233.nii.gz"
+        },
+        {
+            "image": "./mela_0234.nii.gz"
+        },
+        {
+            "image": "./mela_0235.nii.gz"
+        },
+        {
+            "image": "./mela_0236.nii.gz"
+        },
+        {
+            "image": "./mela_0237.nii.gz"
+        },
+        {
+            "image": "./mela_0238.nii.gz"
+        },
+        {
+            "image": "./mela_0239.nii.gz"
+        },
+        {
+            "image": "./mela_0240.nii.gz"
+        },
+        {
+            "image": "./mela_0241.nii.gz"
+        },
+        {
+            "image": "./mela_0242.nii.gz"
+        },
+        {
+            "image": "./mela_0243.nii.gz"
+        },
+        {
+            "image": "./mela_0244.nii.gz"
+        },
+        {
+            "image": "./mela_0245.nii.gz"
+        },
+        {
+            "image": "./mela_0246.nii.gz"
+        },
+        {
+            "image": "./mela_0247.nii.gz"
+        },
+        {
+            "image": "./mela_0248.nii.gz"
+        },
+        {
+            "image": "./mela_0249.nii.gz"
+        },
+        {
+            "image": "./mela_0250.nii.gz"
+        },
+        {
+            "image": "./mela_0251.nii.gz"
+        },
+        {
+            "image": "./mela_0252.nii.gz"
+        },
+        {
+            "image": "./mela_0253.nii.gz"
+        },
+        {
+            "image": "./mela_0254.nii.gz"
+        },
+        {
+            "image": "./mela_0255.nii.gz"
+        },
+        {
+            "image": "./mela_0256.nii.gz"
+        },
+        {
+            "image": "./mela_0257.nii.gz"
+        },
+        {
+            "image": "./mela_0258.nii.gz"
+        },
+        {
+            "image": "./mela_0259.nii.gz"
+        },
+        {
+            "image": "./mela_0260.nii.gz"
+        },
+        {
+            "image": "./mela_0261.nii.gz"
+        },
+        {
+            "image": "./mela_0262.nii.gz"
+        },
+        {
+            "image": "./mela_0263.nii.gz"
+        },
+        {
+            "image": "./mela_0264.nii.gz"
+        },
+        {
+            "image": "./mela_0265.nii.gz"
+        },
+        {
+            "image": "./mela_0266.nii.gz"
+        },
+        {
+            "image": "./mela_0267.nii.gz"
+        },
+        {
+            "image": "./mela_0268.nii.gz"
+        },
+        {
+            "image": "./mela_0269.nii.gz"
+        },
+        {
+            "image": "./mela_0270.nii.gz"
+        },
+        {
+            "image": "./mela_0271.nii.gz"
+        },
+        {
+            "image": "./mela_0272.nii.gz"
+        },
+        {
+            "image": "./mela_0273.nii.gz"
+        },
+        {
+            "image": "./mela_0274.nii.gz"
+        },
+        {
+            "image": "./mela_0275.nii.gz"
+        },
+        {
+            "image": "./mela_0276.nii.gz"
+        },
+        {
+            "image": "./mela_0277.nii.gz"
+        },
+        {
+            "image": "./mela_0278.nii.gz"
+        },
+        {
+            "image": "./mela_0279.nii.gz"
+        },
+        {
+            "image": "./mela_0280.nii.gz"
+        },
+        {
+            "image": "./mela_0281.nii.gz"
+        },
+        {
+            "image": "./mela_0282.nii.gz"
+        },
+        {
+            "image": "./mela_0283.nii.gz"
+        },
+        {
+            "image": "./mela_0284.nii.gz"
+        },
+        {
+            "image": "./mela_0285.nii.gz"
+        },
+        {
+            "image": "./mela_0286.nii.gz"
+        },
+        {
+            "image": "./mela_0287.nii.gz"
+        },
+        {
+            "image": "./mela_0288.nii.gz"
+        },
+        {
+            "image": "./mela_0289.nii.gz"
+        },
+        {
+            "image": "./mela_0290.nii.gz"
+        },
+        {
+            "image": "./mela_0291.nii.gz"
+        },
+        {
+            "image": "./mela_0292.nii.gz"
+        },
+        {
+            "image": "./mela_0293.nii.gz"
+        },
+        {
+            "image": "./mela_0294.nii.gz"
+        },
+        {
+            "image": "./mela_0295.nii.gz"
+        },
+        {
+            "image": "./mela_0296.nii.gz"
+        },
+        {
+            "image": "./mela_0297.nii.gz"
+        },
+        {
+            "image": "./mela_0298.nii.gz"
+        },
+        {
+            "image": "./mela_0299.nii.gz"
+        },
+        {
+            "image": "./mela_0300.nii.gz"
+        },
+        {
+            "image": "./mela_0301.nii.gz"
+        },
+        {
+            "image": "./mela_0302.nii.gz"
+        },
+        {
+            "image": "./mela_0303.nii.gz"
+        },
+        {
+            "image": "./mela_0304.nii.gz"
+        },
+        {
+            "image": "./mela_0305.nii.gz"
+        },
+        {
+            "image": "./mela_0306.nii.gz"
+        },
+        {
+            "image": "./mela_0307.nii.gz"
+        },
+        {
+            "image": "./mela_0308.nii.gz"
+        },
+        {
+            "image": "./mela_0309.nii.gz"
+        },
+        {
+            "image": "./mela_0310.nii.gz"
+        },
+        {
+            "image": "./mela_0311.nii.gz"
+        },
+        {
+            "image": "./mela_0312.nii.gz"
+        },
+        {
+            "image": "./mela_0313.nii.gz"
+        },
+        {
+            "image": "./mela_0314.nii.gz"
+        },
+        {
+            "image": "./mela_0315.nii.gz"
+        },
+        {
+            "image": "./mela_0316.nii.gz"
+        },
+        {
+            "image": "./mela_0317.nii.gz"
+        },
+        {
+            "image": "./mela_0318.nii.gz"
+        },
+        {
+            "image": "./mela_0319.nii.gz"
+        },
+        {
+            "image": "./mela_0320.nii.gz"
+        },
+        {
+            "image": "./mela_0321.nii.gz"
+        },
+        {
+            "image": "./mela_0322.nii.gz"
+        },
+        {
+            "image": "./mela_0323.nii.gz"
+        },
+        {
+            "image": "./mela_0324.nii.gz"
+        },
+        {
+            "image": "./mela_0325.nii.gz"
+        },
+        {
+            "image": "./mela_0326.nii.gz"
+        },
+        {
+            "image": "./mela_0327.nii.gz"
+        },
+        {
+            "image": "./mela_0328.nii.gz"
+        },
+        {
+            "image": "./mela_0329.nii.gz"
+        },
+        {
+            "image": "./mela_0330.nii.gz"
+        },
+        {
+            "image": "./mela_0331.nii.gz"
+        },
+        {
+            "image": "./mela_0332.nii.gz"
+        },
+        {
+            "image": "./mela_0333.nii.gz"
+        },
+        {
+            "image": "./mela_0334.nii.gz"
+        },
+        {
+            "image": "./mela_0335.nii.gz"
+        },
+        {
+            "image": "./mela_0336.nii.gz"
+        },
+        {
+            "image": "./mela_0337.nii.gz"
+        },
+        {
+            "image": "./mela_0338.nii.gz"
+        },
+        {
+            "image": "./mela_0339.nii.gz"
+        },
+        {
+            "image": "./mela_0340.nii.gz"
+        },
+        {
+            "image": "./mela_0341.nii.gz"
+        },
+        {
+            "image": "./mela_0342.nii.gz"
+        },
+        {
+            "image": "./mela_0343.nii.gz"
+        },
+        {
+            "image": "./mela_0344.nii.gz"
+        },
+        {
+            "image": "./mela_0345.nii.gz"
+        },
+        {
+            "image": "./mela_0346.nii.gz"
+        },
+        {
+            "image": "./mela_0347.nii.gz"
+        },
+        {
+            "image": "./mela_0348.nii.gz"
+        },
+        {
+            "image": "./mela_0349.nii.gz"
+        },
+        {
+            "image": "./mela_0350.nii.gz"
+        },
+        {
+            "image": "./mela_0351.nii.gz"
+        },
+        {
+            "image": "./mela_0352.nii.gz"
+        },
+        {
+            "image": "./mela_0353.nii.gz"
+        },
+        {
+            "image": "./mela_0354.nii.gz"
+        },
+        {
+            "image": "./mela_0355.nii.gz"
+        },
+        {
+            "image": "./mela_0356.nii.gz"
+        },
+        {
+            "image": "./mela_0357.nii.gz"
+        },
+        {
+            "image": "./mela_0358.nii.gz"
+        },
+        {
+            "image": "./mela_0359.nii.gz"
+        },
+        {
+            "image": "./mela_0360.nii.gz"
+        },
+        {
+            "image": "./mela_0361.nii.gz"
+        },
+        {
+            "image": "./mela_0362.nii.gz"
+        },
+        {
+            "image": "./mela_0363.nii.gz"
+        },
+        {
+            "image": "./mela_0364.nii.gz"
+        },
+        {
+            "image": "./mela_0365.nii.gz"
+        },
+        {
+            "image": "./mela_0366.nii.gz"
+        },
+        {
+            "image": "./mela_0367.nii.gz"
+        },
+        {
+            "image": "./mela_0368.nii.gz"
+        },
+        {
+            "image": "./mela_0369.nii.gz"
+        },
+        {
+            "image": "./mela_0370.nii.gz"
+        },
+        {
+            "image": "./mela_0371.nii.gz"
+        },
+        {
+            "image": "./mela_0372.nii.gz"
+        },
+        {
+            "image": "./mela_0373.nii.gz"
+        },
+        {
+            "image": "./mela_0374.nii.gz"
+        },
+        {
+            "image": "./mela_0375.nii.gz"
+        },
+        {
+            "image": "./mela_0376.nii.gz"
+        },
+        {
+            "image": "./mela_0377.nii.gz"
+        },
+        {
+            "image": "./mela_0378.nii.gz"
+        },
+        {
+            "image": "./mela_0379.nii.gz"
+        },
+        {
+            "image": "./mela_0380.nii.gz"
+        },
+        {
+            "image": "./mela_0381.nii.gz"
+        },
+        {
+            "image": "./mela_0382.nii.gz"
+        },
+        {
+            "image": "./mela_0383.nii.gz"
+        },
+        {
+            "image": "./mela_0384.nii.gz"
+        },
+        {
+            "image": "./mela_0385.nii.gz"
+        },
+        {
+            "image": "./mela_0386.nii.gz"
+        },
+        {
+            "image": "./mela_0387.nii.gz"
+        },
+        {
+            "image": "./mela_0388.nii.gz"
+        },
+        {
+            "image": "./mela_0389.nii.gz"
+        },
+        {
+            "image": "./mela_0390.nii.gz"
+        },
+        {
+            "image": "./mela_0391.nii.gz"
+        },
+        {
+            "image": "./mela_0392.nii.gz"
+        },
+        {
+            "image": "./mela_0393.nii.gz"
+        },
+        {
+            "image": "./mela_0394.nii.gz"
+        },
+        {
+            "image": "./mela_0395.nii.gz"
+        },
+        {
+            "image": "./mela_0396.nii.gz"
+        },
+        {
+            "image": "./mela_0397.nii.gz"
+        },
+        {
+            "image": "./mela_0398.nii.gz"
+        },
+        {
+            "image": "./mela_0399.nii.gz"
+        },
+        {
+            "image": "./mela_0400.nii.gz"
+        },
+        {
+            "image": "./mela_0401.nii.gz"
+        },
+        {
+            "image": "./mela_0402.nii.gz"
+        },
+        {
+            "image": "./mela_0403.nii.gz"
+        },
+        {
+            "image": "./mela_0404.nii.gz"
+        },
+        {
+            "image": "./mela_0405.nii.gz"
+        },
+        {
+            "image": "./mela_0406.nii.gz"
+        },
+        {
+            "image": "./mela_0407.nii.gz"
+        },
+        {
+            "image": "./mela_0408.nii.gz"
+        },
+        {
+            "image": "./mela_0409.nii.gz"
+        },
+        {
+            "image": "./mela_0410.nii.gz"
+        },
+        {
+            "image": "./mela_0411.nii.gz"
+        },
+        {
+            "image": "./mela_0412.nii.gz"
+        },
+        {
+            "image": "./mela_0413.nii.gz"
+        },
+        {
+            "image": "./mela_0414.nii.gz"
+        },
+        {
+            "image": "./mela_0415.nii.gz"
+        },
+        {
+            "image": "./mela_0416.nii.gz"
+        },
+        {
+            "image": "./mela_0417.nii.gz"
+        },
+        {
+            "image": "./mela_0418.nii.gz"
+        },
+        {
+            "image": "./mela_0419.nii.gz"
+        },
+        {
+            "image": "./mela_0420.nii.gz"
+        },
+        {
+            "image": "./mela_0421.nii.gz"
+        },
+        {
+            "image": "./mela_0422.nii.gz"
+        },
+        {
+            "image": "./mela_0423.nii.gz"
+        },
+        {
+            "image": "./mela_0424.nii.gz"
+        },
+        {
+            "image": "./mela_0425.nii.gz"
+        },
+        {
+            "image": "./mela_0426.nii.gz"
+        },
+        {
+            "image": "./mela_0427.nii.gz"
+        },
+        {
+            "image": "./mela_0428.nii.gz"
+        },
+        {
+            "image": "./mela_0429.nii.gz"
+        },
+        {
+            "image": "./mela_0430.nii.gz"
+        },
+        {
+            "image": "./mela_0431.nii.gz"
+        },
+        {
+            "image": "./mela_0432.nii.gz"
+        },
+        {
+            "image": "./mela_0433.nii.gz"
+        },
+        {
+            "image": "./mela_0434.nii.gz"
+        },
+        {
+            "image": "./mela_0435.nii.gz"
+        },
+        {
+            "image": "./mela_0436.nii.gz"
+        },
+        {
+            "image": "./mela_0437.nii.gz"
+        },
+        {
+            "image": "./mela_0438.nii.gz"
+        },
+        {
+            "image": "./mela_0439.nii.gz"
+        },
+        {
+            "image": "./mela_0440.nii.gz"
+        },
+        {
+            "image": "./mela_0441.nii.gz"
+        },
+        {
+            "image": "./mela_0442.nii.gz"
+        },
+        {
+            "image": "./mela_0443.nii.gz"
+        },
+        {
+            "image": "./mela_0444.nii.gz"
+        },
+        {
+            "image": "./mela_0445.nii.gz"
+        },
+        {
+            "image": "./mela_0446.nii.gz"
+        },
+        {
+            "image": "./mela_0447.nii.gz"
+        },
+        {
+            "image": "./mela_0448.nii.gz"
+        },
+        {
+            "image": "./mela_0449.nii.gz"
+        },
+        {
+            "image": "./mela_0450.nii.gz"
+        },
+        {
+            "image": "./mela_0451.nii.gz"
+        },
+        {
+            "image": "./mela_0452.nii.gz"
+        },
+        {
+            "image": "./mela_0453.nii.gz"
+        },
+        {
+            "image": "./mela_0454.nii.gz"
+        },
+        {
+            "image": "./mela_0455.nii.gz"
+        },
+        {
+            "image": "./mela_0456.nii.gz"
+        },
+        {
+            "image": "./mela_0457.nii.gz"
+        },
+        {
+            "image": "./mela_0458.nii.gz"
+        },
+        {
+            "image": "./mela_0459.nii.gz"
+        },
+        {
+            "image": "./mela_0460.nii.gz"
+        },
+        {
+            "image": "./mela_0461.nii.gz"
+        },
+        {
+            "image": "./mela_0462.nii.gz"
+        },
+        {
+            "image": "./mela_0463.nii.gz"
+        },
+        {
+            "image": "./mela_0464.nii.gz"
+        },
+        {
+            "image": "./mela_0465.nii.gz"
+        },
+        {
+            "image": "./mela_0466.nii.gz"
+        },
+        {
+            "image": "./mela_0467.nii.gz"
+        },
+        {
+            "image": "./mela_0468.nii.gz"
+        },
+        {
+            "image": "./mela_0469.nii.gz"
+        },
+        {
+            "image": "./mela_0470.nii.gz"
+        },
+        {
+            "image": "./mela_0471.nii.gz"
+        },
+        {
+            "image": "./mela_0472.nii.gz"
+        },
+        {
+            "image": "./mela_0473.nii.gz"
+        },
+        {
+            "image": "./mela_0474.nii.gz"
+        },
+        {
+            "image": "./mela_0475.nii.gz"
+        },
+        {
+            "image": "./mela_0476.nii.gz"
+        },
+        {
+            "image": "./mela_0477.nii.gz"
+        },
+        {
+            "image": "./mela_0478.nii.gz"
+        },
+        {
+            "image": "./mela_0479.nii.gz"
+        },
+        {
+            "image": "./mela_0480.nii.gz"
+        },
+        {
+            "image": "./mela_0481.nii.gz"
+        },
+        {
+            "image": "./mela_0482.nii.gz"
+        },
+        {
+            "image": "./mela_0483.nii.gz"
+        },
+        {
+            "image": "./mela_0484.nii.gz"
+        },
+        {
+            "image": "./mela_0485.nii.gz"
+        },
+        {
+            "image": "./mela_0486.nii.gz"
+        },
+        {
+            "image": "./mela_0487.nii.gz"
+        },
+        {
+            "image": "./mela_0488.nii.gz"
+        },
+        {
+            "image": "./mela_0489.nii.gz"
+        },
+        {
+            "image": "./mela_0490.nii.gz"
+        },
+        {
+            "image": "./mela_0491.nii.gz"
+        },
+        {
+            "image": "./mela_0492.nii.gz"
+        },
+        {
+            "image": "./mela_0493.nii.gz"
+        },
+        {
+            "image": "./mela_0494.nii.gz"
+        },
+        {
+            "image": "./mela_0495.nii.gz"
+        },
+        {
+            "image": "./mela_0496.nii.gz"
+        },
+        {
+            "image": "./mela_0497.nii.gz"
+        },
+        {
+            "image": "./mela_0498.nii.gz"
+        },
+        {
+            "image": "./mela_0499.nii.gz"
+        },
+        {
+            "image": "./mela_0500.nii.gz"
+        },
+        {
+            "image": "./mela_0501.nii.gz"
+        },
+        {
+            "image": "./mela_0502.nii.gz"
+        },
+        {
+            "image": "./mela_0503.nii.gz"
+        },
+        {
+            "image": "./mela_0504.nii.gz"
+        },
+        {
+            "image": "./mela_0505.nii.gz"
+        },
+        {
+            "image": "./mela_0506.nii.gz"
+        },
+        {
+            "image": "./mela_0507.nii.gz"
+        },
+        {
+            "image": "./mela_0508.nii.gz"
+        },
+        {
+            "image": "./mela_0509.nii.gz"
+        },
+        {
+            "image": "./mela_0510.nii.gz"
+        },
+        {
+            "image": "./mela_0511.nii.gz"
+        },
+        {
+            "image": "./mela_0512.nii.gz"
+        },
+        {
+            "image": "./mela_0513.nii.gz"
+        },
+        {
+            "image": "./mela_0514.nii.gz"
+        },
+        {
+            "image": "./mela_0515.nii.gz"
+        },
+        {
+            "image": "./mela_0516.nii.gz"
+        },
+        {
+            "image": "./mela_0517.nii.gz"
+        },
+        {
+            "image": "./mela_0518.nii.gz"
+        },
+        {
+            "image": "./mela_0519.nii.gz"
+        },
+        {
+            "image": "./mela_0520.nii.gz"
+        },
+        {
+            "image": "./mela_0521.nii.gz"
+        },
+        {
+            "image": "./mela_0522.nii.gz"
+        },
+        {
+            "image": "./mela_0523.nii.gz"
+        },
+        {
+            "image": "./mela_0524.nii.gz"
+        },
+        {
+            "image": "./mela_0525.nii.gz"
+        },
+        {
+            "image": "./mela_0526.nii.gz"
+        },
+        {
+            "image": "./mela_0527.nii.gz"
+        },
+        {
+            "image": "./mela_0528.nii.gz"
+        },
+        {
+            "image": "./mela_0529.nii.gz"
+        },
+        {
+            "image": "./mela_0530.nii.gz"
+        },
+        {
+            "image": "./mela_0531.nii.gz"
+        },
+        {
+            "image": "./mela_0532.nii.gz"
+        },
+        {
+            "image": "./mela_0533.nii.gz"
+        },
+        {
+            "image": "./mela_0534.nii.gz"
+        },
+        {
+            "image": "./mela_0535.nii.gz"
+        },
+        {
+            "image": "./mela_0536.nii.gz"
+        },
+        {
+            "image": "./mela_0537.nii.gz"
+        },
+        {
+            "image": "./mela_0538.nii.gz"
+        },
+        {
+            "image": "./mela_0539.nii.gz"
+        },
+        {
+            "image": "./mela_0540.nii.gz"
+        },
+        {
+            "image": "./mela_0541.nii.gz"
+        },
+        {
+            "image": "./mela_0542.nii.gz"
+        },
+        {
+            "image": "./mela_0543.nii.gz"
+        },
+        {
+            "image": "./mela_0544.nii.gz"
+        },
+        {
+            "image": "./mela_0545.nii.gz"
+        },
+        {
+            "image": "./mela_0546.nii.gz"
+        },
+        {
+            "image": "./mela_0547.nii.gz"
+        },
+        {
+            "image": "./mela_0548.nii.gz"
+        },
+        {
+            "image": "./mela_0549.nii.gz"
+        },
+        {
+            "image": "./mela_0550.nii.gz"
+        },
+        {
+            "image": "./mela_0551.nii.gz"
+        },
+        {
+            "image": "./mela_0552.nii.gz"
+        },
+        {
+            "image": "./mela_0553.nii.gz"
+        },
+        {
+            "image": "./mela_0554.nii.gz"
+        },
+        {
+            "image": "./mela_0555.nii.gz"
+        },
+        {
+            "image": "./mela_0556.nii.gz"
+        },
+        {
+            "image": "./mela_0557.nii.gz"
+        },
+        {
+            "image": "./mela_0558.nii.gz"
+        },
+        {
+            "image": "./mela_0559.nii.gz"
+        },
+        {
+            "image": "./mela_0560.nii.gz"
+        },
+        {
+            "image": "./mela_0561.nii.gz"
+        },
+        {
+            "image": "./mela_0562.nii.gz"
+        },
+        {
+            "image": "./mela_0563.nii.gz"
+        },
+        {
+            "image": "./mela_0564.nii.gz"
+        },
+        {
+            "image": "./mela_0565.nii.gz"
+        },
+        {
+            "image": "./mela_0566.nii.gz"
+        },
+        {
+            "image": "./mela_0567.nii.gz"
+        },
+        {
+            "image": "./mela_0568.nii.gz"
+        },
+        {
+            "image": "./mela_0569.nii.gz"
+        },
+        {
+            "image": "./mela_0570.nii.gz"
+        },
+        {
+            "image": "./mela_0571.nii.gz"
+        },
+        {
+            "image": "./mela_0572.nii.gz"
+        },
+        {
+            "image": "./mela_0573.nii.gz"
+        },
+        {
+            "image": "./mela_0574.nii.gz"
+        },
+        {
+            "image": "./mela_0575.nii.gz"
+        },
+        {
+            "image": "./mela_0576.nii.gz"
+        },
+        {
+            "image": "./mela_0577.nii.gz"
+        },
+        {
+            "image": "./mela_0578.nii.gz"
+        },
+        {
+            "image": "./mela_0579.nii.gz"
+        },
+        {
+            "image": "./mela_0580.nii.gz"
+        },
+        {
+            "image": "./mela_0581.nii.gz"
+        },
+        {
+            "image": "./mela_0582.nii.gz"
+        },
+        {
+            "image": "./mela_0583.nii.gz"
+        },
+        {
+            "image": "./mela_0584.nii.gz"
+        },
+        {
+            "image": "./mela_0585.nii.gz"
+        },
+        {
+            "image": "./mela_0586.nii.gz"
+        },
+        {
+            "image": "./mela_0587.nii.gz"
+        },
+        {
+            "image": "./mela_0588.nii.gz"
+        },
+        {
+            "image": "./mela_0589.nii.gz"
+        },
+        {
+            "image": "./mela_0590.nii.gz"
+        },
+        {
+            "image": "./mela_0591.nii.gz"
+        },
+        {
+            "image": "./mela_0592.nii.gz"
+        },
+        {
+            "image": "./mela_0593.nii.gz"
+        },
+        {
+            "image": "./mela_0594.nii.gz"
+        },
+        {
+            "image": "./mela_0595.nii.gz"
+        },
+        {
+            "image": "./mela_0596.nii.gz"
+        },
+        {
+            "image": "./mela_0597.nii.gz"
+        },
+        {
+            "image": "./mela_0598.nii.gz"
+        },
+        {
+            "image": "./mela_0599.nii.gz"
+        },
+        {
+            "image": "./mela_0600.nii.gz"
+        },
+        {
+            "image": "./mela_0601.nii.gz"
+        },
+        {
+            "image": "./mela_0602.nii.gz"
+        },
+        {
+            "image": "./mela_0603.nii.gz"
+        },
+        {
+            "image": "./mela_0604.nii.gz"
+        },
+        {
+            "image": "./mela_0605.nii.gz"
+        },
+        {
+            "image": "./mela_0606.nii.gz"
+        },
+        {
+            "image": "./mela_0607.nii.gz"
+        },
+        {
+            "image": "./mela_0608.nii.gz"
+        },
+        {
+            "image": "./mela_0609.nii.gz"
+        },
+        {
+            "image": "./mela_0610.nii.gz"
+        },
+        {
+            "image": "./mela_0611.nii.gz"
+        },
+        {
+            "image": "./mela_0612.nii.gz"
+        },
+        {
+            "image": "./mela_0613.nii.gz"
+        },
+        {
+            "image": "./mela_0614.nii.gz"
+        },
+        {
+            "image": "./mela_0615.nii.gz"
+        },
+        {
+            "image": "./mela_0616.nii.gz"
+        },
+        {
+            "image": "./mela_0617.nii.gz"
+        },
+        {
+            "image": "./mela_0618.nii.gz"
+        },
+        {
+            "image": "./mela_0619.nii.gz"
+        },
+        {
+            "image": "./mela_0620.nii.gz"
+        },
+        {
+            "image": "./mela_0621.nii.gz"
+        },
+        {
+            "image": "./mela_0622.nii.gz"
+        },
+        {
+            "image": "./mela_0623.nii.gz"
+        },
+        {
+            "image": "./mela_0624.nii.gz"
+        },
+        {
+            "image": "./mela_0625.nii.gz"
+        },
+        {
+            "image": "./mela_0626.nii.gz"
+        },
+        {
+            "image": "./mela_0627.nii.gz"
+        },
+        {
+            "image": "./mela_0628.nii.gz"
+        },
+        {
+            "image": "./mela_0629.nii.gz"
+        },
+        {
+            "image": "./mela_0630.nii.gz"
+        },
+        {
+            "image": "./mela_0631.nii.gz"
+        },
+        {
+            "image": "./mela_0632.nii.gz"
+        },
+        {
+            "image": "./mela_0633.nii.gz"
+        },
+        {
+            "image": "./mela_0634.nii.gz"
+        },
+        {
+            "image": "./mela_0635.nii.gz"
+        },
+        {
+            "image": "./mela_0636.nii.gz"
+        },
+        {
+            "image": "./mela_0637.nii.gz"
+        },
+        {
+            "image": "./mela_0638.nii.gz"
+        },
+        {
+            "image": "./mela_0639.nii.gz"
+        },
+        {
+            "image": "./mela_0640.nii.gz"
+        },
+        {
+            "image": "./mela_0641.nii.gz"
+        },
+        {
+            "image": "./mela_0642.nii.gz"
+        },
+        {
+            "image": "./mela_0643.nii.gz"
+        },
+        {
+            "image": "./mela_0644.nii.gz"
+        },
+        {
+            "image": "./mela_0645.nii.gz"
+        },
+        {
+            "image": "./mela_0646.nii.gz"
+        },
+        {
+            "image": "./mela_0647.nii.gz"
+        },
+        {
+            "image": "./mela_0648.nii.gz"
+        },
+        {
+            "image": "./mela_0649.nii.gz"
+        },
+        {
+            "image": "./mela_0650.nii.gz"
+        },
+        {
+            "image": "./mela_0651.nii.gz"
+        },
+        {
+            "image": "./mela_0652.nii.gz"
+        },
+        {
+            "image": "./mela_0653.nii.gz"
+        },
+        {
+            "image": "./mela_0654.nii.gz"
+        },
+        {
+            "image": "./mela_0655.nii.gz"
+        },
+        {
+            "image": "./mela_0656.nii.gz"
+        },
+        {
+            "image": "./mela_0657.nii.gz"
+        },
+        {
+            "image": "./mela_0658.nii.gz"
+        },
+        {
+            "image": "./mela_0659.nii.gz"
+        },
+        {
+            "image": "./mela_0660.nii.gz"
+        },
+        {
+            "image": "./mela_0661.nii.gz"
+        },
+        {
+            "image": "./mela_0662.nii.gz"
+        },
+        {
+            "image": "./mela_0663.nii.gz"
+        },
+        {
+            "image": "./mela_0664.nii.gz"
+        },
+        {
+            "image": "./mela_0665.nii.gz"
+        },
+        {
+            "image": "./mela_0666.nii.gz"
+        },
+        {
+            "image": "./mela_0667.nii.gz"
+        },
+        {
+            "image": "./mela_0668.nii.gz"
+        },
+        {
+            "image": "./mela_0669.nii.gz"
+        },
+        {
+            "image": "./mela_0670.nii.gz"
+        },
+        {
+            "image": "./mela_0671.nii.gz"
+        },
+        {
+            "image": "./mela_0672.nii.gz"
+        },
+        {
+            "image": "./mela_0673.nii.gz"
+        },
+        {
+            "image": "./mela_0674.nii.gz"
+        },
+        {
+            "image": "./mela_0675.nii.gz"
+        },
+        {
+            "image": "./mela_0676.nii.gz"
+        },
+        {
+            "image": "./mela_0677.nii.gz"
+        },
+        {
+            "image": "./mela_0678.nii.gz"
+        },
+        {
+            "image": "./mela_0679.nii.gz"
+        },
+        {
+            "image": "./mela_0680.nii.gz"
+        },
+        {
+            "image": "./mela_0681.nii.gz"
+        },
+        {
+            "image": "./mela_0682.nii.gz"
+        },
+        {
+            "image": "./mela_0683.nii.gz"
+        },
+        {
+            "image": "./mela_0684.nii.gz"
+        },
+        {
+            "image": "./mela_0685.nii.gz"
+        },
+        {
+            "image": "./mela_0686.nii.gz"
+        },
+        {
+            "image": "./mela_0687.nii.gz"
+        },
+        {
+            "image": "./mela_0688.nii.gz"
+        },
+        {
+            "image": "./mela_0689.nii.gz"
+        },
+        {
+            "image": "./mela_0690.nii.gz"
+        },
+        {
+            "image": "./mela_0691.nii.gz"
+        },
+        {
+            "image": "./mela_0692.nii.gz"
+        },
+        {
+            "image": "./mela_0693.nii.gz"
+        },
+        {
+            "image": "./mela_0694.nii.gz"
+        },
+        {
+            "image": "./mela_0695.nii.gz"
+        },
+        {
+            "image": "./mela_0696.nii.gz"
+        },
+        {
+            "image": "./mela_0697.nii.gz"
+        },
+        {
+            "image": "./mela_0698.nii.gz"
+        },
+        {
+            "image": "./mela_0699.nii.gz"
+        },
+        {
+            "image": "./mela_0700.nii.gz"
+        },
+        {
+            "image": "./mela_0701.nii.gz"
+        },
+        {
+            "image": "./mela_0702.nii.gz"
+        },
+        {
+            "image": "./mela_0703.nii.gz"
+        },
+        {
+            "image": "./mela_0704.nii.gz"
+        },
+        {
+            "image": "./mela_0705.nii.gz"
+        },
+        {
+            "image": "./mela_0706.nii.gz"
+        },
+        {
+            "image": "./mela_0707.nii.gz"
+        },
+        {
+            "image": "./mela_0708.nii.gz"
+        },
+        {
+            "image": "./mela_0709.nii.gz"
+        },
+        {
+            "image": "./mela_0710.nii.gz"
+        },
+        {
+            "image": "./mela_0711.nii.gz"
+        },
+        {
+            "image": "./mela_0712.nii.gz"
+        },
+        {
+            "image": "./mela_0713.nii.gz"
+        },
+        {
+            "image": "./mela_0714.nii.gz"
+        },
+        {
+            "image": "./mela_0715.nii.gz"
+        },
+        {
+            "image": "./mela_0716.nii.gz"
+        },
+        {
+            "image": "./mela_0717.nii.gz"
+        },
+        {
+            "image": "./mela_0718.nii.gz"
+        },
+        {
+            "image": "./mela_0719.nii.gz"
+        },
+        {
+            "image": "./mela_0720.nii.gz"
+        },
+        {
+            "image": "./mela_0721.nii.gz"
+        },
+        {
+            "image": "./mela_0722.nii.gz"
+        },
+        {
+            "image": "./mela_0723.nii.gz"
+        },
+        {
+            "image": "./mela_0724.nii.gz"
+        },
+        {
+            "image": "./mela_0725.nii.gz"
+        },
+        {
+            "image": "./mela_0726.nii.gz"
+        },
+        {
+            "image": "./mela_0727.nii.gz"
+        },
+        {
+            "image": "./mela_0728.nii.gz"
+        },
+        {
+            "image": "./mela_0729.nii.gz"
+        },
+        {
+            "image": "./mela_0730.nii.gz"
+        },
+        {
+            "image": "./mela_0731.nii.gz"
+        },
+        {
+            "image": "./mela_0732.nii.gz"
+        },
+        {
+            "image": "./mela_0733.nii.gz"
+        },
+        {
+            "image": "./mela_0734.nii.gz"
+        },
+        {
+            "image": "./mela_0735.nii.gz"
+        },
+        {
+            "image": "./mela_0736.nii.gz"
+        },
+        {
+            "image": "./mela_0737.nii.gz"
+        },
+        {
+            "image": "./mela_0738.nii.gz"
+        },
+        {
+            "image": "./mela_0739.nii.gz"
+        },
+        {
+            "image": "./mela_0740.nii.gz"
+        },
+        {
+            "image": "./mela_0741.nii.gz"
+        },
+        {
+            "image": "./mela_0742.nii.gz"
+        },
+        {
+            "image": "./mela_0743.nii.gz"
+        },
+        {
+            "image": "./mela_0744.nii.gz"
+        },
+        {
+            "image": "./mela_0745.nii.gz"
+        },
+        {
+            "image": "./mela_0746.nii.gz"
+        },
+        {
+            "image": "./mela_0747.nii.gz"
+        },
+        {
+            "image": "./mela_0748.nii.gz"
+        },
+        {
+            "image": "./mela_0749.nii.gz"
+        },
+        {
+            "image": "./mela_0750.nii.gz"
+        },
+        {
+            "image": "./mela_0751.nii.gz"
+        },
+        {
+            "image": "./mela_0752.nii.gz"
+        },
+        {
+            "image": "./mela_0753.nii.gz"
+        },
+        {
+            "image": "./mela_0754.nii.gz"
+        },
+        {
+            "image": "./mela_0755.nii.gz"
+        },
+        {
+            "image": "./mela_0756.nii.gz"
+        },
+        {
+            "image": "./mela_0757.nii.gz"
+        },
+        {
+            "image": "./mela_0758.nii.gz"
+        },
+        {
+            "image": "./mela_0759.nii.gz"
+        },
+        {
+            "image": "./mela_0760.nii.gz"
+        },
+        {
+            "image": "./mela_0761.nii.gz"
+        },
+        {
+            "image": "./mela_0762.nii.gz"
+        },
+        {
+            "image": "./mela_0763.nii.gz"
+        },
+        {
+            "image": "./mela_0764.nii.gz"
+        },
+        {
+            "image": "./mela_0765.nii.gz"
+        },
+        {
+            "image": "./mela_0766.nii.gz"
+        },
+        {
+            "image": "./mela_0767.nii.gz"
+        },
+        {
+            "image": "./mela_0768.nii.gz"
+        },
+        {
+            "image": "./mela_0769.nii.gz"
+        },
+        {
+            "image": "./mela_0770.nii.gz"
+        }
+    ]
+}
