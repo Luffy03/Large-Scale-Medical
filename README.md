@@ -9,7 +9,7 @@
 <a href='https://huggingface.co/datasets/Luffy503/VoComni'><img src='https://img.shields.io/badge/Dataset-VoComni-pink' alt='Dataset'></a>
 </div>
 
-This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** CT volumes (42M slices) for pre-training, **31M~1.2B** params of pre-trained models, and **50+** downstream tasks implementation.
+This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** CT volumes (**42M** slices) for pre-training, **31M~1.2B** params of pre-trained models, and **50+** downstream tasks implementation.
 
 ![teaser](assets/data.png)
 
