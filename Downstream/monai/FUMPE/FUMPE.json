@@ -1,0 +1,159 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "pulmonary embolism"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "FUMPE",
+    "numTraining": 35,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./imagesTr/PAT001_0000.nii.gz",
+            "label": "./labelsTr/PAT001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT002_0000.nii.gz",
+            "label": "./labelsTr/PAT002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT003_0000.nii.gz",
+            "label": "./labelsTr/PAT003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT004_0000.nii.gz",
+            "label": "./labelsTr/PAT004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT005_0000.nii.gz",
+            "label": "./labelsTr/PAT005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT006_0000.nii.gz",
+            "label": "./labelsTr/PAT006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT007_0000.nii.gz",
+            "label": "./labelsTr/PAT007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT008_0000.nii.gz",
+            "label": "./labelsTr/PAT008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT009_0000.nii.gz",
+            "label": "./labelsTr/PAT009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT010_0000.nii.gz",
+            "label": "./labelsTr/PAT010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT011_0000.nii.gz",
+            "label": "./labelsTr/PAT011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT012_0000.nii.gz",
+            "label": "./labelsTr/PAT012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT013_0000.nii.gz",
+            "label": "./labelsTr/PAT013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT014_0000.nii.gz",
+            "label": "./labelsTr/PAT014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT015_0000.nii.gz",
+            "label": "./labelsTr/PAT015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT016_0000.nii.gz",
+            "label": "./labelsTr/PAT016.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT017_0000.nii.gz",
+            "label": "./labelsTr/PAT017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT018_0000.nii.gz",
+            "label": "./labelsTr/PAT018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT019_0000.nii.gz",
+            "label": "./labelsTr/PAT019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT020_0000.nii.gz",
+            "label": "./labelsTr/PAT020.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT021_0000.nii.gz",
+            "label": "./labelsTr/PAT021.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT022_0000.nii.gz",
+            "label": "./labelsTr/PAT022.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT023_0000.nii.gz",
+            "label": "./labelsTr/PAT023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT024_0000.nii.gz",
+            "label": "./labelsTr/PAT024.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT025_0000.nii.gz",
+            "label": "./labelsTr/PAT025.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT026_0000.nii.gz",
+            "label": "./labelsTr/PAT026.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT027_0000.nii.gz",
+            "label": "./labelsTr/PAT027.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT028_0000.nii.gz",
+            "label": "./labelsTr/PAT028.nii.gz"
+        }
+    ],
+    "validation": [{
+            "image": "./imagesTr/PAT029_0000.nii.gz",
+            "label": "./labelsTr/PAT029.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT030_0000.nii.gz",
+            "label": "./labelsTr/PAT030.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT031_0000.nii.gz",
+            "label": "./labelsTr/PAT031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT032_0000.nii.gz",
+            "label": "./labelsTr/PAT032.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT033_0000.nii.gz",
+            "label": "./labelsTr/PAT033.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT034_0000.nii.gz",
+            "label": "./labelsTr/PAT034.nii.gz"
+        },
+        {
+            "image": "./imagesTr/PAT035_0000.nii.gz",
+            "label": "./labelsTr/PAT035.nii.gz"
+        }
+    ]
+}
