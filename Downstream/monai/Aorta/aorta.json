@@ -1,0 +1,243 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "aorta"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "aorta",
+    "numTraining": 56,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./imagesTr/D14.nii.gz",
+            "label": "./labelsTr/D14.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D15.nii.gz",
+            "label": "./labelsTr/D15.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D16.nii.gz",
+            "label": "./labelsTr/D16.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D17.nii.gz",
+            "label": "./labelsTr/D17.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D18.nii.gz",
+            "label": "./labelsTr/D18.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D2.nii.gz",
+            "label": "./labelsTr/D2.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D3.nii.gz",
+            "label": "./labelsTr/D3.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D4.nii.gz",
+            "label": "./labelsTr/D4.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D5.nii.gz",
+            "label": "./labelsTr/D5.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D6.nii.gz",
+            "label": "./labelsTr/D6.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D7.nii.gz",
+            "label": "./labelsTr/D7.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D8.nii.gz",
+            "label": "./labelsTr/D8.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D9.nii.gz",
+            "label": "./labelsTr/D9.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K14.nii.gz",
+            "label": "./labelsTr/K14.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K15.nii.gz",
+            "label": "./labelsTr/K15.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K16.nii.gz",
+            "label": "./labelsTr/K16.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K17.nii.gz",
+            "label": "./labelsTr/K17.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K18.nii.gz",
+            "label": "./labelsTr/K18.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K19.nii.gz",
+            "label": "./labelsTr/K19.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K2.nii.gz",
+            "label": "./labelsTr/K2.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K20.nii.gz",
+            "label": "./labelsTr/K20.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K3.nii.gz",
+            "label": "./labelsTr/K3.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K4.nii.gz",
+            "label": "./labelsTr/K4.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K5.nii.gz",
+            "label": "./labelsTr/K5.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K6.nii.gz",
+            "label": "./labelsTr/K6.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K7.nii.gz",
+            "label": "./labelsTr/K7.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K8.nii.gz",
+            "label": "./labelsTr/K8.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K9.nii.gz",
+            "label": "./labelsTr/K9.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R1.nii.gz",
+            "label": "./labelsTr/R1.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R10.nii.gz",
+            "label": "./labelsTr/R10.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R11.nii.gz",
+            "label": "./labelsTr/R11.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R12.nii.gz",
+            "label": "./labelsTr/R12.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R13.nii.gz",
+            "label": "./labelsTr/R13.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R14.nii.gz",
+            "label": "./labelsTr/R14.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R15.nii.gz",
+            "label": "./labelsTr/R15.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R16.nii.gz",
+            "label": "./labelsTr/R16.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R17.nii.gz",
+            "label": "./labelsTr/R17.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R18.nii.gz",
+            "label": "./labelsTr/R18.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R2.nii.gz",
+            "label": "./labelsTr/R2.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R3.nii.gz",
+            "label": "./labelsTr/R3.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R4.nii.gz",
+            "label": "./labelsTr/R4.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R5.nii.gz",
+            "label": "./labelsTr/R5.seg.nii.gz"
+        }
+    ],
+    "validation": [{
+            "image": "./imagesTr/D1.nii.gz",
+            "label": "./labelsTr/D1.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D10.nii.gz",
+            "label": "./labelsTr/D10.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D11.nii.gz",
+            "label": "./labelsTr/D11.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D12.nii.gz",
+            "label": "./labelsTr/D12.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/D13.nii.gz",
+            "label": "./labelsTr/D13.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K1.nii.gz",
+            "label": "./labelsTr/K1.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K10.nii.gz",
+            "label": "./labelsTr/K10.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K11.nii.gz",
+            "label": "./labelsTr/K11.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K12.nii.gz",
+            "label": "./labelsTr/K12.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/K13.nii.gz",
+            "label": "./labelsTr/K13.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R6.nii.gz",
+            "label": "./labelsTr/R6.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R7.nii.gz",
+            "label": "./labelsTr/R7.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R8.nii.gz",
+            "label": "./labelsTr/R8.seg.nii.gz"
+        },
+        {
+            "image": "./imagesTr/R9.nii.gz",
+            "label": "./labelsTr/R9.seg.nii.gz"
+        }
+    ]
+}
