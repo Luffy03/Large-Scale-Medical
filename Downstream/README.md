@@ -12,57 +12,57 @@ We release implementations of **50+** downstream datasets across various medical
 
 | Dataset                                     | Modality | Task                    |
 |---------------------------------------------|----------|-------------------------|
-| [BTCV](./MONAI/BTCV/)                         | CT       | Abdomen Seg.            |
-| [AMOS22](MONAI/Amos/)                       | CT       | Abdomen Seg.            |
-| [WORD](MONAI/Word/)                         | CT       | Abdomen Seg.            |
-| [FLARE22](MONAI/Flare22/)                   | CT       | Abdomen Seg.            |
-| [FLARE23](MONAI/Flare22/)                   | CT       | Abdomen Seg.            |
-| [Abdomenct1k](MONAI/Abdomen1k/)             | CT       | Abdomen Seg.            |
-| [AbdomenAtlas](MONAI/AbdomenAtlas/)         | CT       | Abdomen Seg.            |
-| [TotalSegmentator](MONAI/Totalsegmentator/) | CT       | 104 Structures Seg.     |
-| [MM-WHS](MONAI/MM-WHS/)                     | CT       | Heart Seg.              |
-| [ASOCA](MONAI/ASOCA/)                       | CT       | coronary Seg.           |
-| [AVT](MONAI/Aorta/)                         | CT       | Aorta Seg.              |
-| [CHAOS](MONAI/CHAOS/)                       | CT       | Liver Seg.              |
-| [Sliver07](MONAI/Sliver07/)                 | CT       | Liver Seg.              |
-| [IRCADb](MONAI/3D-IRCADb/)                  | CT       | Liver Tumor Seg.        |
-| [KiTS](MONAI/KiTs/)                         | CT       | Kidney Tumor Seg.       |
-| [KiPA22](MONAI/Kipa/)                       | CT       | Kidney Tumor Seg.       |
-| [TCIA-Panc.](MONAI/TCIA_Panc/)              | CT       | Panc. Seg.              |
-| [PANORAMA](MONAI/PANORAMA/)                 | CT       | Panc. Tumor Seg.        |
-| [SegThor](MONAI/SegThor/)                   | CT       | Thoracic Risk Seg.      |
-| [BHSD](MONAI/BHSD/)                         | CT       | Brain Bleed Seg.        |
-| [StructSeg19](MONAI/StructSeg19/)           | CT       | Nasopharynx Cancer Seg. |
+| [BTCV](monai/BTCV/)                         | CT       | Abdomen Seg.            |
+| [AMOS22](monai/Amos/)                       | CT       | Abdomen Seg.            |
+| [WORD](monai/Word/)                         | CT       | Abdomen Seg.            |
+| [FLARE22](monai/Flare22/)                   | CT       | Abdomen Seg.            |
+| [FLARE23](monai/Flare22/)                   | CT       | Abdomen Seg.            |
+| [Abdomenct1k](monai/Abdomen1k/)             | CT       | Abdomen Seg.            |
+| [AbdomenAtlas](monai/AbdomenAtlas/)         | CT       | Abdomen Seg.            |
+| [TotalSegmentator](monai/Totalsegmentator/) | CT       | 104 Structures Seg.     |
+| [MM-WHS](monai/MM-WHS/)                     | CT       | Heart Seg.              |
+| [ASOCA](monai/ASOCA/)                       | CT       | coronary Seg.           |
+| [AVT](monai/Aorta/)                         | CT       | Aorta Seg.              |
+| [CHAOS](monai/CHAOS/)                       | CT       | Liver Seg.              |
+| [Sliver07](monai/Sliver07/)                 | CT       | Liver Seg.              |
+| [IRCADb](monai/3D-IRCADb/)                  | CT       | Liver Tumor Seg.        |
+| [KiTS](monai/KiTs/)                         | CT       | Kidney Tumor Seg.       |
+| [KiPA22](monai/Kipa/)                       | CT       | Kidney Tumor Seg.       |
+| [TCIA-Panc.](monai/TCIA_Panc/)              | CT       | Panc. Seg.              |
+| [PANORAMA](monai/PANORAMA/)                 | CT       | Panc. Tumor Seg.        |
+| [SegThor](monai/SegThor/)                   | CT       | Thoracic Risk Seg.      |
+| [BHSD](monai/BHSD/)                         | CT       | Brain Bleed Seg.        |
+| [StructSeg19](monai/StructSeg19/)           | CT       | Nasopharynx Cancer Seg. |
 | [Verse20](nnUNet)                           | CT       | Vertebrae Seg.          |
-| [PENGWIN](MONAI/PENGWIN)                    | CT       | Vertebrae Seg.          |
-| [Covid-19-20](MONAI/COVID/)                 | CT       | Covid Seg.              |
-| [FUMPE](MONAI/FUMPE/)                       | CT       | Pulmonary Embolism Seg. |
-| [Parse22](MONAI/Parse22/)                   | CT       | Pulmonary Artery Seg.   |
-| [AIIB23](MONAI/AIIB23/)                     | CT       | Fibrotic Lung Seg.      |
-| [CC-CCII](MONAI/CC-CCII/)                   | CT       | Covid Classi.           |
-| [LUNA16](MONAI/LUNA16/)                     | CT       | Lung Nodule Classi.     |
+| [PENGWIN](monai/PENGWIN)                    | CT       | Vertebrae Seg.          |
+| [Covid-19-20](monai/COVID/)                 | CT       | Covid Seg.              |
+| [FUMPE](monai/FUMPE/)                       | CT       | Pulmonary Embolism Seg. |
+| [Parse22](monai/Parse22/)                   | CT       | Pulmonary Artery Seg.   |
+| [AIIB23](monai/AIIB23/)                     | CT       | Fibrotic Lung Seg.      |
+| [CC-CCII](monai/CC-CCII/)                   | CT       | Covid Classi.           |
+| [LUNA16](monai/LUNA16/)                     | CT       | Lung Nodule Classi.     |
 | [AutoPET-II23](nnUNet)                      | PET-CT   | HeadNeck Lesion Seg.    |
-| [AMOS-MRI](MONAI/AMOS-MRI/)                 | MRI      | Abdomen Seg.            |
-| [MM-WHS-MRI](MONAI/MM-WHS-MRI/)             | MRI      | Heart Seg.              |
-| [ACDC](MONAI/ACDC/)                         | MRI      | Heart Seg.              |
-| [ATLAS-MRI](MONAI/ATLAS-MRI/)               | MRI      | Liver Tumor Seg.        |
-| [BraTs21](MONAI/BraTS21/)                   | MRI      | Brain Tumor Seg.        |
-| [IXI](MONAI/Registration/)                  | MRI      | Brain MRI Registration  |
-| [OASIS](MONAI/Registration/)                | MRI      | Brain MRI Registration  |
-| [CTRG-Chest](MONAI/M2KT/)                   | VLP      | Report Generation       |
-| [CT-RATE](MONAI/CT_CLIP/)                   | VLP      | Vocabulary Classi.      |
-| [CT-RATE](MONAI/CT_CLIP/)                   | VLP      | Report-Volume Retrieval |
+| [AMOS-MRI](monai/AMOS-MRI/)                 | MRI      | Abdomen Seg.            |
+| [MM-WHS-MRI](monai/MM-WHS-MRI/)             | MRI      | Heart Seg.              |
+| [ACDC](monai/ACDC/)                         | MRI      | Heart Seg.              |
+| [ATLAS-MRI](monai/ATLAS-MRI/)               | MRI      | Liver Tumor Seg.        |
+| [BraTs21](monai/BraTS21/)                   | MRI      | Brain Tumor Seg.        |
+| [IXI](monai/Registration/)                  | MRI      | Brain MRI Registration  |
+| [OASIS](monai/Registration/)                | MRI      | Brain MRI Registration  |
+| [CTRG-Chest](monai/M2KT/)                   | VLP      | Report Generation       |
+| [CT-RATE](monai/CT_CLIP/)                   | VLP      | Vocabulary Classi.      |
+| [CT-RATE](monai/CT_CLIP/)                   | VLP      | Report-Volume Retrieval |
 | MSD Challenge                               |          |                         |
-| [Task01 Brain](MONAI/BraTS/)                | MRI      | Brain Tumor Seg.        |
-| [Task02 Heart](MONAI/Heart/)                | MRI      | Heart Seg.              |
-| [Task03 Liver](MONAI/LiTs/)                 | CT       | Liver Tumor Seg.        |
-| [Task04 Hip.](MONAI/Hip/)                   | MRI      | Hip. Seg.               |
-| [Task05 Pros.](MONAI/Prostate/)             | MRI      | Prostate Seg.           |
-| [Task06 Lung](MONAI/Lung/)                  | CT       | Lung Cancer Seg.        |
-| [Task07 Panc.](MONAI/Panc/)                 | CT       | Pancreas Tumor Seg.     |
-| [Task08 Vessel](MONAI/Vessel/)              | CT       | Vessel Tumor Seg.       |
-| [Task09 Spleen](MONAI/Spleen/)              | CT       | Spleen Seg.             |
-| [Task10 Colon](MONAI/Colon/)                | CT       | Colon Cancer Seg.       |
+| [Task01 Brain](monai/BraTS/)                | MRI      | Brain Tumor Seg.        |
+| [Task02 Heart](monai/Heart/)                | MRI      | Heart Seg.              |
+| [Task03 Liver](monai/LiTs/)                 | CT       | Liver Tumor Seg.        |
+| [Task04 Hip.](monai/Hip/)                   | MRI      | Hip. Seg.               |
+| [Task05 Pros.](monai/Prostate/)             | MRI      | Prostate Seg.           |
+| [Task06 Lung](monai/Lung/)                  | CT       | Lung Cancer Seg.        |
+| [Task07 Panc.](monai/Panc/)                 | CT       | Pancreas Tumor Seg.     |
+| [Task08 Vessel](monai/Vessel/)              | CT       | Vessel Tumor Seg.       |
+| [Task09 Spleen](monai/Spleen/)              | CT       | Spleen Seg.             |
+| [Task10 Colon](monai/Colon/)                | CT       | Colon Cancer Seg.       |
 
 ## Download downstream datasets
 
@@ -83,7 +83,7 @@ You can choose to download our pre-processed datasets from our [Hugging face](ht
 ```
 
 ## Usage
-We provide both [MONAI](MONAI) and [nnUNet](nnUNet) implementations. For [nnUNet](nnUNet), you need to follow the instructions from their [official repo](https://github.com/MIC-DKFZ/nnUNet). 
+We provide both [monai](monai) and [nnUNet](nnUNet) implementations. For [nnUNet](nnUNet), you need to follow the instructions from their [official repo](https://github.com/MIC-DKFZ/nnUNet). 
 
 ### Pre-trained Models
 
@@ -119,7 +119,7 @@ The path of pre-trained models should be organized as:
 ```
 
 ### Fine-tuning
-Here, we take [3D-IRCADb](./MONAI/3D-IRCADb) as an example:
+Here, we take [3D-IRCADb](./monai/3D-IRCADb) as an example:
 ```
 cd 3D-IRCADb
 source activate YOUR-CONDA-ENVIRONMENT
@@ -182,15 +182,15 @@ python test.py
 ```
 ### Classification
 
-Please refer to [CC-CCII](MONAI/CC-CCII) and [LUNA16](MONAI/LUNA16). 
+Please refer to [CC-CCII](monai/CC-CCII) and [LUNA16](monai/LUNA16). 
 
 ### Registration
 
-Please refer to [Registration](MONAI/Registration). Please cite [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) and follow their instructions.
+Please refer to [Registration](monai/Registration). Please cite [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) and follow their instructions.
 
 ### Vision-language
 
-Please refer to [M2KT](MONAI/M2KT) and [CT_CLIP](MONAI/CT_CLIP). Please cite [CT_CLIP](https://github.com/ibrahimethemhamamci/CT-CLIP) and follow their instructions.
+Please refer to [M2KT](monai/M2KT) and [CT_CLIP](monai/CT_CLIP). Please cite [CT_CLIP](https://github.com/ibrahimethemhamamci/CT-CLIP) and follow their instructions.
 
 ## Downstream Checkpoints
 We are uploading our fine-tuning checkpoints to [BaiduYun](https://github.com/Luffy03/Large-Scale-Medical/Downstream).
@@ -208,8 +208,8 @@ If you find this repo useful for your research, please consider citing the paper
     year      = {2024},
     pages     = {22873-22882}
 }
-@article{Monai,
-  title={Monai: An open-source framework for deep learning in healthcare},
+@article{monai,
+  title={monai: An open-source framework for deep learning in healthcare},
   author={Cardoso, M Jorge and others},
   journal={arXiv preprint arXiv:2211.02701},
   year={2022}
