@@ -1,0 +1,420 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "sacrum fragment",
+        "2": "left hipbone fragment",
+        "3": "right hipbone fragment"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "PENGWIN",
+    "numTraining": 100,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./images/001.nii.gz",
+            "label": "./labels/001.nii.gz"
+        },
+        {
+            "image": "./images/002.nii.gz",
+            "label": "./labels/002.nii.gz"
+        },
+        {
+            "image": "./images/003.nii.gz",
+            "label": "./labels/003.nii.gz"
+        },
+        {
+            "image": "./images/004.nii.gz",
+            "label": "./labels/004.nii.gz"
+        },
+        {
+            "image": "./images/005.nii.gz",
+            "label": "./labels/005.nii.gz"
+        },
+        {
+            "image": "./images/006.nii.gz",
+            "label": "./labels/006.nii.gz"
+        },
+        {
+            "image": "./images/007.nii.gz",
+            "label": "./labels/007.nii.gz"
+        },
+        {
+            "image": "./images/008.nii.gz",
+            "label": "./labels/008.nii.gz"
+        },
+        {
+            "image": "./images/009.nii.gz",
+            "label": "./labels/009.nii.gz"
+        },
+        {
+            "image": "./images/010.nii.gz",
+            "label": "./labels/010.nii.gz"
+        },
+        {
+            "image": "./images/011.nii.gz",
+            "label": "./labels/011.nii.gz"
+        },
+        {
+            "image": "./images/012.nii.gz",
+            "label": "./labels/012.nii.gz"
+        },
+        {
+            "image": "./images/013.nii.gz",
+            "label": "./labels/013.nii.gz"
+        },
+        {
+            "image": "./images/014.nii.gz",
+            "label": "./labels/014.nii.gz"
+        },
+        {
+            "image": "./images/015.nii.gz",
+            "label": "./labels/015.nii.gz"
+        },
+        {
+            "image": "./images/016.nii.gz",
+            "label": "./labels/016.nii.gz"
+        },
+        {
+            "image": "./images/017.nii.gz",
+            "label": "./labels/017.nii.gz"
+        },
+        {
+            "image": "./images/018.nii.gz",
+            "label": "./labels/018.nii.gz"
+        },
+        {
+            "image": "./images/019.nii.gz",
+            "label": "./labels/019.nii.gz"
+        },
+        {
+            "image": "./images/020.nii.gz",
+            "label": "./labels/020.nii.gz"
+        },
+        {
+            "image": "./images/021.nii.gz",
+            "label": "./labels/021.nii.gz"
+        },
+        {
+            "image": "./images/022.nii.gz",
+            "label": "./labels/022.nii.gz"
+        },
+        {
+            "image": "./images/023.nii.gz",
+            "label": "./labels/023.nii.gz"
+        },
+        {
+            "image": "./images/024.nii.gz",
+            "label": "./labels/024.nii.gz"
+        },
+        {
+            "image": "./images/025.nii.gz",
+            "label": "./labels/025.nii.gz"
+        },
+        {
+            "image": "./images/026.nii.gz",
+            "label": "./labels/026.nii.gz"
+        },
+        {
+            "image": "./images/027.nii.gz",
+            "label": "./labels/027.nii.gz"
+        },
+        {
+            "image": "./images/028.nii.gz",
+            "label": "./labels/028.nii.gz"
+        },
+        {
+            "image": "./images/029.nii.gz",
+            "label": "./labels/029.nii.gz"
+        },
+        {
+            "image": "./images/030.nii.gz",
+            "label": "./labels/030.nii.gz"
+        },
+        {
+            "image": "./images/031.nii.gz",
+            "label": "./labels/031.nii.gz"
+        },
+        {
+            "image": "./images/032.nii.gz",
+            "label": "./labels/032.nii.gz"
+        },
+        {
+            "image": "./images/033.nii.gz",
+            "label": "./labels/033.nii.gz"
+        },
+        {
+            "image": "./images/034.nii.gz",
+            "label": "./labels/034.nii.gz"
+        },
+        {
+            "image": "./images/035.nii.gz",
+            "label": "./labels/035.nii.gz"
+        },
+        {
+            "image": "./images/036.nii.gz",
+            "label": "./labels/036.nii.gz"
+        },
+        {
+            "image": "./images/037.nii.gz",
+            "label": "./labels/037.nii.gz"
+        },
+        {
+            "image": "./images/038.nii.gz",
+            "label": "./labels/038.nii.gz"
+        },
+        {
+            "image": "./images/039.nii.gz",
+            "label": "./labels/039.nii.gz"
+        },
+        {
+            "image": "./images/040.nii.gz",
+            "label": "./labels/040.nii.gz"
+        },
+        {
+            "image": "./images/041.nii.gz",
+            "label": "./labels/041.nii.gz"
+        },
+        {
+            "image": "./images/042.nii.gz",
+            "label": "./labels/042.nii.gz"
+        },
+        {
+            "image": "./images/043.nii.gz",
+            "label": "./labels/043.nii.gz"
+        },
+        {
+            "image": "./images/044.nii.gz",
+            "label": "./labels/044.nii.gz"
+        },
+        {
+            "image": "./images/045.nii.gz",
+            "label": "./labels/045.nii.gz"
+        },
+        {
+            "image": "./images/046.nii.gz",
+            "label": "./labels/046.nii.gz"
+        },
+        {
+            "image": "./images/047.nii.gz",
+            "label": "./labels/047.nii.gz"
+        },
+        {
+            "image": "./images/048.nii.gz",
+            "label": "./labels/048.nii.gz"
+        },
+        {
+            "image": "./images/049.nii.gz",
+            "label": "./labels/049.nii.gz"
+        },
+        {
+            "image": "./images/050.nii.gz",
+            "label": "./labels/050.nii.gz"
+        },
+        {
+            "image": "./images/051.nii.gz",
+            "label": "./labels/051.nii.gz"
+        },
+        {
+            "image": "./images/052.nii.gz",
+            "label": "./labels/052.nii.gz"
+        },
+        {
+            "image": "./images/053.nii.gz",
+            "label": "./labels/053.nii.gz"
+        },
+        {
+            "image": "./images/054.nii.gz",
+            "label": "./labels/054.nii.gz"
+        },
+        {
+            "image": "./images/055.nii.gz",
+            "label": "./labels/055.nii.gz"
+        },
+        {
+            "image": "./images/056.nii.gz",
+            "label": "./labels/056.nii.gz"
+        },
+        {
+            "image": "./images/057.nii.gz",
+            "label": "./labels/057.nii.gz"
+        },
+        {
+            "image": "./images/058.nii.gz",
+            "label": "./labels/058.nii.gz"
+        },
+        {
+            "image": "./images/059.nii.gz",
+            "label": "./labels/059.nii.gz"
+        },
+        {
+            "image": "./images/060.nii.gz",
+            "label": "./labels/060.nii.gz"
+        },
+        {
+            "image": "./images/061.nii.gz",
+            "label": "./labels/061.nii.gz"
+        },
+        {
+            "image": "./images/062.nii.gz",
+            "label": "./labels/062.nii.gz"
+        },
+        {
+            "image": "./images/063.nii.gz",
+            "label": "./labels/063.nii.gz"
+        },
+        {
+            "image": "./images/064.nii.gz",
+            "label": "./labels/064.nii.gz"
+        },
+        {
+            "image": "./images/065.nii.gz",
+            "label": "./labels/065.nii.gz"
+        },
+        {
+            "image": "./images/066.nii.gz",
+            "label": "./labels/066.nii.gz"
+        },
+        {
+            "image": "./images/067.nii.gz",
+            "label": "./labels/067.nii.gz"
+        },
+        {
+            "image": "./images/068.nii.gz",
+            "label": "./labels/068.nii.gz"
+        },
+        {
+            "image": "./images/069.nii.gz",
+            "label": "./labels/069.nii.gz"
+        },
+        {
+            "image": "./images/070.nii.gz",
+            "label": "./labels/070.nii.gz"
+        },
+        {
+            "image": "./images/071.nii.gz",
+            "label": "./labels/071.nii.gz"
+        },
+        {
+            "image": "./images/072.nii.gz",
+            "label": "./labels/072.nii.gz"
+        },
+        {
+            "image": "./images/073.nii.gz",
+            "label": "./labels/073.nii.gz"
+        },
+        {
+            "image": "./images/074.nii.gz",
+            "label": "./labels/074.nii.gz"
+        },
+        {
+            "image": "./images/075.nii.gz",
+            "label": "./labels/075.nii.gz"
+        },
+        {
+            "image": "./images/076.nii.gz",
+            "label": "./labels/076.nii.gz"
+        },
+        {
+            "image": "./images/077.nii.gz",
+            "label": "./labels/077.nii.gz"
+        },
+        {
+            "image": "./images/078.nii.gz",
+            "label": "./labels/078.nii.gz"
+        },
+        {
+            "image": "./images/079.nii.gz",
+            "label": "./labels/079.nii.gz"
+        },
+        {
+            "image": "./images/080.nii.gz",
+            "label": "./labels/080.nii.gz"
+        },
+        {
+            "image": "./images/081.nii.gz",
+            "label": "./labels/081.nii.gz"
+        },
+        {
+            "image": "./images/082.nii.gz",
+            "label": "./labels/082.nii.gz"
+        },
+        {
+            "image": "./images/083.nii.gz",
+            "label": "./labels/083.nii.gz"
+        },
+        {
+            "image": "./images/084.nii.gz",
+            "label": "./labels/084.nii.gz"
+        },
+        {
+            "image": "./images/085.nii.gz",
+            "label": "./labels/085.nii.gz"
+        },
+        {
+            "image": "./images/086.nii.gz",
+            "label": "./labels/086.nii.gz"
+        },
+        {
+            "image": "./images/087.nii.gz",
+            "label": "./labels/087.nii.gz"
+        },
+        {
+            "image": "./images/088.nii.gz",
+            "label": "./labels/088.nii.gz"
+        },
+        {
+            "image": "./images/089.nii.gz",
+            "label": "./labels/089.nii.gz"
+        },
+        {
+            "image": "./images/090.nii.gz",
+            "label": "./labels/090.nii.gz"
+        },
+        {
+            "image": "./images/091.nii.gz",
+            "label": "./labels/091.nii.gz"
+        },
+        {
+            "image": "./images/092.nii.gz",
+            "label": "./labels/092.nii.gz"
+        },
+        {
+            "image": "./images/093.nii.gz",
+            "label": "./labels/093.nii.gz"
+        },
+        {
+            "image": "./images/094.nii.gz",
+            "label": "./labels/094.nii.gz"
+        },
+        {
+            "image": "./images/095.nii.gz",
+            "label": "./labels/095.nii.gz"
+        },
+        {
+            "image": "./images/096.nii.gz",
+            "label": "./labels/096.nii.gz"
+        },
+        {
+            "image": "./images/097.nii.gz",
+            "label": "./labels/097.nii.gz"
+        },
+        {
+            "image": "./images/098.nii.gz",
+            "label": "./labels/098.nii.gz"
+        },
+        {
+            "image": "./images/099.nii.gz",
+            "label": "./labels/099.nii.gz"
+        },
+        {
+            "image": "./images/100.nii.gz",
+            "label": "./labels/100.nii.gz"
+        }
+    ]
+}
