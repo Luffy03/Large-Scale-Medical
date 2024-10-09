@@ -1,0 +1,150 @@
+{
+    "description": "MM-WHS-MRI",
+    "labels": {
+        "0": "background",
+        "1": "Left Ventricle",
+        "2": "whole aorta",
+        "3": "Right Ventricle",
+        "4": "Left Atrium",
+        "5": "myocardium of Left Ventricle",
+        "6": "Right Atrium",
+        "7": "Pulmonary Artery"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "T2",
+        "1": "ADC"
+    },
+    "name": "MM-WHS-MRI",
+    "numTest": 40,
+    "numTraining": 20,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/mr_test_2001_image.nii.gz",
+        "./imagesTs/mr_test_2002_image.nii.gz",
+        "./imagesTs/mr_test_2003_image.nii.gz",
+        "./imagesTs/mr_test_2004_image.nii.gz",
+        "./imagesTs/mr_test_2005_image.nii.gz",
+        "./imagesTs/mr_test_2006_image.nii.gz",
+        "./imagesTs/mr_test_2007_image.nii.gz",
+        "./imagesTs/mr_test_2008_image.nii.gz",
+        "./imagesTs/mr_test_2009_image.nii.gz",
+        "./imagesTs/mr_test_2010_image.nii.gz",
+        "./imagesTs/mr_test_2011_image.nii.gz",
+        "./imagesTs/mr_test_2012_image.nii.gz",
+        "./imagesTs/mr_test_2013_image.nii.gz",
+        "./imagesTs/mr_test_2014_image.nii.gz",
+        "./imagesTs/mr_test_2015_image.nii.gz",
+        "./imagesTs/mr_test_2016_image.nii.gz",
+        "./imagesTs/mr_test_2017_image.nii.gz",
+        "./imagesTs/mr_test_2018_image.nii.gz",
+        "./imagesTs/mr_test_2019_image.nii.gz",
+        "./imagesTs/mr_test_2020_image.nii.gz",
+        "./imagesTs/mr_test_2021_image.nii.gz",
+        "./imagesTs/mr_test_2022_image.nii.gz",
+        "./imagesTs/mr_test_2023_image.nii.gz",
+        "./imagesTs/mr_test_2024_image.nii.gz",
+        "./imagesTs/mr_test_2025_image.nii.gz",
+        "./imagesTs/mr_test_2026_image.nii.gz",
+        "./imagesTs/mr_test_2027_image.nii.gz",
+        "./imagesTs/mr_test_2028_image.nii.gz",
+        "./imagesTs/mr_test_2029_image.nii.gz",
+        "./imagesTs/mr_test_2030_image.nii.gz",
+        "./imagesTs/mr_test_2031_image.nii.gz",
+        "./imagesTs/mr_test_2032_image.nii.gz",
+        "./imagesTs/mr_test_2033_image.nii.gz",
+        "./imagesTs/mr_test_2034_image.nii.gz",
+        "./imagesTs/mr_test_2035_image.nii.gz",
+        "./imagesTs/mr_test_2036_image.nii.gz",
+        "./imagesTs/mr_test_2037_image.nii.gz",
+        "./imagesTs/mr_test_2038_image.nii.gz",
+        "./imagesTs/mr_test_2039_image.nii.gz",
+        "./imagesTs/mr_test_2040_image.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./images/mr_train_1001_image.nii.gz",
+            "label": "./labels/mr_train_1001_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1002_image.nii.gz",
+            "label": "./labels/mr_train_1002_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1003_image.nii.gz",
+            "label": "./labels/mr_train_1003_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1004_image.nii.gz",
+            "label": "./labels/mr_train_1004_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1005_image.nii.gz",
+            "label": "./labels/mr_train_1005_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1006_image.nii.gz",
+            "label": "./labels/mr_train_1006_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1007_image.nii.gz",
+            "label": "./labels/mr_train_1007_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1008_image.nii.gz",
+            "label": "./labels/mr_train_1008_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1009_image.nii.gz",
+            "label": "./labels/mr_train_1009_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1010_image.nii.gz",
+            "label": "./labels/mr_train_1010_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1011_image.nii.gz",
+            "label": "./labels/mr_train_1011_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1012_image.nii.gz",
+            "label": "./labels/mr_train_1012_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1013_image.nii.gz",
+            "label": "./labels/mr_train_1013_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1014_image.nii.gz",
+            "label": "./labels/mr_train_1014_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1015_image.nii.gz",
+            "label": "./labels/mr_train_1015_label.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./images/mr_train_1016_image.nii.gz",
+            "label": "./labels/mr_train_1016_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1017_image.nii.gz",
+            "label": "./labels/mr_train_1017_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1018_image.nii.gz",
+            "label": "./labels/mr_train_1018_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1019_image.nii.gz",
+            "label": "./labels/mr_train_1019_label.nii.gz"
+        },
+        {
+            "image": "./images/mr_train_1020_image.nii.gz",
+            "label": "./labels/mr_train_1020_label.nii.gz"
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "Left Ventricle",
+        "2": "whole aorta",
+        "3": "Right Ventricle",
+        "4": "Left Atrium",
+        "5": "myocardium of Left Ventricle",
+        "6": "Right Atrium",
+        "7": "Pulmonary Artery"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "MM-WHS",
+    "numTest": 0,
+    "numTraining": 20,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [],
+    "validation": [{
+            "image": "./images/ct_train_1001_image.nii.gz",
+            "label": "./labels/ct_train_1001_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1002_image.nii.gz",
+            "label": "./labels/ct_train_1002_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1003_image.nii.gz",
+            "label": "./labels/ct_train_1003_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1004_image.nii.gz",
+            "label": "./labels/ct_train_1004_label.nii.gz"
+        }
+    ],
+    "training": [
+        {
+            "image": "./images/ct_train_1005_image.nii.gz",
+            "label": "./labels/ct_train_1005_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1006_image.nii.gz",
+            "label": "./labels/ct_train_1006_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1007_image.nii.gz",
+            "label": "./labels/ct_train_1007_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1008_image.nii.gz",
+            "label": "./labels/ct_train_1008_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1009_image.nii.gz",
+            "label": "./labels/ct_train_1009_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1010_image.nii.gz",
+            "label": "./labels/ct_train_1010_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1011_image.nii.gz",
+            "label": "./labels/ct_train_1011_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1012_image.nii.gz",
+            "label": "./labels/ct_train_1012_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1013_image.nii.gz",
+            "label": "./labels/ct_train_1013_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1014_image.nii.gz",
+            "label": "./labels/ct_train_1014_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1015_image.nii.gz",
+            "label": "./labels/ct_train_1015_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1016_image.nii.gz",
+            "label": "./labels/ct_train_1016_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1017_image.nii.gz",
+            "label": "./labels/ct_train_1017_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1018_image.nii.gz",
+            "label": "./labels/ct_train_1018_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1019_image.nii.gz",
+            "label": "./labels/ct_train_1019_label.nii.gz"
+        },
+        {
+            "image": "./images/ct_train_1020_image.nii.gz",
+            "label": "./labels/ct_train_1020_label.nii.gz"
+        }
+    ]
+}
