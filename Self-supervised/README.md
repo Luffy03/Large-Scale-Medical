@@ -8,7 +8,7 @@
 <a href='https://huggingface.co/datasets/Luffy503/PreCT-160K'><img src='https://img.shields.io/badge/Dataset-PreCT--160K-pink' alt='Dataset'></a>
 </div>
 
-<div style="text-align:center;">
+<div align="center">
     <img src="assets/positions.png" alt="positions" width="500"/>
 </div>
 
