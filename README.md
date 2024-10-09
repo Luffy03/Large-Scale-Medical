@@ -24,6 +24,7 @@ This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-train
 - **[Downstream](Downstream):** **50+** downstream tasks (segmentation, classification, registration, and vision-language).
 - **[PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K):** **160K** CT volumes (**42M** slices) for pre-training
 - **[VoComni](https://huggingface.co/datasets/Luffy503/VoComni):** **20K** CT volumes with pseudo labels (20 organ & tumor classes)
+- **[VoCovid](/Downstream/VoCOVID):** Semi-supervised covid segmentation
 - **[Self-supervised Pre-training](Self-supervised):** Pre-training with unlabeled data
 - **[Omni-supervised Pre-training](Omni-supervised):** Pre-training with labeled and unlabeled data
 
@@ -115,7 +116,7 @@ pip install -r requirements.txt
 Please refer to [Acknowledgment](#Acknowledgment). Download our pre-processed [downstream datasets](https://huggingface.co/datasets/Luffy503/VoCo_Downstream) for downstream tasks.
 
 ### Implementations
-**50+** downstream tasks implementations (updating). Please refer to [Downstream](./Downstream).
+Please refer to [Downstream](./Downstream): **50+** downstream tasks implementations (updating).
 
 ## Pre-training <a name="Pre-training"></a>
 
@@ -124,7 +125,7 @@ Please refer to [Acknowledgment](#Acknowledgment). Download our pre-processed [d
 Please refer to [Acknowledgment](#Acknowledgment). Download our  [PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K) for pre-training.
 
 **WARNING**: 
-- It requires **22.6 TB** space to store the original datasets. For pre-training, it requires **30 TB** more space to cache the data, otherwise the pre-training will be very slow. And please store them in SSD.
+- It requires **22.6 TB** space to store the original datasets. For pre-training, it requires extra **30 TB** space to cache the data, otherwise the pre-training will be very slow. And please store them in SSD.
 - If you do not have enough space for PreCT-160K, you can try our [VoComni dataset](https://huggingface.co/datasets/Luffy503/VoComni). It requires less than **10 TB** only (?).
 
 ### Various Pre-training recipes
