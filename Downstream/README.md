@@ -163,7 +163,7 @@ torchrun --master_port=21503 main.py \
 
 ### Validation and Testing 
 
-We provide template for [validation](./val.py) and [testing](./test.py). You should modify the parameters in these two files according to your own settings !!! We provide the descriptions of these parameters in the files.
+We provide template for [validation](./val.py) and [testing](./test.py). 
 
 ```
 # Organized as 
@@ -180,6 +180,15 @@ python val.py
 # test
 python test.py
 ```
+
+You should modify the parameters in these two files according to your own settings !!! We provide the descriptions of these parameters in the files:
+- **test_data_path**: The data path.
+- **test_label_path**: The label path. Only in 'val.py'
+- **trained_pth**: The model path.
+- **input & output channels**: model settings
+- **processing params**: consistent with training
+- ......
+
 ### Classification
 
 Please refer to [CC-CCII](monai/CC-CCII) and [LUNA16](monai/LUNA16). 
