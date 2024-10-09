@@ -1,0 +1,204 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "Esophagus",
+        "2": "Heart",
+        "3": "Trachea",
+        "4": "Aorta"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "Segthor19",
+    "numTest": 20,
+    "numTraining": 40,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/Patient_41.nii.gz",
+        "./imagesTs/Patient_42.nii.gz",
+        "./imagesTs/Patient_43.nii.gz",
+        "./imagesTs/Patient_44.nii.gz",
+        "./imagesTs/Patient_45.nii.gz",
+        "./imagesTs/Patient_46.nii.gz",
+        "./imagesTs/Patient_47.nii.gz",
+        "./imagesTs/Patient_48.nii.gz",
+        "./imagesTs/Patient_49.nii.gz",
+        "./imagesTs/Patient_50.nii.gz",
+        "./imagesTs/Patient_51.nii.gz",
+        "./imagesTs/Patient_52.nii.gz",
+        "./imagesTs/Patient_53.nii.gz",
+        "./imagesTs/Patient_54.nii.gz",
+        "./imagesTs/Patient_55.nii.gz",
+        "./imagesTs/Patient_56.nii.gz",
+        "./imagesTs/Patient_57.nii.gz",
+        "./imagesTs/Patient_58.nii.gz",
+        "./imagesTs/Patient_59.nii.gz",
+        "./imagesTs/Patient_60.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/Patient_01.nii.gz",
+            "label": "./labelsTr/Patient_01_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_02.nii.gz",
+            "label": "./labelsTr/Patient_02_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_03.nii.gz",
+            "label": "./labelsTr/Patient_03_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_04.nii.gz",
+            "label": "./labelsTr/Patient_04_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_05.nii.gz",
+            "label": "./labelsTr/Patient_05_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_06.nii.gz",
+            "label": "./labelsTr/Patient_06_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_07.nii.gz",
+            "label": "./labelsTr/Patient_07_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_08.nii.gz",
+            "label": "./labelsTr/Patient_08_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_09.nii.gz",
+            "label": "./labelsTr/Patient_09_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_10.nii.gz",
+            "label": "./labelsTr/Patient_10_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_11.nii.gz",
+            "label": "./labelsTr/Patient_11_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_12.nii.gz",
+            "label": "./labelsTr/Patient_12_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_13.nii.gz",
+            "label": "./labelsTr/Patient_13_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_14.nii.gz",
+            "label": "./labelsTr/Patient_14_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_15.nii.gz",
+            "label": "./labelsTr/Patient_15_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_16.nii.gz",
+            "label": "./labelsTr/Patient_16_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_17.nii.gz",
+            "label": "./labelsTr/Patient_17_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_18.nii.gz",
+            "label": "./labelsTr/Patient_18_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_19.nii.gz",
+            "label": "./labelsTr/Patient_19_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_20.nii.gz",
+            "label": "./labelsTr/Patient_20_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_21.nii.gz",
+            "label": "./labelsTr/Patient_21_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_22.nii.gz",
+            "label": "./labelsTr/Patient_22_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_23.nii.gz",
+            "label": "./labelsTr/Patient_23_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_24.nii.gz",
+            "label": "./labelsTr/Patient_24_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_25.nii.gz",
+            "label": "./labelsTr/Patient_25_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_26.nii.gz",
+            "label": "./labelsTr/Patient_26_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_27.nii.gz",
+            "label": "./labelsTr/Patient_27_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_28.nii.gz",
+            "label": "./labelsTr/Patient_28_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_29.nii.gz",
+            "label": "./labelsTr/Patient_29_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_30.nii.gz",
+            "label": "./labelsTr/Patient_30_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_31.nii.gz",
+            "label": "./labelsTr/Patient_31_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_32.nii.gz",
+            "label": "./labelsTr/Patient_32_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_33.nii.gz",
+            "label": "./labelsTr/Patient_33_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_34.nii.gz",
+            "label": "./labelsTr/Patient_34_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_35.nii.gz",
+            "label": "./labelsTr/Patient_35_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_36.nii.gz",
+            "label": "./labelsTr/Patient_36_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_37.nii.gz",
+            "label": "./labelsTr/Patient_37_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_38.nii.gz",
+            "label": "./labelsTr/Patient_38_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_39.nii.gz",
+            "label": "./labelsTr/Patient_39_GT.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Patient_40.nii.gz",
+            "label": "./labelsTr/Patient_40_GT.nii.gz"
+        }
+    ]
+}

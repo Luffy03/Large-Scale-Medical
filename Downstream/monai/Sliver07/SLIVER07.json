@@ -1,0 +1,100 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "liver"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "SLIVER07",
+    "numTraining": 20,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./imagesTr/liver-orig001_0000.nii.gz",
+            "label": "./labelsTr/liver-orig001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig002_0000.nii.gz",
+            "label": "./labelsTr/liver-orig002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig003_0000.nii.gz",
+            "label": "./labelsTr/liver-orig003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig004_0000.nii.gz",
+            "label": "./labelsTr/liver-orig004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig005_0000.nii.gz",
+            "label": "./labelsTr/liver-orig005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig006_0000.nii.gz",
+            "label": "./labelsTr/liver-orig006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig007_0000.nii.gz",
+            "label": "./labelsTr/liver-orig007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig008_0000.nii.gz",
+            "label": "./labelsTr/liver-orig008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig009_0000.nii.gz",
+            "label": "./labelsTr/liver-orig009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig010_0000.nii.gz",
+            "label": "./labelsTr/liver-orig010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig011_0000.nii.gz",
+            "label": "./labelsTr/liver-orig011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig012_0000.nii.gz",
+            "label": "./labelsTr/liver-orig012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig013_0000.nii.gz",
+            "label": "./labelsTr/liver-orig013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig014_0000.nii.gz",
+            "label": "./labelsTr/liver-orig014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig015_0000.nii.gz",
+            "label": "./labelsTr/liver-orig015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig016_0000.nii.gz",
+            "label": "./labelsTr/liver-orig016.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/liver-orig017_0000.nii.gz",
+            "label": "./labelsTr/liver-orig017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig018_0000.nii.gz",
+            "label": "./labelsTr/liver-orig018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig019_0000.nii.gz",
+            "label": "./labelsTr/liver-orig019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/liver-orig020_0000.nii.gz",
+            "label": "./labelsTr/liver-orig020.nii.gz"
+        }
+    ]
+}

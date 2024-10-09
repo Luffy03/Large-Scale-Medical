@@ -1,0 +1,505 @@
+{
+    "description": "Prostate transitional zone and peripheral zone segmentation",
+    "labels": {
+        "DZ": 2,
+        "PZ": 1,
+        "background": 0
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "T2",
+        "1": "ADC"
+    },
+    "name": "Dataset005_Prostate",
+    "numTest": 32,
+    "numTraining": 50,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/prostate_03_0000.nii.gz",
+        "./imagesTs/prostate_03_0001.nii.gz",
+        "./imagesTs/prostate_05_0000.nii.gz",
+        "./imagesTs/prostate_05_0001.nii.gz",
+        "./imagesTs/prostate_08_0000.nii.gz",
+        "./imagesTs/prostate_08_0001.nii.gz",
+        "./imagesTs/prostate_09_0000.nii.gz",
+        "./imagesTs/prostate_09_0001.nii.gz",
+        "./imagesTs/prostate_11_0000.nii.gz",
+        "./imagesTs/prostate_11_0001.nii.gz",
+        "./imagesTs/prostate_12_0000.nii.gz",
+        "./imagesTs/prostate_12_0001.nii.gz",
+        "./imagesTs/prostate_15_0000.nii.gz",
+        "./imagesTs/prostate_15_0001.nii.gz",
+        "./imagesTs/prostate_19_0000.nii.gz",
+        "./imagesTs/prostate_19_0001.nii.gz",
+        "./imagesTs/prostate_22_0000.nii.gz",
+        "./imagesTs/prostate_22_0001.nii.gz",
+        "./imagesTs/prostate_23_0000.nii.gz",
+        "./imagesTs/prostate_23_0001.nii.gz",
+        "./imagesTs/prostate_26_0000.nii.gz",
+        "./imagesTs/prostate_26_0001.nii.gz",
+        "./imagesTs/prostate_27_0000.nii.gz",
+        "./imagesTs/prostate_27_0001.nii.gz",
+        "./imagesTs/prostate_30_0000.nii.gz",
+        "./imagesTs/prostate_30_0001.nii.gz",
+        "./imagesTs/prostate_33_0000.nii.gz",
+        "./imagesTs/prostate_33_0001.nii.gz",
+        "./imagesTs/prostate_36_0000.nii.gz",
+        "./imagesTs/prostate_36_0001.nii.gz",
+        "./imagesTs/prostate_45_0000.nii.gz",
+        "./imagesTs/prostate_45_0001.nii.gz"
+    ],
+    "training": [
+        {
+            "image": [
+                "./imagesTr/prostate_01_0000.nii.gz",
+                "./imagesTr/prostate_01_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_01.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_01_0000.nii.gz",
+                "./imagesTr/prostate_01_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_01.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_02_0000.nii.gz",
+                "./imagesTr/prostate_02_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_02.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_02_0000.nii.gz",
+                "./imagesTr/prostate_02_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_02.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_06_0000.nii.gz",
+                "./imagesTr/prostate_06_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_06.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_06_0000.nii.gz",
+                "./imagesTr/prostate_06_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_06.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_07_0000.nii.gz",
+                "./imagesTr/prostate_07_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_07.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_07_0000.nii.gz",
+                "./imagesTr/prostate_07_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_07.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_10_0000.nii.gz",
+                "./imagesTr/prostate_10_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_10.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_10_0000.nii.gz",
+                "./imagesTr/prostate_10_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_10.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_13_0000.nii.gz",
+                "./imagesTr/prostate_13_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_13.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_13_0000.nii.gz",
+                "./imagesTr/prostate_13_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_13.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_16_0000.nii.gz",
+                "./imagesTr/prostate_16_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_16.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_16_0000.nii.gz",
+                "./imagesTr/prostate_16_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_16.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_17_0000.nii.gz",
+                "./imagesTr/prostate_17_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_17.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_17_0000.nii.gz",
+                "./imagesTr/prostate_17_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_17.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_18_0000.nii.gz",
+                "./imagesTr/prostate_18_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_18.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_18_0000.nii.gz",
+                "./imagesTr/prostate_18_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_18.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_21_0000.nii.gz",
+                "./imagesTr/prostate_21_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_21.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_21_0000.nii.gz",
+                "./imagesTr/prostate_21_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_21.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_24_0000.nii.gz",
+                "./imagesTr/prostate_24_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_24.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_24_0000.nii.gz",
+                "./imagesTr/prostate_24_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_24.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_28_0000.nii.gz",
+                "./imagesTr/prostate_28_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_28.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_28_0000.nii.gz",
+                "./imagesTr/prostate_28_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_28.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_29_0000.nii.gz",
+                "./imagesTr/prostate_29_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_29.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_29_0000.nii.gz",
+                "./imagesTr/prostate_29_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_29.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_32_0000.nii.gz",
+                "./imagesTr/prostate_32_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_32.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_32_0000.nii.gz",
+                "./imagesTr/prostate_32_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_32.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_34_0000.nii.gz",
+                "./imagesTr/prostate_34_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_34.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_34_0000.nii.gz",
+                "./imagesTr/prostate_34_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_34.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_35_0000.nii.gz",
+                "./imagesTr/prostate_35_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_35.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_35_0000.nii.gz",
+                "./imagesTr/prostate_35_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_35.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_37_0000.nii.gz",
+                "./imagesTr/prostate_37_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_37.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_37_0000.nii.gz",
+                "./imagesTr/prostate_37_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_37.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_38_0000.nii.gz",
+                "./imagesTr/prostate_38_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_38.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_38_0000.nii.gz",
+                "./imagesTr/prostate_38_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_38.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_39_0000.nii.gz",
+                "./imagesTr/prostate_39_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_39.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_39_0000.nii.gz",
+                "./imagesTr/prostate_39_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_39.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_40_0000.nii.gz",
+                "./imagesTr/prostate_40_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_40.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_40_0000.nii.gz",
+                "./imagesTr/prostate_40_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_40.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_41_0000.nii.gz",
+                "./imagesTr/prostate_41_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_41.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_41_0000.nii.gz",
+                "./imagesTr/prostate_41_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_41.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_43_0000.nii.gz",
+                "./imagesTr/prostate_43_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_43.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_43_0000.nii.gz",
+                "./imagesTr/prostate_43_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_43.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_44_0000.nii.gz",
+                "./imagesTr/prostate_44_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_44.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_44_0000.nii.gz",
+                "./imagesTr/prostate_44_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_44.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_46_0000.nii.gz",
+                "./imagesTr/prostate_46_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_46.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_46_0000.nii.gz",
+                "./imagesTr/prostate_46_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_46.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_47_0000.nii.gz",
+                "./imagesTr/prostate_47_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_47.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_47_0000.nii.gz",
+                "./imagesTr/prostate_47_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_47.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": [
+                "./imagesTr/prostate_00_0000.nii.gz",
+                "./imagesTr/prostate_00_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_00.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_00_0000.nii.gz",
+                "./imagesTr/prostate_00_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_00.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_04_0000.nii.gz",
+                "./imagesTr/prostate_04_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_04.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_04_0000.nii.gz",
+                "./imagesTr/prostate_04_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_04.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_14_0000.nii.gz",
+                "./imagesTr/prostate_14_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_14.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_14_0000.nii.gz",
+                "./imagesTr/prostate_14_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_14.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_20_0000.nii.gz",
+                "./imagesTr/prostate_20_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_20.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_20_0000.nii.gz",
+                "./imagesTr/prostate_20_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_20.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_25_0000.nii.gz",
+                "./imagesTr/prostate_25_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_25.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_25_0000.nii.gz",
+                "./imagesTr/prostate_25_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_25.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_31_0000.nii.gz",
+                "./imagesTr/prostate_31_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_31.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_31_0000.nii.gz",
+                "./imagesTr/prostate_31_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_31.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_42_0000.nii.gz",
+                "./imagesTr/prostate_42_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_42.nii.gz"
+        },
+        {
+            "image": [
+                "./imagesTr/prostate_42_0000.nii.gz",
+                "./imagesTr/prostate_42_0001.nii.gz"
+            ],
+            "label": "./labelsTr/prostate_42.nii.gz"
+        }
+    ]
+}
