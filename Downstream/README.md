@@ -193,7 +193,7 @@ Please refer to [Registration](monai/Registration). Please cite [TransMorph](htt
 Please refer to [M2KT](monai/M2KT) and [CT_CLIP](monai/CT_CLIP). Please cite [CT_CLIP](https://github.com/ibrahimethemhamamci/CT-CLIP) and follow their instructions.
 
 ## VoCovid
-Please refer to [VoCovid](monai/VoCOVID) for Semi-supervised Covid Segmentation. Dataset can be downloaded from [hugging face](https://huggingface.co/datasets/Luffy503/VoCovid).
+Please refer to [VoCovid](VoCOVID) for Semi-supervised Covid Segmentation. Dataset can be downloaded from [hugging face](https://huggingface.co/datasets/Luffy503/VoCovid).
 
 ## Downstream Checkpoints
 We are uploading our fine-tuning checkpoints to [BaiduYun](https://github.com/Luffy03/Large-Scale-Medical/Downstream).
