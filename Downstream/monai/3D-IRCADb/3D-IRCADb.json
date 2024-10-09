@@ -1,0 +1,101 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "liver",
+        "2": "liver tumor"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "3D-IRCADb",
+    "numTraining": 20,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./imagesTr/10_0000.nii.gz",
+            "label": "./labelsTr/10.nii.gz"
+        },
+        {
+            "image": "./imagesTr/11_0000.nii.gz",
+            "label": "./labelsTr/11.nii.gz"
+        },
+        {
+            "image": "./imagesTr/12_0000.nii.gz",
+            "label": "./labelsTr/12.nii.gz"
+        },
+        {
+            "image": "./imagesTr/13_0000.nii.gz",
+            "label": "./labelsTr/13.nii.gz"
+        },
+        {
+            "image": "./imagesTr/14_0000.nii.gz",
+            "label": "./labelsTr/14.nii.gz"
+        },
+        {
+            "image": "./imagesTr/1_0000.nii.gz",
+            "label": "./labelsTr/1.nii.gz"
+        },
+        {
+            "image": "./imagesTr/20_0000.nii.gz",
+            "label": "./labelsTr/20.nii.gz"
+        },
+        {
+            "image": "./imagesTr/2_0000.nii.gz",
+            "label": "./labelsTr/2.nii.gz"
+        },
+        {
+            "image": "./imagesTr/3_0000.nii.gz",
+            "label": "./labelsTr/3.nii.gz"
+        },
+        {
+            "image": "./imagesTr/4_0000.nii.gz",
+            "label": "./labelsTr/4.nii.gz"
+        },
+        {
+            "image": "./imagesTr/5_0000.nii.gz",
+            "label": "./labelsTr/5.nii.gz"
+        },
+        {
+            "image": "./imagesTr/6_0000.nii.gz",
+            "label": "./labelsTr/6.nii.gz"
+        },
+        {
+            "image": "./imagesTr/7_0000.nii.gz",
+            "label": "./labelsTr/7.nii.gz"
+        },
+        {
+            "image": "./imagesTr/8_0000.nii.gz",
+            "label": "./labelsTr/8.nii.gz"
+        },
+        {
+            "image": "./imagesTr/9_0000.nii.gz",
+            "label": "./labelsTr/9.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/15_0000.nii.gz",
+            "label": "./labelsTr/15.nii.gz"
+        },
+        {
+            "image": "./imagesTr/16_0000.nii.gz",
+            "label": "./labelsTr/16.nii.gz"
+        },
+        {
+            "image": "./imagesTr/17_0000.nii.gz",
+            "label": "./labelsTr/17.nii.gz"
+        },
+        {
+            "image": "./imagesTr/18_0000.nii.gz",
+            "label": "./labelsTr/18.nii.gz"
+        },
+        {
+            "image": "./imagesTr/19_0000.nii.gz",
+            "label": "./labelsTr/19.nii.gz"
+        }
+    ]
+}
