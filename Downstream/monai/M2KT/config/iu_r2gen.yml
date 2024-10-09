@@ -1,0 +1,7 @@
+_BASE_: iu.yml
+
+visual_extractor: resnet101
+d_vf: 2048
+
+save_dir: results
+expe_name: iu_r2gen_setup

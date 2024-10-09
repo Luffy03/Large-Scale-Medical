@@ -1,0 +1,16 @@
+_BASE_: iu.yml
+
+# Visual Extractor
+visual_extractor: resnet101
+pretrain_cnn_file:
+d_vf: 2048
+
+# Output Dir
+save_dir: results
+expe_name: lr1e3_cosine
+
+# lr_scheduler
+lr_ed: 0.001
+lr_scheduler: cosine
+step_size: 20
+gamma: 2

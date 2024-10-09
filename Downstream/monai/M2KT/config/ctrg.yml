@@ -1,0 +1,42 @@
+# dataset infomation
+dataset_name: ctrg
+image_dir: /data/linshan/Chest_New_nitfy_2/
+ann_path: ./chest_ctrg_r2gen_nitfy_ori_split.json
+label_path: ./data_csv/CTRG_finding_labels.csv
+
+# training parameter
+test_steps: 500
+
+# Hyperparameter
+#max_seq_length: 100
+#num_labels: 14
+#threshold: 10 #3
+max_seq_length: 150
+num_labels: 14
+threshold: 3
+
+batch_size: 4
+num_workers: 16
+epochs: 30
+step_size: 1
+
+num_layers: 1
+num_slices: 30
+
+gamma: 0.8
+seed: 456789
+lr_ed: 0.0001
+
+label_smoothing: 0.1
+
+# Visual Extractor
+# d_vf:
+# efficientnet: 1280
+# densenet: 1024
+# resnet101: 2048
+visual_extractor: efficientnet
+pretrain_cnn_file: code/tencent/EfficientNet-PyTorch/archive/runs/efficientnet-b0-normalize0500/model_best.pth.tar
+d_vf: 768
+
+# Output Dir
+save_dir: results

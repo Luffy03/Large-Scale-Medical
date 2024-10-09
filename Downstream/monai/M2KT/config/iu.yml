@@ -1,0 +1,32 @@
+# dataset infomation
+dataset_name: iu_xray
+image_dir: data/iu/images/iu_2image/images/
+ann_path: data/iu/images/iu_2image/annotation.json
+label_path: data/iu/r2gen_split/id_label.csv
+
+# Hyperparameter
+max_seq_length: 60
+num_labels: 14
+threshold: 3
+
+batch_size: 16
+epochs: 50
+step_size: 50
+
+num_layers: 3
+
+gamma: 0.1
+seed: 9223
+#lr_ed: 0.0001
+
+# Visual Extractor
+# d_vf:
+# efficientnet: 1280
+# densenet: 1024
+# resnet101: 2048
+visual_extractor: efficientnet
+pretrain_cnn_file: code/tencent/EfficientNet-PyTorch/archive/runs/efficientnet-b0-normalize0500/model_best.pth.tar
+d_vf: 1280
+
+# Output Dir
+save_dir: results

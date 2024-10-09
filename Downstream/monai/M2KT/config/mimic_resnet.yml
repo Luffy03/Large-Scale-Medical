@@ -1,0 +1,9 @@
+_BASE_: mimic.yml
+
+# Visual Extractor
+visual_extractor: resnet101
+pretrain_cnn_file:
+d_vf: 2048
+
+# Output Dir
+save_dir: results

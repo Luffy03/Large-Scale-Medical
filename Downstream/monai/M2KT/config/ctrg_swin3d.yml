@@ -1,0 +1,13 @@
+_BASE_: ctrg.yml
+
+# Visual Extractor
+visual_extractor: swin3d
+feature_size: 48 # 48, 96, 192 for base, large, huge respectively
+pretrain_cnn_file: "/home/linshan/SwinUNETR/model_B.pt"
+d_vf: 1152
+batch_size: 4
+
+# d_vf: 1152, 2304, 4608 for base, large, huge respectively
+
+# Output Dir
+save_dir: results

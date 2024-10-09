@@ -1,0 +1,9 @@
+_BASE_: iu.yml
+
+# Visual Extractor
+visual_extractor: efficentnet
+pretrain_cnn_file: code/tencent/EfficientNet-PyTorch/archive/runs/efficientnet-b0-normalize0500/model_best.pth.tar
+d_vf: 1280
+
+# Output Dir
+save_dir: results
