@@ -5,7 +5,7 @@
 
 We use VoCo to generate pseudo labels for semi-supervised covid segmentation, just for fun. If you are interested in this topic, you can follow the following instructions.
 
-## Download downstream datasets
+## Download dataset
 
 2871 volumes for covid segmentation. Download our pre-processed datasets from our [Hugging face](https://huggingface.co/datasets/Luffy503/VoCovid). 
 
