@@ -8,6 +8,10 @@
 <a href='https://huggingface.co/datasets/Luffy503/PreCT-160K'><img src='https://img.shields.io/badge/Dataset-PreCT--160K-pink' alt='Dataset'></a>
 </div>
 
+<div style="text-align:center;">
+    <img src="assets/positions.png" alt="positions" width="500"/>
+</div>
+
 We observe that 3D medical images contain consistent geometric context, i.e., consistent geometric relations between different organs, which leads to a promising way for us to learn consistent representations in pre-training.
 Motivated by this, we propose a simple-yet-effective **Vo**lume **Co**ntrast (**VoCo**) framework to leverage the geometric context priors for self-supervision. 
 Specifically, we extract a group of base crops from different regions, aiming to construct positive and negative pairs for contrastive learning. Then we predict the contextual position of a random crop by contrasting its similarity with the base crops.
