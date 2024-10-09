@@ -1,5 +1,11 @@
 <div align="center">
 <h1>Downstream</h1>
+<a href="https://github.com/Luffy03/Large-Scale-Medical"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
+<a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wu_VoCo_A_Simple-yet-Effective_Volume_Contrastive_Learning_Framework_for_3D_Medical_CVPR_2024_paper.html"><img src='https://img.shields.io/badge/CVPR-Conference-red' alt='Paper PDF'></a>
+<a href='https://github.com/Luffy03/Large-Scale-Medical'><img src='https://img.shields.io/badge/Project_Page-VoCo-green' alt='Project Page'></a>
+<a href='https://huggingface.co/Luffy503/VoCo/tree/main'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
+<a href='https://huggingface.co/datasets/Luffy503/VoCo_Downstream'><img src='https://img.shields.io/badge/Dataset-Downsteam-pink' alt='Dataset'></a>
+<a href='https://huggingface.co/datasets/Luffy503/VoCovid'><img src='https://img.shields.io/badge/Dataset-VoCovid-pink' alt='Dataset'></a>
 </div>
 
 We release implementations of **50+** downstream datasets across various medical tasks, including segmentation, classification, registration, and vision-language. We will consistently update this repo to build a comprehensive validation benchmark for medical pre-training.
@@ -79,6 +85,39 @@ You can choose to download our pre-processed datasets from our [Hugging face](ht
 ## Usage
 We provide both [MONAI](MONAI) and [nnUNet](nnUNet) implementations. For [nnUNet](nnUNet), you need to follow the instructions from their [official repo](https://github.com/MIC-DKFZ/nnUNet). 
 
+### Pre-trained Models
+
+We provide various models for fine-tuning downstream tasks. For nnUNet, please refer to [nnunet trainer](./Downstream/nnUNet).
+
+- SSL_head represents trained by [Self-supervised pre-training](./Self-supervised).
+- Omni represents trained by [Omni-supervised pre-training](./Omni-supervised). 
+
+| Model           | Params |                                           Checkpoint                                           |
+|:----------------|-------:|:----------------------------------------------------------------------------------------------:|
+| VoComni_nnunet  |    31M | [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_nnunet.pt?download=true)  |
+| VoCo_B_SSL_head |    53M | [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoCo_B_SSL_head.pt?download=true) |
+| VoCo_L_SSL_head |   206M | [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoCo_L_SSL_head.pt?download=true) |
+| VoCo_H_SSL_head |   818M | [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoCo_H_SSL_head.pt?download=true) |
+| VoComni_B       |    72M |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_B.pt?download=true)    |
+| VoComni_L       |   290M |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_L.pt?download=true)    |
+| VoComni_H       |   1.2B |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_H.pt?download=true)    |
+
+We download checkpoints of other methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!). 
+
+The path of pre-trained models should be organized as:
+```
+├── YOUR/DIRECTORY/OF/PRETRAINED/MODELS
+    ├── VoComni_nnunet.pt
+    ├── VoCo_B_SSL_head.pt
+    ├── VoCo_L_SSL_head.pt
+    ├── VoCo_H_SSL_head.pt
+    ├── VoComni_B.pt
+    ├── VoComni_L.pt
+    ├── VoComni_H.pt
+    ├── ...
+    └── supervised_suprem_swinunetr_2100.pth
+```
+
 ### Fine-tuning
 Here, we take [3D-IRCADb](./MONAI/3D-IRCADb) as an example:
 ```
@@ -90,6 +129,7 @@ A template for train.sh like:
 ```
 now=$(date +"%Y%m%d_%H%M%S")
 name=VoCo
+pretrained_root=/pretrained
 logdir=runs/logs_swin_base_VoComni
 feature_size=48
 data_dir=/data/3Dircadb1_convert/
@@ -101,6 +141,7 @@ mkdir -p $logdir
 
 torchrun --master_port=21503 main.py \
     --name $name \
+    --pretrained_root $pretrained_root \
     --feature_size $feature_size \
     --data_dir $data_dir \
     --cache_dir $cache_dir \
@@ -110,14 +151,15 @@ torchrun --master_port=21503 main.py \
 ```
 
 **Parameters you need to modify !!!!!** :
-- name: The name of pre-trained models. Support [VoCo, suprem, swin, clip_driven, mg, unimiss, dodnet] for now
-- master_port: specify different master_port for different processes
-- logdir: The path you want to save your results
-- feature_size: 48 Base (B), 96 Large (L), 192 Huge (H)
-- data_dir: The path you store your dataset
-- cache_dir: The path you want to cache your dataset (activated by 'use_persistent_dataset')
-- use_ssl_pretrained: If True, use 'VoCo_SSL_head'. Else, 'VoComni'
-- use_persistent_dataset: If True, it would cache data in 'cache_dir' for fast training. **WARNING**: it requires extra storage space !!!!!
+- **name**: The name of pre-trained models. Support [VoCo, suprem, swin, clip_driven, mg, unimiss, dodnet] for now
+- **pretrained_root**: The path you store the pretrained models
+- **master_port**: specify different master_port for different processes
+- **logdir**: The path you want to save your results
+- **feature_size**: 48 Base (B), 96 Large (L), 192 Huge (H)
+- **data_dir**: The path you store your dataset
+- **cache_dir**: The path you want to cache your dataset (activated by 'use_persistent_dataset')
+- **use_ssl_pretrained**: If True, use 'VoCo_SSL_head'. Else, 'VoComni'
+- **use_persistent_dataset**: If True, it would cache data in 'cache_dir' for fast training. **WARNING**: it requires extra storage space !!!!!
 
 ### Validation and Testing 
 
