@@ -57,7 +57,11 @@ The path of pre-trained models should be organized as:
     ├── VoComni_B.pt
     ├── VoComni_L.pt
     ├── VoComni_H.pt
-    ├── ...
+    ├── supervised_dodnet_unet_920.pth
+    ├── supervised_clip_driven_universal_swin_unetr_2100.pth
+    ├── self_supervised_unimiss_nnunet_small_5022.pth
+    ├── self_supervised_nv_swin_unetr_5050.pt
+    ├── self_supervised_models_genesis_unet_620.pt
     └── supervised_suprem_swinunetr_2100.pth
 ```
 
@@ -133,7 +137,6 @@ Please refer to [Acknowledgment](#Acknowledgment). Download our  [PreCT-160K](ht
 Please refer to:
 
 - [Self-supervised pre-training](./Self-supervised/).
-
 - [Omni-supervised pre-training](./Omni-supervised/). 
 
 
