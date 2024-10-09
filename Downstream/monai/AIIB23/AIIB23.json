@@ -1,0 +1,500 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "Fibrotic Lung Disease"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "AIIB23",
+    "numTraining": 120,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./imagesTr/AIIB23_136_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_136.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_137_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_137.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_138_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_138.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_139_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_139.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_140_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_140.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_141_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_141.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_142_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_142.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_143_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_143.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_144_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_144.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_145_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_145.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_146_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_146.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_147_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_147.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_148_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_148.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_149_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_149.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_150_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_150.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_151_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_151.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_152_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_152.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_153_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_153.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_154_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_154.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_155_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_155.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_156_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_156.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_157_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_157.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_158_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_158.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_159_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_159.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_160_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_160.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_161_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_161.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_162_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_162.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_163_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_163.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_164_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_164.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_165_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_165.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_166_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_166.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_167_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_167.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_168_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_168.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_169_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_169.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_170_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_170.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_171_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_171.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_30_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_30.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_31_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_31.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_32_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_32.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_33_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_33.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_34_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_34.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_36_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_36.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_37_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_37.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_38_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_38.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_39_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_39.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_40_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_40.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_41_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_41.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_42_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_42.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_43_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_43.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_44_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_44.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_45_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_45.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_47_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_47.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_49_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_49.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_50_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_50.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_52_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_52.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_53_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_53.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_54_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_54.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_55_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_55.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_60_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_60.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_61_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_61.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_62_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_62.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_63_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_63.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_64_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_64.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_66_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_66.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_67_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_67.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_68_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_68.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_69_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_69.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_71_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_71.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_72_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_72.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_73_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_73.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_74_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_74.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_75_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_75.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_76_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_76.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_77_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_77.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_78_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_78.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_79_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_79.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_80_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_80.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_81_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_81.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_82_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_82.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_83_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_83.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_84_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_84.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_85_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_85.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_87_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_87.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_88_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_88.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_89_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_89.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_90_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_90.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_91_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_91.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_92_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_92.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_93_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_93.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_94_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_94.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_95_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_95.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_96_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_96.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_97_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_97.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_98_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_98.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_99_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_99.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/AIIB23_100_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_100.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_101_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_101.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_102_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_102.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_103_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_103.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_104_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_104.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_105_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_105.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_106_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_106.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_107_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_107.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_108_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_108.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_109_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_109.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_110_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_110.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_111_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_111.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_112_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_112.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_113_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_113.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_114_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_114.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_115_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_115.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_116_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_116.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_117_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_117.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_118_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_118.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_119_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_119.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_120_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_120.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_121_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_121.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_122_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_122.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_123_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_123.nii.gz"
+        },
+        {
+            "image": "./imagesTr/AIIB23_124_0000.nii.gz",
+            "label": "./labelsTr/AIIB23_124.nii.gz"
+        }
+    ]
+}
