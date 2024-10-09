@@ -13,9 +13,19 @@ This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-train
 
 ![teaser](assets/data.png)
 
-## News
+[//]: # (## News)
 
-- **2024-10-14:** Paper, code, models, and datasets are all released.
+[//]: # ()
+[//]: # (- **2024-10-14:** Paper, code, models, and datasets are all released.)
+
+## Quick start
+
+- **[Models](https://huggingface.co/Luffy503/VoCo/tree/main):** **31M~1.2B** params of pre-trained models.
+- **[Downstream](Downstream):** **50+** downstream tasks implementation, across segmentation, classification, registration, and vision-language.
+- **[PreCT-160k](https://huggingface.co/datasets/Luffy503/PreCT-160K):** **160K** CT volumes (**42M** slices) for pre-training
+- **[VoComni](https://huggingface.co/datasets/Luffy503/VoComni):** **20K** CT volumes with pseudo labels (20 organ & tumor classes)
+- **[Self-supervised](Self-supervised):** Pre-training with unlabeled data
+- **[Omni-supervised](Omni-supervised):** Pre-training with labeled and unlabeled data
 
 ## Pre-trained Models
 
@@ -107,7 +117,7 @@ Please refer to [Acknowledgment](#Acknowledgment). Download our pre-processed [d
 ### Implementations
 **50+** downstream tasks implementations (updating). Please refer to [Downstream](./Downstream).
 
-## Pre-training
+## Pre-training <a name="Pre-training"></a>
 
 ### Download Pre-training Dataset
 
@@ -124,7 +134,6 @@ Please refer to:
 - [Self-supervised pre-training](./Self-supervised/).
 
 - [Omni-supervised pre-training](./Omni-supervised/). 
-
 
 
 ## VoComni Dataset
