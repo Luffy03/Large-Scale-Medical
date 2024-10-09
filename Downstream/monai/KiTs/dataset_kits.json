@@ -1,0 +1,1980 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "Kidney",
+        "2": "Tumor"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "kits2023",
+    "numTest": 0,
+    "numTraining": 465,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [],
+    "training": [
+        {
+            "image": "./imagesTr/case_00000_0000.nii.gz",
+            "label": "./labelsTr/case_00000.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00001_0000.nii.gz",
+            "label": "./labelsTr/case_00001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00002_0000.nii.gz",
+            "label": "./labelsTr/case_00002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00003_0000.nii.gz",
+            "label": "./labelsTr/case_00003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00004_0000.nii.gz",
+            "label": "./labelsTr/case_00004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00006_0000.nii.gz",
+            "label": "./labelsTr/case_00006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00007_0000.nii.gz",
+            "label": "./labelsTr/case_00007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00008_0000.nii.gz",
+            "label": "./labelsTr/case_00008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00010_0000.nii.gz",
+            "label": "./labelsTr/case_00010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00011_0000.nii.gz",
+            "label": "./labelsTr/case_00011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00012_0000.nii.gz",
+            "label": "./labelsTr/case_00012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00013_0000.nii.gz",
+            "label": "./labelsTr/case_00013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00014_0000.nii.gz",
+            "label": "./labelsTr/case_00014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00017_0000.nii.gz",
+            "label": "./labelsTr/case_00017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00018_0000.nii.gz",
+            "label": "./labelsTr/case_00018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00019_0000.nii.gz",
+            "label": "./labelsTr/case_00019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00020_0000.nii.gz",
+            "label": "./labelsTr/case_00020.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00021_0000.nii.gz",
+            "label": "./labelsTr/case_00021.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00022_0000.nii.gz",
+            "label": "./labelsTr/case_00022.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00023_0000.nii.gz",
+            "label": "./labelsTr/case_00023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00024_0000.nii.gz",
+            "label": "./labelsTr/case_00024.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00026_0000.nii.gz",
+            "label": "./labelsTr/case_00026.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00027_0000.nii.gz",
+            "label": "./labelsTr/case_00027.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00028_0000.nii.gz",
+            "label": "./labelsTr/case_00028.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00030_0000.nii.gz",
+            "label": "./labelsTr/case_00030.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00033_0000.nii.gz",
+            "label": "./labelsTr/case_00033.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00034_0000.nii.gz",
+            "label": "./labelsTr/case_00034.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00035_0000.nii.gz",
+            "label": "./labelsTr/case_00035.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00036_0000.nii.gz",
+            "label": "./labelsTr/case_00036.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00037_0000.nii.gz",
+            "label": "./labelsTr/case_00037.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00038_0000.nii.gz",
+            "label": "./labelsTr/case_00038.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00039_0000.nii.gz",
+            "label": "./labelsTr/case_00039.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00040_0000.nii.gz",
+            "label": "./labelsTr/case_00040.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00041_0000.nii.gz",
+            "label": "./labelsTr/case_00041.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00042_0000.nii.gz",
+            "label": "./labelsTr/case_00042.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00043_0000.nii.gz",
+            "label": "./labelsTr/case_00043.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00044_0000.nii.gz",
+            "label": "./labelsTr/case_00044.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00045_0000.nii.gz",
+            "label": "./labelsTr/case_00045.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00046_0000.nii.gz",
+            "label": "./labelsTr/case_00046.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00047_0000.nii.gz",
+            "label": "./labelsTr/case_00047.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00049_0000.nii.gz",
+            "label": "./labelsTr/case_00049.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00051_0000.nii.gz",
+            "label": "./labelsTr/case_00051.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00052_0000.nii.gz",
+            "label": "./labelsTr/case_00052.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00054_0000.nii.gz",
+            "label": "./labelsTr/case_00054.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00055_0000.nii.gz",
+            "label": "./labelsTr/case_00055.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00056_0000.nii.gz",
+            "label": "./labelsTr/case_00056.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00058_0000.nii.gz",
+            "label": "./labelsTr/case_00058.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00059_0000.nii.gz",
+            "label": "./labelsTr/case_00059.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00062_0000.nii.gz",
+            "label": "./labelsTr/case_00062.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00063_0000.nii.gz",
+            "label": "./labelsTr/case_00063.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00064_0000.nii.gz",
+            "label": "./labelsTr/case_00064.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00066_0000.nii.gz",
+            "label": "./labelsTr/case_00066.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00069_0000.nii.gz",
+            "label": "./labelsTr/case_00069.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00070_0000.nii.gz",
+            "label": "./labelsTr/case_00070.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00071_0000.nii.gz",
+            "label": "./labelsTr/case_00071.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00072_0000.nii.gz",
+            "label": "./labelsTr/case_00072.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00073_0000.nii.gz",
+            "label": "./labelsTr/case_00073.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00074_0000.nii.gz",
+            "label": "./labelsTr/case_00074.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00075_0000.nii.gz",
+            "label": "./labelsTr/case_00075.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00077_0000.nii.gz",
+            "label": "./labelsTr/case_00077.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00078_0000.nii.gz",
+            "label": "./labelsTr/case_00078.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00079_0000.nii.gz",
+            "label": "./labelsTr/case_00079.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00080_0000.nii.gz",
+            "label": "./labelsTr/case_00080.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00082_0000.nii.gz",
+            "label": "./labelsTr/case_00082.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00083_0000.nii.gz",
+            "label": "./labelsTr/case_00083.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00084_0000.nii.gz",
+            "label": "./labelsTr/case_00084.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00085_0000.nii.gz",
+            "label": "./labelsTr/case_00085.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00086_0000.nii.gz",
+            "label": "./labelsTr/case_00086.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00087_0000.nii.gz",
+            "label": "./labelsTr/case_00087.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00088_0000.nii.gz",
+            "label": "./labelsTr/case_00088.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00089_0000.nii.gz",
+            "label": "./labelsTr/case_00089.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00090_0000.nii.gz",
+            "label": "./labelsTr/case_00090.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00091_0000.nii.gz",
+            "label": "./labelsTr/case_00091.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00092_0000.nii.gz",
+            "label": "./labelsTr/case_00092.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00093_0000.nii.gz",
+            "label": "./labelsTr/case_00093.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00094_0000.nii.gz",
+            "label": "./labelsTr/case_00094.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00095_0000.nii.gz",
+            "label": "./labelsTr/case_00095.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00097_0000.nii.gz",
+            "label": "./labelsTr/case_00097.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00098_0000.nii.gz",
+            "label": "./labelsTr/case_00098.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00099_0000.nii.gz",
+            "label": "./labelsTr/case_00099.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00101_0000.nii.gz",
+            "label": "./labelsTr/case_00101.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00102_0000.nii.gz",
+            "label": "./labelsTr/case_00102.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00103_0000.nii.gz",
+            "label": "./labelsTr/case_00103.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00105_0000.nii.gz",
+            "label": "./labelsTr/case_00105.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00106_0000.nii.gz",
+            "label": "./labelsTr/case_00106.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00107_0000.nii.gz",
+            "label": "./labelsTr/case_00107.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00109_0000.nii.gz",
+            "label": "./labelsTr/case_00109.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00110_0000.nii.gz",
+            "label": "./labelsTr/case_00110.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00111_0000.nii.gz",
+            "label": "./labelsTr/case_00111.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00112_0000.nii.gz",
+            "label": "./labelsTr/case_00112.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00114_0000.nii.gz",
+            "label": "./labelsTr/case_00114.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00115_0000.nii.gz",
+            "label": "./labelsTr/case_00115.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00116_0000.nii.gz",
+            "label": "./labelsTr/case_00116.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00117_0000.nii.gz",
+            "label": "./labelsTr/case_00117.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00118_0000.nii.gz",
+            "label": "./labelsTr/case_00118.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00119_0000.nii.gz",
+            "label": "./labelsTr/case_00119.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00120_0000.nii.gz",
+            "label": "./labelsTr/case_00120.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00121_0000.nii.gz",
+            "label": "./labelsTr/case_00121.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00122_0000.nii.gz",
+            "label": "./labelsTr/case_00122.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00123_0000.nii.gz",
+            "label": "./labelsTr/case_00123.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00124_0000.nii.gz",
+            "label": "./labelsTr/case_00124.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00125_0000.nii.gz",
+            "label": "./labelsTr/case_00125.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00126_0000.nii.gz",
+            "label": "./labelsTr/case_00126.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00127_0000.nii.gz",
+            "label": "./labelsTr/case_00127.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00128_0000.nii.gz",
+            "label": "./labelsTr/case_00128.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00129_0000.nii.gz",
+            "label": "./labelsTr/case_00129.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00130_0000.nii.gz",
+            "label": "./labelsTr/case_00130.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00131_0000.nii.gz",
+            "label": "./labelsTr/case_00131.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00132_0000.nii.gz",
+            "label": "./labelsTr/case_00132.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00133_0000.nii.gz",
+            "label": "./labelsTr/case_00133.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00134_0000.nii.gz",
+            "label": "./labelsTr/case_00134.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00135_0000.nii.gz",
+            "label": "./labelsTr/case_00135.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00136_0000.nii.gz",
+            "label": "./labelsTr/case_00136.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00137_0000.nii.gz",
+            "label": "./labelsTr/case_00137.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00138_0000.nii.gz",
+            "label": "./labelsTr/case_00138.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00139_0000.nii.gz",
+            "label": "./labelsTr/case_00139.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00140_0000.nii.gz",
+            "label": "./labelsTr/case_00140.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00141_0000.nii.gz",
+            "label": "./labelsTr/case_00141.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00142_0000.nii.gz",
+            "label": "./labelsTr/case_00142.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00143_0000.nii.gz",
+            "label": "./labelsTr/case_00143.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00144_0000.nii.gz",
+            "label": "./labelsTr/case_00144.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00145_0000.nii.gz",
+            "label": "./labelsTr/case_00145.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00146_0000.nii.gz",
+            "label": "./labelsTr/case_00146.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00147_0000.nii.gz",
+            "label": "./labelsTr/case_00147.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00148_0000.nii.gz",
+            "label": "./labelsTr/case_00148.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00149_0000.nii.gz",
+            "label": "./labelsTr/case_00149.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00150_0000.nii.gz",
+            "label": "./labelsTr/case_00150.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00151_0000.nii.gz",
+            "label": "./labelsTr/case_00151.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00152_0000.nii.gz",
+            "label": "./labelsTr/case_00152.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00153_0000.nii.gz",
+            "label": "./labelsTr/case_00153.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00154_0000.nii.gz",
+            "label": "./labelsTr/case_00154.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00155_0000.nii.gz",
+            "label": "./labelsTr/case_00155.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00156_0000.nii.gz",
+            "label": "./labelsTr/case_00156.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00157_0000.nii.gz",
+            "label": "./labelsTr/case_00157.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00158_0000.nii.gz",
+            "label": "./labelsTr/case_00158.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00159_0000.nii.gz",
+            "label": "./labelsTr/case_00159.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00160_0000.nii.gz",
+            "label": "./labelsTr/case_00160.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00161_0000.nii.gz",
+            "label": "./labelsTr/case_00161.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00162_0000.nii.gz",
+            "label": "./labelsTr/case_00162.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00163_0000.nii.gz",
+            "label": "./labelsTr/case_00163.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00164_0000.nii.gz",
+            "label": "./labelsTr/case_00164.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00165_0000.nii.gz",
+            "label": "./labelsTr/case_00165.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00166_0000.nii.gz",
+            "label": "./labelsTr/case_00166.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00167_0000.nii.gz",
+            "label": "./labelsTr/case_00167.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00168_0000.nii.gz",
+            "label": "./labelsTr/case_00168.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00169_0000.nii.gz",
+            "label": "./labelsTr/case_00169.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00170_0000.nii.gz",
+            "label": "./labelsTr/case_00170.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00171_0000.nii.gz",
+            "label": "./labelsTr/case_00171.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00172_0000.nii.gz",
+            "label": "./labelsTr/case_00172.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00173_0000.nii.gz",
+            "label": "./labelsTr/case_00173.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00174_0000.nii.gz",
+            "label": "./labelsTr/case_00174.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00175_0000.nii.gz",
+            "label": "./labelsTr/case_00175.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00176_0000.nii.gz",
+            "label": "./labelsTr/case_00176.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00177_0000.nii.gz",
+            "label": "./labelsTr/case_00177.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00178_0000.nii.gz",
+            "label": "./labelsTr/case_00178.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00179_0000.nii.gz",
+            "label": "./labelsTr/case_00179.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00180_0000.nii.gz",
+            "label": "./labelsTr/case_00180.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00181_0000.nii.gz",
+            "label": "./labelsTr/case_00181.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00182_0000.nii.gz",
+            "label": "./labelsTr/case_00182.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00183_0000.nii.gz",
+            "label": "./labelsTr/case_00183.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00184_0000.nii.gz",
+            "label": "./labelsTr/case_00184.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00185_0000.nii.gz",
+            "label": "./labelsTr/case_00185.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00186_0000.nii.gz",
+            "label": "./labelsTr/case_00186.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00187_0000.nii.gz",
+            "label": "./labelsTr/case_00187.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00188_0000.nii.gz",
+            "label": "./labelsTr/case_00188.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00189_0000.nii.gz",
+            "label": "./labelsTr/case_00189.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00190_0000.nii.gz",
+            "label": "./labelsTr/case_00190.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00191_0000.nii.gz",
+            "label": "./labelsTr/case_00191.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00192_0000.nii.gz",
+            "label": "./labelsTr/case_00192.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00193_0000.nii.gz",
+            "label": "./labelsTr/case_00193.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00194_0000.nii.gz",
+            "label": "./labelsTr/case_00194.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00195_0000.nii.gz",
+            "label": "./labelsTr/case_00195.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00196_0000.nii.gz",
+            "label": "./labelsTr/case_00196.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00197_0000.nii.gz",
+            "label": "./labelsTr/case_00197.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00198_0000.nii.gz",
+            "label": "./labelsTr/case_00198.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00199_0000.nii.gz",
+            "label": "./labelsTr/case_00199.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00200_0000.nii.gz",
+            "label": "./labelsTr/case_00200.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00201_0000.nii.gz",
+            "label": "./labelsTr/case_00201.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00202_0000.nii.gz",
+            "label": "./labelsTr/case_00202.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00203_0000.nii.gz",
+            "label": "./labelsTr/case_00203.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00204_0000.nii.gz",
+            "label": "./labelsTr/case_00204.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00205_0000.nii.gz",
+            "label": "./labelsTr/case_00205.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00206_0000.nii.gz",
+            "label": "./labelsTr/case_00206.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00207_0000.nii.gz",
+            "label": "./labelsTr/case_00207.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00208_0000.nii.gz",
+            "label": "./labelsTr/case_00208.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00209_0000.nii.gz",
+            "label": "./labelsTr/case_00209.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00400_0000.nii.gz",
+            "label": "./labelsTr/case_00400.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00401_0000.nii.gz",
+            "label": "./labelsTr/case_00401.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00402_0000.nii.gz",
+            "label": "./labelsTr/case_00402.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00403_0000.nii.gz",
+            "label": "./labelsTr/case_00403.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00404_0000.nii.gz",
+            "label": "./labelsTr/case_00404.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00405_0000.nii.gz",
+            "label": "./labelsTr/case_00405.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00406_0000.nii.gz",
+            "label": "./labelsTr/case_00406.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00407_0000.nii.gz",
+            "label": "./labelsTr/case_00407.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00408_0000.nii.gz",
+            "label": "./labelsTr/case_00408.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00409_0000.nii.gz",
+            "label": "./labelsTr/case_00409.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00410_0000.nii.gz",
+            "label": "./labelsTr/case_00410.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00411_0000.nii.gz",
+            "label": "./labelsTr/case_00411.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00412_0000.nii.gz",
+            "label": "./labelsTr/case_00412.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00413_0000.nii.gz",
+            "label": "./labelsTr/case_00413.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00414_0000.nii.gz",
+            "label": "./labelsTr/case_00414.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00415_0000.nii.gz",
+            "label": "./labelsTr/case_00415.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00416_0000.nii.gz",
+            "label": "./labelsTr/case_00416.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00417_0000.nii.gz",
+            "label": "./labelsTr/case_00417.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00418_0000.nii.gz",
+            "label": "./labelsTr/case_00418.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00419_0000.nii.gz",
+            "label": "./labelsTr/case_00419.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00420_0000.nii.gz",
+            "label": "./labelsTr/case_00420.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00421_0000.nii.gz",
+            "label": "./labelsTr/case_00421.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00422_0000.nii.gz",
+            "label": "./labelsTr/case_00422.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00423_0000.nii.gz",
+            "label": "./labelsTr/case_00423.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00424_0000.nii.gz",
+            "label": "./labelsTr/case_00424.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00425_0000.nii.gz",
+            "label": "./labelsTr/case_00425.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00426_0000.nii.gz",
+            "label": "./labelsTr/case_00426.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00427_0000.nii.gz",
+            "label": "./labelsTr/case_00427.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00428_0000.nii.gz",
+            "label": "./labelsTr/case_00428.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00429_0000.nii.gz",
+            "label": "./labelsTr/case_00429.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00430_0000.nii.gz",
+            "label": "./labelsTr/case_00430.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00431_0000.nii.gz",
+            "label": "./labelsTr/case_00431.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00432_0000.nii.gz",
+            "label": "./labelsTr/case_00432.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00433_0000.nii.gz",
+            "label": "./labelsTr/case_00433.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00434_0000.nii.gz",
+            "label": "./labelsTr/case_00434.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00435_0000.nii.gz",
+            "label": "./labelsTr/case_00435.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00436_0000.nii.gz",
+            "label": "./labelsTr/case_00436.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00437_0000.nii.gz",
+            "label": "./labelsTr/case_00437.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00438_0000.nii.gz",
+            "label": "./labelsTr/case_00438.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00439_0000.nii.gz",
+            "label": "./labelsTr/case_00439.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00440_0000.nii.gz",
+            "label": "./labelsTr/case_00440.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00441_0000.nii.gz",
+            "label": "./labelsTr/case_00441.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00442_0000.nii.gz",
+            "label": "./labelsTr/case_00442.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00443_0000.nii.gz",
+            "label": "./labelsTr/case_00443.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00444_0000.nii.gz",
+            "label": "./labelsTr/case_00444.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00445_0000.nii.gz",
+            "label": "./labelsTr/case_00445.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00446_0000.nii.gz",
+            "label": "./labelsTr/case_00446.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00447_0000.nii.gz",
+            "label": "./labelsTr/case_00447.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00448_0000.nii.gz",
+            "label": "./labelsTr/case_00448.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00449_0000.nii.gz",
+            "label": "./labelsTr/case_00449.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00450_0000.nii.gz",
+            "label": "./labelsTr/case_00450.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00451_0000.nii.gz",
+            "label": "./labelsTr/case_00451.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00452_0000.nii.gz",
+            "label": "./labelsTr/case_00452.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00453_0000.nii.gz",
+            "label": "./labelsTr/case_00453.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00454_0000.nii.gz",
+            "label": "./labelsTr/case_00454.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00455_0000.nii.gz",
+            "label": "./labelsTr/case_00455.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00456_0000.nii.gz",
+            "label": "./labelsTr/case_00456.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00457_0000.nii.gz",
+            "label": "./labelsTr/case_00457.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00458_0000.nii.gz",
+            "label": "./labelsTr/case_00458.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00459_0000.nii.gz",
+            "label": "./labelsTr/case_00459.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00460_0000.nii.gz",
+            "label": "./labelsTr/case_00460.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00461_0000.nii.gz",
+            "label": "./labelsTr/case_00461.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00462_0000.nii.gz",
+            "label": "./labelsTr/case_00462.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00463_0000.nii.gz",
+            "label": "./labelsTr/case_00463.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00464_0000.nii.gz",
+            "label": "./labelsTr/case_00464.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00465_0000.nii.gz",
+            "label": "./labelsTr/case_00465.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00466_0000.nii.gz",
+            "label": "./labelsTr/case_00466.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00467_0000.nii.gz",
+            "label": "./labelsTr/case_00467.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00468_0000.nii.gz",
+            "label": "./labelsTr/case_00468.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00469_0000.nii.gz",
+            "label": "./labelsTr/case_00469.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00470_0000.nii.gz",
+            "label": "./labelsTr/case_00470.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00471_0000.nii.gz",
+            "label": "./labelsTr/case_00471.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00472_0000.nii.gz",
+            "label": "./labelsTr/case_00472.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00473_0000.nii.gz",
+            "label": "./labelsTr/case_00473.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00474_0000.nii.gz",
+            "label": "./labelsTr/case_00474.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00475_0000.nii.gz",
+            "label": "./labelsTr/case_00475.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00476_0000.nii.gz",
+            "label": "./labelsTr/case_00476.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00477_0000.nii.gz",
+            "label": "./labelsTr/case_00477.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00478_0000.nii.gz",
+            "label": "./labelsTr/case_00478.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00479_0000.nii.gz",
+            "label": "./labelsTr/case_00479.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00480_0000.nii.gz",
+            "label": "./labelsTr/case_00480.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00481_0000.nii.gz",
+            "label": "./labelsTr/case_00481.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00482_0000.nii.gz",
+            "label": "./labelsTr/case_00482.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00483_0000.nii.gz",
+            "label": "./labelsTr/case_00483.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00484_0000.nii.gz",
+            "label": "./labelsTr/case_00484.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00485_0000.nii.gz",
+            "label": "./labelsTr/case_00485.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00486_0000.nii.gz",
+            "label": "./labelsTr/case_00486.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00487_0000.nii.gz",
+            "label": "./labelsTr/case_00487.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00488_0000.nii.gz",
+            "label": "./labelsTr/case_00488.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00489_0000.nii.gz",
+            "label": "./labelsTr/case_00489.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00490_0000.nii.gz",
+            "label": "./labelsTr/case_00490.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00491_0000.nii.gz",
+            "label": "./labelsTr/case_00491.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00492_0000.nii.gz",
+            "label": "./labelsTr/case_00492.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00493_0000.nii.gz",
+            "label": "./labelsTr/case_00493.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00494_0000.nii.gz",
+            "label": "./labelsTr/case_00494.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00495_0000.nii.gz",
+            "label": "./labelsTr/case_00495.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00496_0000.nii.gz",
+            "label": "./labelsTr/case_00496.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00497_0000.nii.gz",
+            "label": "./labelsTr/case_00497.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00498_0000.nii.gz",
+            "label": "./labelsTr/case_00498.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00499_0000.nii.gz",
+            "label": "./labelsTr/case_00499.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00500_0000.nii.gz",
+            "label": "./labelsTr/case_00500.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00501_0000.nii.gz",
+            "label": "./labelsTr/case_00501.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00502_0000.nii.gz",
+            "label": "./labelsTr/case_00502.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00503_0000.nii.gz",
+            "label": "./labelsTr/case_00503.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00504_0000.nii.gz",
+            "label": "./labelsTr/case_00504.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00505_0000.nii.gz",
+            "label": "./labelsTr/case_00505.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00506_0000.nii.gz",
+            "label": "./labelsTr/case_00506.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00507_0000.nii.gz",
+            "label": "./labelsTr/case_00507.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00508_0000.nii.gz",
+            "label": "./labelsTr/case_00508.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00509_0000.nii.gz",
+            "label": "./labelsTr/case_00509.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00510_0000.nii.gz",
+            "label": "./labelsTr/case_00510.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00511_0000.nii.gz",
+            "label": "./labelsTr/case_00511.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00512_0000.nii.gz",
+            "label": "./labelsTr/case_00512.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00513_0000.nii.gz",
+            "label": "./labelsTr/case_00513.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00514_0000.nii.gz",
+            "label": "./labelsTr/case_00514.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00515_0000.nii.gz",
+            "label": "./labelsTr/case_00515.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00516_0000.nii.gz",
+            "label": "./labelsTr/case_00516.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00517_0000.nii.gz",
+            "label": "./labelsTr/case_00517.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00518_0000.nii.gz",
+            "label": "./labelsTr/case_00518.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00519_0000.nii.gz",
+            "label": "./labelsTr/case_00519.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00520_0000.nii.gz",
+            "label": "./labelsTr/case_00520.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00521_0000.nii.gz",
+            "label": "./labelsTr/case_00521.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00522_0000.nii.gz",
+            "label": "./labelsTr/case_00522.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00523_0000.nii.gz",
+            "label": "./labelsTr/case_00523.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00524_0000.nii.gz",
+            "label": "./labelsTr/case_00524.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00525_0000.nii.gz",
+            "label": "./labelsTr/case_00525.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00526_0000.nii.gz",
+            "label": "./labelsTr/case_00526.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00527_0000.nii.gz",
+            "label": "./labelsTr/case_00527.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00528_0000.nii.gz",
+            "label": "./labelsTr/case_00528.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00529_0000.nii.gz",
+            "label": "./labelsTr/case_00529.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00530_0000.nii.gz",
+            "label": "./labelsTr/case_00530.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00531_0000.nii.gz",
+            "label": "./labelsTr/case_00531.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00532_0000.nii.gz",
+            "label": "./labelsTr/case_00532.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00533_0000.nii.gz",
+            "label": "./labelsTr/case_00533.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00534_0000.nii.gz",
+            "label": "./labelsTr/case_00534.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00535_0000.nii.gz",
+            "label": "./labelsTr/case_00535.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00536_0000.nii.gz",
+            "label": "./labelsTr/case_00536.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00537_0000.nii.gz",
+            "label": "./labelsTr/case_00537.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00538_0000.nii.gz",
+            "label": "./labelsTr/case_00538.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00539_0000.nii.gz",
+            "label": "./labelsTr/case_00539.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00540_0000.nii.gz",
+            "label": "./labelsTr/case_00540.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00541_0000.nii.gz",
+            "label": "./labelsTr/case_00541.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00542_0000.nii.gz",
+            "label": "./labelsTr/case_00542.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00543_0000.nii.gz",
+            "label": "./labelsTr/case_00543.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00544_0000.nii.gz",
+            "label": "./labelsTr/case_00544.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00545_0000.nii.gz",
+            "label": "./labelsTr/case_00545.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00546_0000.nii.gz",
+            "label": "./labelsTr/case_00546.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00547_0000.nii.gz",
+            "label": "./labelsTr/case_00547.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00548_0000.nii.gz",
+            "label": "./labelsTr/case_00548.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00549_0000.nii.gz",
+            "label": "./labelsTr/case_00549.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00550_0000.nii.gz",
+            "label": "./labelsTr/case_00550.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00551_0000.nii.gz",
+            "label": "./labelsTr/case_00551.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00552_0000.nii.gz",
+            "label": "./labelsTr/case_00552.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00553_0000.nii.gz",
+            "label": "./labelsTr/case_00553.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00554_0000.nii.gz",
+            "label": "./labelsTr/case_00554.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00555_0000.nii.gz",
+            "label": "./labelsTr/case_00555.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00556_0000.nii.gz",
+            "label": "./labelsTr/case_00556.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00557_0000.nii.gz",
+            "label": "./labelsTr/case_00557.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00558_0000.nii.gz",
+            "label": "./labelsTr/case_00558.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00559_0000.nii.gz",
+            "label": "./labelsTr/case_00559.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00560_0000.nii.gz",
+            "label": "./labelsTr/case_00560.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00561_0000.nii.gz",
+            "label": "./labelsTr/case_00561.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00562_0000.nii.gz",
+            "label": "./labelsTr/case_00562.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00563_0000.nii.gz",
+            "label": "./labelsTr/case_00563.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00564_0000.nii.gz",
+            "label": "./labelsTr/case_00564.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00565_0000.nii.gz",
+            "label": "./labelsTr/case_00565.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00566_0000.nii.gz",
+            "label": "./labelsTr/case_00566.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00567_0000.nii.gz",
+            "label": "./labelsTr/case_00567.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00568_0000.nii.gz",
+            "label": "./labelsTr/case_00568.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00569_0000.nii.gz",
+            "label": "./labelsTr/case_00569.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00570_0000.nii.gz",
+            "label": "./labelsTr/case_00570.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00571_0000.nii.gz",
+            "label": "./labelsTr/case_00571.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00572_0000.nii.gz",
+            "label": "./labelsTr/case_00572.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00573_0000.nii.gz",
+            "label": "./labelsTr/case_00573.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00574_0000.nii.gz",
+            "label": "./labelsTr/case_00574.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00575_0000.nii.gz",
+            "label": "./labelsTr/case_00575.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00576_0000.nii.gz",
+            "label": "./labelsTr/case_00576.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00577_0000.nii.gz",
+            "label": "./labelsTr/case_00577.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00578_0000.nii.gz",
+            "label": "./labelsTr/case_00578.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00579_0000.nii.gz",
+            "label": "./labelsTr/case_00579.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00580_0000.nii.gz",
+            "label": "./labelsTr/case_00580.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00581_0000.nii.gz",
+            "label": "./labelsTr/case_00581.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00582_0000.nii.gz",
+            "label": "./labelsTr/case_00582.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00583_0000.nii.gz",
+            "label": "./labelsTr/case_00583.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00584_0000.nii.gz",
+            "label": "./labelsTr/case_00584.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00585_0000.nii.gz",
+            "label": "./labelsTr/case_00585.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00586_0000.nii.gz",
+            "label": "./labelsTr/case_00586.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00587_0000.nii.gz",
+            "label": "./labelsTr/case_00587.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00588_0000.nii.gz",
+            "label": "./labelsTr/case_00588.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00210_0000.nii.gz",
+            "label": "./labelsTr/case_00210.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00211_0000.nii.gz",
+            "label": "./labelsTr/case_00211.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00212_0000.nii.gz",
+            "label": "./labelsTr/case_00212.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00213_0000.nii.gz",
+            "label": "./labelsTr/case_00213.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00214_0000.nii.gz",
+            "label": "./labelsTr/case_00214.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00215_0000.nii.gz",
+            "label": "./labelsTr/case_00215.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00216_0000.nii.gz",
+            "label": "./labelsTr/case_00216.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00217_0000.nii.gz",
+            "label": "./labelsTr/case_00217.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00218_0000.nii.gz",
+            "label": "./labelsTr/case_00218.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00219_0000.nii.gz",
+            "label": "./labelsTr/case_00219.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00220_0000.nii.gz",
+            "label": "./labelsTr/case_00220.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00221_0000.nii.gz",
+            "label": "./labelsTr/case_00221.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00222_0000.nii.gz",
+            "label": "./labelsTr/case_00222.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00223_0000.nii.gz",
+            "label": "./labelsTr/case_00223.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00224_0000.nii.gz",
+            "label": "./labelsTr/case_00224.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00225_0000.nii.gz",
+            "label": "./labelsTr/case_00225.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00226_0000.nii.gz",
+            "label": "./labelsTr/case_00226.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00227_0000.nii.gz",
+            "label": "./labelsTr/case_00227.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00228_0000.nii.gz",
+            "label": "./labelsTr/case_00228.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00229_0000.nii.gz",
+            "label": "./labelsTr/case_00229.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00230_0000.nii.gz",
+            "label": "./labelsTr/case_00230.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00231_0000.nii.gz",
+            "label": "./labelsTr/case_00231.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00232_0000.nii.gz",
+            "label": "./labelsTr/case_00232.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00233_0000.nii.gz",
+            "label": "./labelsTr/case_00233.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00234_0000.nii.gz",
+            "label": "./labelsTr/case_00234.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00235_0000.nii.gz",
+            "label": "./labelsTr/case_00235.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00236_0000.nii.gz",
+            "label": "./labelsTr/case_00236.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00237_0000.nii.gz",
+            "label": "./labelsTr/case_00237.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00238_0000.nii.gz",
+            "label": "./labelsTr/case_00238.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00239_0000.nii.gz",
+            "label": "./labelsTr/case_00239.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00240_0000.nii.gz",
+            "label": "./labelsTr/case_00240.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00241_0000.nii.gz",
+            "label": "./labelsTr/case_00241.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00242_0000.nii.gz",
+            "label": "./labelsTr/case_00242.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00243_0000.nii.gz",
+            "label": "./labelsTr/case_00243.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00244_0000.nii.gz",
+            "label": "./labelsTr/case_00244.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00245_0000.nii.gz",
+            "label": "./labelsTr/case_00245.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00246_0000.nii.gz",
+            "label": "./labelsTr/case_00246.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00247_0000.nii.gz",
+            "label": "./labelsTr/case_00247.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00248_0000.nii.gz",
+            "label": "./labelsTr/case_00248.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00249_0000.nii.gz",
+            "label": "./labelsTr/case_00249.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00250_0000.nii.gz",
+            "label": "./labelsTr/case_00250.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00251_0000.nii.gz",
+            "label": "./labelsTr/case_00251.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00252_0000.nii.gz",
+            "label": "./labelsTr/case_00252.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00253_0000.nii.gz",
+            "label": "./labelsTr/case_00253.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00254_0000.nii.gz",
+            "label": "./labelsTr/case_00254.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00255_0000.nii.gz",
+            "label": "./labelsTr/case_00255.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00256_0000.nii.gz",
+            "label": "./labelsTr/case_00256.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00257_0000.nii.gz",
+            "label": "./labelsTr/case_00257.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00258_0000.nii.gz",
+            "label": "./labelsTr/case_00258.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00259_0000.nii.gz",
+            "label": "./labelsTr/case_00259.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00260_0000.nii.gz",
+            "label": "./labelsTr/case_00260.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00261_0000.nii.gz",
+            "label": "./labelsTr/case_00261.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00262_0000.nii.gz",
+            "label": "./labelsTr/case_00262.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00263_0000.nii.gz",
+            "label": "./labelsTr/case_00263.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00264_0000.nii.gz",
+            "label": "./labelsTr/case_00264.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00265_0000.nii.gz",
+            "label": "./labelsTr/case_00265.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00266_0000.nii.gz",
+            "label": "./labelsTr/case_00266.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00267_0000.nii.gz",
+            "label": "./labelsTr/case_00267.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00268_0000.nii.gz",
+            "label": "./labelsTr/case_00268.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00269_0000.nii.gz",
+            "label": "./labelsTr/case_00269.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00270_0000.nii.gz",
+            "label": "./labelsTr/case_00270.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00271_0000.nii.gz",
+            "label": "./labelsTr/case_00271.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00272_0000.nii.gz",
+            "label": "./labelsTr/case_00272.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00273_0000.nii.gz",
+            "label": "./labelsTr/case_00273.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00274_0000.nii.gz",
+            "label": "./labelsTr/case_00274.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00275_0000.nii.gz",
+            "label": "./labelsTr/case_00275.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00276_0000.nii.gz",
+            "label": "./labelsTr/case_00276.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00277_0000.nii.gz",
+            "label": "./labelsTr/case_00277.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00278_0000.nii.gz",
+            "label": "./labelsTr/case_00278.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00279_0000.nii.gz",
+            "label": "./labelsTr/case_00279.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00280_0000.nii.gz",
+            "label": "./labelsTr/case_00280.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00281_0000.nii.gz",
+            "label": "./labelsTr/case_00281.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00282_0000.nii.gz",
+            "label": "./labelsTr/case_00282.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00283_0000.nii.gz",
+            "label": "./labelsTr/case_00283.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00284_0000.nii.gz",
+            "label": "./labelsTr/case_00284.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00285_0000.nii.gz",
+            "label": "./labelsTr/case_00285.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00286_0000.nii.gz",
+            "label": "./labelsTr/case_00286.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00287_0000.nii.gz",
+            "label": "./labelsTr/case_00287.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00288_0000.nii.gz",
+            "label": "./labelsTr/case_00288.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00289_0000.nii.gz",
+            "label": "./labelsTr/case_00289.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00290_0000.nii.gz",
+            "label": "./labelsTr/case_00290.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00291_0000.nii.gz",
+            "label": "./labelsTr/case_00291.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00292_0000.nii.gz",
+            "label": "./labelsTr/case_00292.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00293_0000.nii.gz",
+            "label": "./labelsTr/case_00293.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00294_0000.nii.gz",
+            "label": "./labelsTr/case_00294.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00295_0000.nii.gz",
+            "label": "./labelsTr/case_00295.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00296_0000.nii.gz",
+            "label": "./labelsTr/case_00296.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00297_0000.nii.gz",
+            "label": "./labelsTr/case_00297.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00298_0000.nii.gz",
+            "label": "./labelsTr/case_00298.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00299_0000.nii.gz",
+            "label": "./labelsTr/case_00299.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/case_00005_0000.nii.gz",
+            "label": "./labelsTr/case_00005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00009_0000.nii.gz",
+            "label": "./labelsTr/case_00009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00015_0000.nii.gz",
+            "label": "./labelsTr/case_00015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00016_0000.nii.gz",
+            "label": "./labelsTr/case_00016.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00025_0000.nii.gz",
+            "label": "./labelsTr/case_00025.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00029_0000.nii.gz",
+            "label": "./labelsTr/case_00029.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00031_0000.nii.gz",
+            "label": "./labelsTr/case_00031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00032_0000.nii.gz",
+            "label": "./labelsTr/case_00032.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00048_0000.nii.gz",
+            "label": "./labelsTr/case_00048.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00050_0000.nii.gz",
+            "label": "./labelsTr/case_00050.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00053_0000.nii.gz",
+            "label": "./labelsTr/case_00053.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00057_0000.nii.gz",
+            "label": "./labelsTr/case_00057.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00060_0000.nii.gz",
+            "label": "./labelsTr/case_00060.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00061_0000.nii.gz",
+            "label": "./labelsTr/case_00061.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00065_0000.nii.gz",
+            "label": "./labelsTr/case_00065.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00067_0000.nii.gz",
+            "label": "./labelsTr/case_00067.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00068_0000.nii.gz",
+            "label": "./labelsTr/case_00068.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00076_0000.nii.gz",
+            "label": "./labelsTr/case_00076.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00081_0000.nii.gz",
+            "label": "./labelsTr/case_00081.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00096_0000.nii.gz",
+            "label": "./labelsTr/case_00096.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00100_0000.nii.gz",
+            "label": "./labelsTr/case_00100.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00104_0000.nii.gz",
+            "label": "./labelsTr/case_00104.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00108_0000.nii.gz",
+            "label": "./labelsTr/case_00108.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00113_0000.nii.gz",
+            "label": "./labelsTr/case_00113.nii.gz"
+        }
+    ],
+    "numvalid": 24
+}
