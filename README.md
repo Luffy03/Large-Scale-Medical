@@ -22,10 +22,10 @@ This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-train
 
 - **[Models](https://huggingface.co/Luffy503/VoCo/tree/main):** **31M~1.2B** params of pre-trained models.
 - **[Downstream](Downstream):** **50+** downstream tasks (segmentation, classification, registration, and vision-language).
-- **[PreCT-160k](https://huggingface.co/datasets/Luffy503/PreCT-160K):** **160K** CT volumes (**42M** slices) for pre-training
+- **[PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K):** **160K** CT volumes (**42M** slices) for pre-training
 - **[VoComni](https://huggingface.co/datasets/Luffy503/VoComni):** **20K** CT volumes with pseudo labels (20 organ & tumor classes)
-- **[Self-supervised](Self-supervised):** Pre-training with unlabeled data
-- **[Omni-supervised](Omni-supervised):** Pre-training with labeled and unlabeled data
+- **[Self-supervised Pre-training](Self-supervised):** Pre-training with unlabeled data
+- **[Omni-supervised Pre-training](Omni-supervised):** Pre-training with labeled and unlabeled data
 
 ## Pre-trained Models
 
