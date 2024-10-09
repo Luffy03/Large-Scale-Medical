@@ -1,0 +1,1376 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "vessel",
+        "2": "tumor"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "Task008_HepaticVessel",
+    "numTest": 140,
+    "numTraining": 242,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/hepaticvessel_003_0000.nii.gz",
+        "./imagesTs/hepaticvessel_009_0000.nii.gz",
+        "./imagesTs/hepaticvessel_012_0000.nii.gz",
+        "./imagesTs/hepaticvessel_014_0000.nii.gz",
+        "./imagesTs/hepaticvessel_015_0000.nii.gz",
+        "./imagesTs/hepaticvessel_017_0000.nii.gz",
+        "./imagesTs/hepaticvessel_021_0000.nii.gz",
+        "./imagesTs/hepaticvessel_024_0000.nii.gz",
+        "./imagesTs/hepaticvessel_034_0000.nii.gz",
+        "./imagesTs/hepaticvessel_035_0000.nii.gz",
+        "./imagesTs/hepaticvessel_036_0000.nii.gz",
+        "./imagesTs/hepaticvessel_037_0000.nii.gz",
+        "./imagesTs/hepaticvessel_038_0000.nii.gz",
+        "./imagesTs/hepaticvessel_041_0000.nii.gz",
+        "./imagesTs/hepaticvessel_043_0000.nii.gz",
+        "./imagesTs/hepaticvessel_045_0000.nii.gz",
+        "./imagesTs/hepaticvessel_047_0000.nii.gz",
+        "./imagesTs/hepaticvessel_048_0000.nii.gz",
+        "./imagesTs/hepaticvessel_054_0000.nii.gz",
+        "./imagesTs/hepaticvessel_055_0000.nii.gz",
+        "./imagesTs/hepaticvessel_056_0000.nii.gz",
+        "./imagesTs/hepaticvessel_060_0000.nii.gz",
+        "./imagesTs/hepaticvessel_063_0000.nii.gz",
+        "./imagesTs/hepaticvessel_064_0000.nii.gz",
+        "./imagesTs/hepaticvessel_069_0000.nii.gz",
+        "./imagesTs/hepaticvessel_073_0000.nii.gz",
+        "./imagesTs/hepaticvessel_074_0000.nii.gz",
+        "./imagesTs/hepaticvessel_076_0000.nii.gz",
+        "./imagesTs/hepaticvessel_095_0000.nii.gz",
+        "./imagesTs/hepaticvessel_099_0000.nii.gz",
+        "./imagesTs/hepaticvessel_101_0000.nii.gz",
+        "./imagesTs/hepaticvessel_105_0000.nii.gz",
+        "./imagesTs/hepaticvessel_106_0000.nii.gz",
+        "./imagesTs/hepaticvessel_107_0000.nii.gz",
+        "./imagesTs/hepaticvessel_109_0000.nii.gz",
+        "./imagesTs/hepaticvessel_114_0000.nii.gz",
+        "./imagesTs/hepaticvessel_118_0000.nii.gz",
+        "./imagesTs/hepaticvessel_120_0000.nii.gz",
+        "./imagesTs/hepaticvessel_122_0000.nii.gz",
+        "./imagesTs/hepaticvessel_126_0000.nii.gz",
+        "./imagesTs/hepaticvessel_130_0000.nii.gz",
+        "./imagesTs/hepaticvessel_134_0000.nii.gz",
+        "./imagesTs/hepaticvessel_135_0000.nii.gz",
+        "./imagesTs/hepaticvessel_143_0000.nii.gz",
+        "./imagesTs/hepaticvessel_149_0000.nii.gz",
+        "./imagesTs/hepaticvessel_153_0000.nii.gz",
+        "./imagesTs/hepaticvessel_156_0000.nii.gz",
+        "./imagesTs/hepaticvessel_162_0000.nii.gz",
+        "./imagesTs/hepaticvessel_168_0000.nii.gz",
+        "./imagesTs/hepaticvessel_169_0000.nii.gz",
+        "./imagesTs/hepaticvessel_170_0000.nii.gz",
+        "./imagesTs/hepaticvessel_176_0000.nii.gz",
+        "./imagesTs/hepaticvessel_180_0000.nii.gz",
+        "./imagesTs/hepaticvessel_182_0000.nii.gz",
+        "./imagesTs/hepaticvessel_187_0000.nii.gz",
+        "./imagesTs/hepaticvessel_188_0000.nii.gz",
+        "./imagesTs/hepaticvessel_190_0000.nii.gz",
+        "./imagesTs/hepaticvessel_191_0000.nii.gz",
+        "./imagesTs/hepaticvessel_202_0000.nii.gz",
+        "./imagesTs/hepaticvessel_204_0000.nii.gz",
+        "./imagesTs/hepaticvessel_205_0000.nii.gz",
+        "./imagesTs/hepaticvessel_212_0000.nii.gz",
+        "./imagesTs/hepaticvessel_216_0000.nii.gz",
+        "./imagesTs/hepaticvessel_220_0000.nii.gz",
+        "./imagesTs/hepaticvessel_228_0000.nii.gz",
+        "./imagesTs/hepaticvessel_232_0000.nii.gz",
+        "./imagesTs/hepaticvessel_241_0000.nii.gz",
+        "./imagesTs/hepaticvessel_243_0000.nii.gz",
+        "./imagesTs/hepaticvessel_247_0000.nii.gz",
+        "./imagesTs/hepaticvessel_250_0000.nii.gz",
+        "./imagesTs/hepaticvessel_251_0000.nii.gz",
+        "./imagesTs/hepaticvessel_252_0000.nii.gz",
+        "./imagesTs/hepaticvessel_254_0000.nii.gz",
+        "./imagesTs/hepaticvessel_261_0000.nii.gz",
+        "./imagesTs/hepaticvessel_264_0000.nii.gz",
+        "./imagesTs/hepaticvessel_267_0000.nii.gz",
+        "./imagesTs/hepaticvessel_273_0000.nii.gz",
+        "./imagesTs/hepaticvessel_276_0000.nii.gz",
+        "./imagesTs/hepaticvessel_277_0000.nii.gz",
+        "./imagesTs/hepaticvessel_292_0000.nii.gz",
+        "./imagesTs/hepaticvessel_298_0000.nii.gz",
+        "./imagesTs/hepaticvessel_301_0000.nii.gz",
+        "./imagesTs/hepaticvessel_302_0000.nii.gz",
+        "./imagesTs/hepaticvessel_304_0000.nii.gz",
+        "./imagesTs/hepaticvessel_306_0000.nii.gz",
+        "./imagesTs/hepaticvessel_310_0000.nii.gz",
+        "./imagesTs/hepaticvessel_312_0000.nii.gz",
+        "./imagesTs/hepaticvessel_313_0000.nii.gz",
+        "./imagesTs/hepaticvessel_315_0000.nii.gz",
+        "./imagesTs/hepaticvessel_316_0000.nii.gz",
+        "./imagesTs/hepaticvessel_317_0000.nii.gz",
+        "./imagesTs/hepaticvessel_326_0000.nii.gz",
+        "./imagesTs/hepaticvessel_328_0000.nii.gz",
+        "./imagesTs/hepaticvessel_331_0000.nii.gz",
+        "./imagesTs/hepaticvessel_334_0000.nii.gz",
+        "./imagesTs/hepaticvessel_337_0000.nii.gz",
+        "./imagesTs/hepaticvessel_339_0000.nii.gz",
+        "./imagesTs/hepaticvessel_342_0000.nii.gz",
+        "./imagesTs/hepaticvessel_343_0000.nii.gz",
+        "./imagesTs/hepaticvessel_346_0000.nii.gz",
+        "./imagesTs/hepaticvessel_347_0000.nii.gz",
+        "./imagesTs/hepaticvessel_351_0000.nii.gz",
+        "./imagesTs/hepaticvessel_352_0000.nii.gz",
+        "./imagesTs/hepaticvessel_354_0000.nii.gz",
+        "./imagesTs/hepaticvessel_355_0000.nii.gz",
+        "./imagesTs/hepaticvessel_357_0000.nii.gz",
+        "./imagesTs/hepaticvessel_360_0000.nii.gz",
+        "./imagesTs/hepaticvessel_364_0000.nii.gz",
+        "./imagesTs/hepaticvessel_365_0000.nii.gz",
+        "./imagesTs/hepaticvessel_366_0000.nii.gz",
+        "./imagesTs/hepaticvessel_370_0000.nii.gz",
+        "./imagesTs/hepaticvessel_376_0000.nii.gz",
+        "./imagesTs/hepaticvessel_377_0000.nii.gz",
+        "./imagesTs/hepaticvessel_380_0000.nii.gz",
+        "./imagesTs/hepaticvessel_381_0000.nii.gz",
+        "./imagesTs/hepaticvessel_387_0000.nii.gz",
+        "./imagesTs/hepaticvessel_390_0000.nii.gz",
+        "./imagesTs/hepaticvessel_392_0000.nii.gz",
+        "./imagesTs/hepaticvessel_394_0000.nii.gz",
+        "./imagesTs/hepaticvessel_395_0000.nii.gz",
+        "./imagesTs/hepaticvessel_399_0000.nii.gz",
+        "./imagesTs/hepaticvessel_403_0000.nii.gz",
+        "./imagesTs/hepaticvessel_410_0000.nii.gz",
+        "./imagesTs/hepaticvessel_414_0000.nii.gz",
+        "./imagesTs/hepaticvessel_415_0000.nii.gz",
+        "./imagesTs/hepaticvessel_417_0000.nii.gz",
+        "./imagesTs/hepaticvessel_418_0000.nii.gz",
+        "./imagesTs/hepaticvessel_421_0000.nii.gz",
+        "./imagesTs/hepaticvessel_426_0000.nii.gz",
+        "./imagesTs/hepaticvessel_428_0000.nii.gz",
+        "./imagesTs/hepaticvessel_430_0000.nii.gz",
+        "./imagesTs/hepaticvessel_435_0000.nii.gz",
+        "./imagesTs/hepaticvessel_436_0000.nii.gz",
+        "./imagesTs/hepaticvessel_439_0000.nii.gz",
+        "./imagesTs/hepaticvessel_448_0000.nii.gz",
+        "./imagesTs/hepaticvessel_450_0000.nii.gz",
+        "./imagesTs/hepaticvessel_451_0000.nii.gz",
+        "./imagesTs/hepaticvessel_452_0000.nii.gz",
+        "./imagesTs/hepaticvessel_457_0000.nii.gz",
+        "./imagesTs/hepaticvessel_460_0000.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/hepaticvessel_001_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_002_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_004_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_005_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_007_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_008_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_010_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_011_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_013_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_016_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_016.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_020_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_020.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_022_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_022.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_023_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_025_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_025.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_027_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_027.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_029_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_029.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_031_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_032_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_032.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_033_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_033.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_039_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_039.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_040_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_040.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_042_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_042.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_044_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_044.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_046_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_046.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_049_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_049.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_051_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_051.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_052_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_052.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_057_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_057.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_059_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_059.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_061_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_061.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_062_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_062.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_065_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_065.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_067_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_067.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_068_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_068.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_070_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_070.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_071_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_071.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_072_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_072.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_075_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_075.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_078_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_078.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_079_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_079.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_081_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_081.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_083_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_083.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_086_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_086.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_088_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_088.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_089_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_089.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_090_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_090.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_091_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_091.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_092_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_092.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_093_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_093.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_094_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_094.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_096_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_096.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_097_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_097.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_102_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_102.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_103_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_103.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_104_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_104.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_108_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_108.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_111_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_111.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_113_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_113.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_115_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_115.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_116_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_116.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_117_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_117.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_119_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_119.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_121_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_121.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_123_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_123.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_124_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_124.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_125_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_125.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_128_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_128.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_131_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_131.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_132_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_132.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_133_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_133.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_136_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_136.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_137_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_137.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_138_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_138.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_139_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_139.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_140_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_140.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_141_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_141.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_142_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_142.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_144_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_144.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_145_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_145.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_148_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_148.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_151_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_151.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_154_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_154.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_158_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_158.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_159_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_159.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_160_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_160.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_163_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_163.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_165_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_165.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_166_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_166.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_171_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_171.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_172_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_172.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_173_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_173.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_174_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_174.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_177_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_177.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_178_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_178.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_179_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_179.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_181_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_181.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_183_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_183.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_184_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_184.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_185_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_185.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_186_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_186.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_189_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_189.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_192_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_192.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_193_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_193.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_195_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_195.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_196_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_196.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_197_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_197.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_198_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_198.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_199_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_199.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_200_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_200.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_201_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_201.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_203_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_203.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_207_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_207.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_208_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_208.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_209_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_209.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_210_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_210.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_211_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_211.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_214_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_214.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_215_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_215.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_219_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_219.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_221_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_221.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_222_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_222.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_223_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_223.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_225_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_225.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_227_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_227.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_229_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_229.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_230_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_230.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_231_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_231.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_233_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_233.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_235_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_235.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_236_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_236.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_237_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_237.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_238_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_238.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_240_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_240.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_242_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_242.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_245_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_245.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_246_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_246.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_255_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_255.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_256_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_256.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_258_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_258.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_259_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_259.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_262_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_262.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_263_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_263.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_265_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_265.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_268_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_268.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_271_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_271.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_278_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_278.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_279_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_279.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_280_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_280.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_281_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_281.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_284_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_284.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_285_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_285.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_286_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_286.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_287_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_287.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_289_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_289.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_290_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_290.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_291_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_291.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_293_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_293.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_294_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_294.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_296_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_296.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_297_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_297.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_299_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_299.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_300_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_300.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_303_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_303.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_305_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_305.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_307_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_307.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_308_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_308.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_314_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_314.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_318_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_318.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_319_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_319.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_320_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_320.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_321_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_321.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_322_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_322.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_323_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_323.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_324_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_324.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_325_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_325.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_327_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_327.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_330_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_330.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_332_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_332.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_335_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_335.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_336_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_336.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_338_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_338.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_340_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_340.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_341_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_341.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_344_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_344.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_345_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_345.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_348_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_348.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_349_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_349.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_350_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_350.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_353_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_353.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_356_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_356.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_362_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_362.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_367_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_367.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_369_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_369.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_371_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_371.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_372_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_372.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_373_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_373.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_374_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_374.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_378_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_378.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_379_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_379.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_382_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_382.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_383_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_383.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_384_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_384.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_385_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_385.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_386_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_386.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_388_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_388.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_389_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_389.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_391_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_391.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_393_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_393.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_396_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_396.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_397_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_397.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_398_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_398.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_400_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_400.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_401_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_401.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_402_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_402.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_404_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_404.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_406_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_406.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_407_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_407.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_408_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_408.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_409_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_409.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_411_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_411.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_412_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_412.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_416_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_416.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_419_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_419.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_420_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_420.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_423_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_423.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_425_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_425.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_427_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_427.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_429_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_429.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_431_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_431.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_432_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_432.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_433_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_433.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_434_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_434.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_438_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_438.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_440_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_440.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_442_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_442.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_443_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_443.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_446_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_446.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_447_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_447.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_453_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_453.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_454_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_454.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_455_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_455.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_456_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_456.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/hepaticvessel_018_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_019_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_026_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_026.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_028_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_028.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_030_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_030.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_050_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_050.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_053_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_053.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_058_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_058.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_066_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_066.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_077_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_077.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_080_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_080.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_082_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_082.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_084_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_084.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_085_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_085.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_087_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_087.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_098_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_098.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_100_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_100.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_110_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_110.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_112_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_112.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_127_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_127.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_129_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_129.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_146_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_146.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_147_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_147.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_150_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_150.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_157_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_157.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_161_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_161.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_164_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_164.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_167_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_167.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_175_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_175.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_194_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_194.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_206_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_206.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_213_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_213.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_217_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_217.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_218_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_218.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_224_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_224.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_234_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_234.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_244_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_244.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_248_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_248.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_266_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_266.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_269_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_269.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_270_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_270.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_272_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_272.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_274_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_274.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_275_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_275.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_282_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_282.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_309_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_309.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_329_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_329.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_333_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_333.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_358_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_358.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_359_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_359.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_361_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_361.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_363_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_363.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_368_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_368.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_375_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_375.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_422_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_422.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_424_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_424.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_437_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_437.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_441_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_441.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_444_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_444.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_445_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_445.nii.gz"
+        },
+        {
+            "image": "./imagesTr/hepaticvessel_458_0000.nii.gz",
+            "label": "./labelsTr/hepaticvessel_458.nii.gz"
+        }
+    ]
+}
