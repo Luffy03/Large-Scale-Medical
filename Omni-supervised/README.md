@@ -38,7 +38,9 @@ The path of PreCT-160K should be organized as:
     ├── ...
     ├── VoComni
     └── cache
-``` 
+```
+**WARNING**: 
+- It requires about **60 TB** space to store and cache the datasets. 
 
 ### Usage
 
