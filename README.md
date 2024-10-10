@@ -22,7 +22,7 @@ This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-train
 
 - **[Models](https://huggingface.co/Luffy503/VoCo/tree/main):** **31M~1.2B** params of pre-trained models.
 - **[Downstream](Downstream):** **50+** downstream tasks (segmentation, classification, registration, and vision-language).
-- **[PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K):** **160K** CT volumes (**42M** slices) for pre-training
+- **[PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K):** The existing largest pre-training dataset in this field: **160K** CT volumes (**42M** slices)
 - **[VoComni](https://huggingface.co/datasets/Luffy503/VoComni):** **20K** CT volumes with pseudo labels (20 organ & tumor classes)
 - **[VoCovid](/Downstream/VoCOVID):** Semi-supervised covid segmentation
 - **[Self-supervised Pre-training](Self-supervised):** Pre-training with unlabeled data
@@ -30,10 +30,10 @@ This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-train
 
 ## Pre-trained Models
 
-We provide various models for fine-tuning downstream tasks. For nnUNet, please refer to [nnunet trainer](./Downstream/nnUNet).
+We provide various models for downstream tasks. For nnUNet, please refer to [nnunet trainer](./Downstream/nnUNet).
 
-- SSL_head represents trained by [Self-supervised pre-training](./Self-supervised).
-- Omni represents trained by [Omni-supervised pre-training](./Omni-supervised). 
+- 'SSL_head' represents trained by [Self-supervised pre-training](./Self-supervised).
+- 'Omni' represents trained by [Omni-supervised pre-training](./Omni-supervised). 
 
 | Model           | Params |                                           Checkpoint                                           |
 |:----------------|-------:|:----------------------------------------------------------------------------------------------:|
@@ -47,7 +47,7 @@ We provide various models for fine-tuning downstream tasks. For nnUNet, please r
 
 We download checkpoints of previous methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!).
 
-**Summary**: We spend over 10000 GPU hours for evaluation on 50+ tasks. Seems that among all previous methods, [SuPreM](https://github.com/MrGiovanni/SuPreM) is the best and also the only one that can achieve overall improvements. You can try them in [Downstream](Downstream).
+**Summary**: We spend over 10000 GPU hours for evaluation on 50+ tasks. Seems that **among all previous methods**, [SuPreM](https://github.com/MrGiovanni/SuPreM) is the best and also the only one that can achieve overall improvements. You can try them in [Downstream](Downstream).
 
 The path of pre-trained models should be organized as:
 ```
@@ -146,7 +146,7 @@ Please refer to:
 
 ## VoComni Dataset
 
-To facilitate the following research, we use VoCo to generate pseudo labels on **20K volumes**, with 20 foreground classes. Please refer to [VoComni](./VoComni).
+To facilitate the following research, we use VoCo to generate pseudo labels on **20K volumes**, with 20 organ and tumor classes. Please refer to [VoComni](./VoComni).
 
 
 ## Acknowledgement <a name="Acknowledgment"></a>
