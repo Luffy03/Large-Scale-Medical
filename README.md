@@ -144,10 +144,12 @@ Please refer to:
 - [Omni-supervised pre-training](./Omni-supervised/). 
 
 
-## VoComni Dataset
+## VoComni
 
 To facilitate the following research, we use VoCo to generate pseudo labels on **20K volumes**, with 20 organ and tumor classes. Please refer to [VoComni](./VoComni).
 
+## VoCovid
+Please refer to [VoCovid](Downstream/VoCOVID) for Semi-supervised Covid Segmentation. Dataset can be downloaded from [hugging face](https://huggingface.co/datasets/Luffy503/VoCovid).
 
 ## Acknowledgement <a name="Acknowledgment"></a>
 
