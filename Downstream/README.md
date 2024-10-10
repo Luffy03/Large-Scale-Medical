@@ -71,7 +71,7 @@ We release implementations of **50+** downstream datasets across various medical
 You can choose to download our pre-processed datasets from our [Hugging face](https://huggingface.co/datasets/Luffy503/VoCo_Downstream). Most of these datasets are organized like [nnUNet](https://github.com/MIC-DKFZ/nnUNet).
 
 ```
-├── YOUR/DIRECTORY/OF/PRETRAINED/DATA
+├── YOUR/DIRECTORY/OF/DOWNSTREAM/DATA
     ├── 3Dircadb1_convert
         ├── imagesTr
         ├── labelsTr
