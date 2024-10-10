@@ -1,11 +1,11 @@
 <div align="center">
-<h1>nnUNet YYDS</h1>
+<h1>nnUNet YYDS (forever god in Chinese)</h1>
 </div>
 
 Although has been published in *Nature Methods* for a few years, [nnUNet](https://github.com/MIC-DKFZ/nnUNet) still stands out as a strong segmentation framework. We also build a [VoCo trainer](nnunetv2/training/nnUNetTrainer/nnUNetTrainer_pretrain.py) for nnUNet implementation. **However**, it is worth noting that our models are pre-trained with [monai](monai) and transfer to [nnUNet](https://github.com/MIC-DKFZ/nnUNet). **Thus, the pre-processing settings are not consistent between pre-training and finetuing**, which may hinder its performance. We will investigate how to pre-train with nnUNet in the future.
 
 ## Usage
-For usage, you need to follow the clear instructions in [nnUNet](https://github.com/MIC-DKFZ/nnUNet). Here, we take [Dataset503_VoComni](https://huggingface.co/datasets/Luffy503/VoComni) as an example to show the implementation. **This can be seen as a fully-supervised pre-training baseline for nnUNet**.
+For usage, you need to follow the clear instructions in [nnUNet](https://github.com/MIC-DKFZ/nnUNet). Here, we take [Dataset503_VoComni](https://huggingface.co/datasets/Luffy503/VoComni) as an example to show the implementation. **This dataset can be used for fully-supervised pre-training nnUNet**.
 
 ### Pre-trained Models
 
