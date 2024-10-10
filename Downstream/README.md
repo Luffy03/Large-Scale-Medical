@@ -151,7 +151,7 @@ torchrun --master_port=21503 main.py \
 ```
 
 **Parameters you need to modify !!!!!** :
-- **name**: The name of pre-trained models. Support [VoCo, suprem, swin, clip_driven, mg, unimiss, dodnet] for now
+- **name**: The name of pre-trained models. Support [VoCo, suprem, swin, clip_driven, mg, unimiss, dodnet] for now. **If None, without pre-training !!!**
 - **pretrained_root**: The path you store the pretrained models
 - **master_port**: specify different master_port for different processes
 - **logdir**: The path you want to save your results
