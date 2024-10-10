@@ -50,7 +50,7 @@ We provide various models for downstream tasks. For nnUNet, please refer to [nnu
 
 We download checkpoints of previous methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!).
 
-**Summary**: We spent over 10,000 GPU hours evaluating 50+ tasks. Seems that **among the previous methods**, [SuPreM](https://github.com/MrGiovanni/SuPreM) is the only one that can achieve improvements. You can try them in [Downstream](Downstream).
+**Summary**: We spent over 10,000 GPU hours evaluating 50+ tasks. Seems that **among the previous methods**, [SuPreM](https://github.com/MrGiovanni/SuPreM) is the only one that can achieve overall improvements. You can try them in [Downstream](Downstream).
 
 The path of pre-trained models should be organized as:
 ```
