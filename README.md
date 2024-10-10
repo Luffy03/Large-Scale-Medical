@@ -45,7 +45,9 @@ We provide various models for fine-tuning downstream tasks. For nnUNet, please r
 | VoComni_L       |   290M |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_L.pt?download=true)    |
 | VoComni_H       |   1.2B |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_H.pt?download=true)    |
 
-We download checkpoints of other methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!).
+We download checkpoints of previous methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!).
+
+**Summary**: We spend over 10000 GPU hours for evaluation on 50+ tasks. Seems that among all previous methods, [SuPreM](https://github.com/MrGiovanni/SuPreM) is the best and also the only one that can achieve overall improvements. You can try them in [Downstream](Downstream).
 
 The path of pre-trained models should be organized as:
 ```
@@ -136,7 +138,9 @@ Please refer to [Acknowledgment](#Acknowledgment). Download our  [PreCT-160K](ht
 
 Please refer to:
 
+- [Fully-supervised pre-training](./VoComni/).
 - [Self-supervised pre-training](./Self-supervised/).
+- Semi-supervised pre-training (comming soon).
 - [Omni-supervised pre-training](./Omni-supervised/). 
 
 
