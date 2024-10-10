@@ -21,7 +21,7 @@ We release implementations of **50+** downstream datasets across various medical
 | [AbdomenAtlas](monai/AbdomenAtlas/)         | CT       | Abdomen Seg.            |
 | [TotalSegmentator](monai/Totalsegmentator/) | CT       | 104 Structures Seg.     |
 | [MM-WHS](monai/MM-WHS/)                     | CT       | Heart Seg.              |
-| [ASOCA](monai/ASOCA/)                       | CT       | coronary Seg.           |
+| [ASOCA](monai/ASOCA/)                       | CT       | Coronary Seg.           |
 | [AVT](monai/Aorta/)                         | CT       | Aorta Seg.              |
 | [CHAOS](monai/CHAOS/)                       | CT       | Liver Seg.              |
 | [Sliver07](monai/Sliver07/)                 | CT       | Liver Seg.              |
