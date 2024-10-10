@@ -1,5 +1,5 @@
 <div align="center">
-<h1>nnUNet YYDS (forever god in Chinese)</h1>
+<h1>nnUNet YYDS</h1>
 </div>
 
 Although has been published in *Nature Methods* for a few years, [nnUNet](https://github.com/MIC-DKFZ/nnUNet) still stands out as a strong segmentation framework. We also build a [VoCo trainer](nnunetv2/training/nnUNetTrainer/nnUNetTrainer_pretrain.py) for nnUNet implementation. **However**, it is worth noting that our models are pre-trained with [monai](monai) and transfer to [nnUNet](https://github.com/MIC-DKFZ/nnUNet). **Thus, the pre-processing settings are not consistent between pre-training and finetuing**, which may hinder its performance. We will investigate how to pre-train with nnUNet in the future.
