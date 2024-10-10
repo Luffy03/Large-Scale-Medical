@@ -46,7 +46,7 @@ For nnUNet
     ├── labelsTr
         ├── VoComni_0.nii.gz
         ├──...
-    └──dataset.json
+    └── dataset.json
 ```
 
 **WARNING**: 
