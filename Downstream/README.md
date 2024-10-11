@@ -204,7 +204,7 @@ Please refer to [M2KT](monai/M2KT) and [CT_CLIP](monai/CT_CLIP). Please cite [CT
 Please refer to [VoCovid](VoCOVID) for Semi-supervised Covid Segmentation. Dataset can be downloaded from [hugging face](https://huggingface.co/datasets/Luffy503/VoCovid).
 
 ## Downstream Checkpoints
-We are uploading our fine-tuning checkpoints to [BaiduYun](https://github.com/Luffy03/Large-Scale-Medical/Downstream).
+We are uploading our fine-tuning checkpoints to [BaiduYun](https://github.com/Luffy03/Large-Scale-Medical/Downstream). A bit slow, so sorry for that!(╥﹏╥)
 
 ## Citation
 
