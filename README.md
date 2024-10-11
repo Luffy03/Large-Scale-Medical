@@ -9,7 +9,7 @@
 <a href='https://huggingface.co/datasets/Luffy503/VoCovid'><img src='https://img.shields.io/badge/Dataset-VoCovid-pink' alt='Dataset'></a>
 </div>
 
-This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** CT volumes (**42M** slices) for pre-training, **31M~1.2B** params of pre-trained models, and **50+** downstream tasks implementation.
+This work presents **VoCo**, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** CT volumes (**42M** slices) for pre-training, **31M~1.2B** params of pre-trained models, and **50+** downstream tasks implementation.
 
 ![teaser](assets/data.png)
 
@@ -50,6 +50,8 @@ We provide various models for downstream tasks. For nnUNet, please refer to [nnu
 | VoComni_H       |   1.2B |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_H.pt?download=true)    |
 
 We download checkpoints of previous methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!).
+
+**Summary**: We spent over 10,000 hours in evaluation 50+ downstream tasks. [SuPreM](https://github.com/MrGiovanni/SuPreM) appears to be the best in **previous methods**. You can try these models in [Downstram](./Downstream).
 
 The path of pre-trained models should be organized as:
 ```
@@ -93,7 +95,7 @@ parser = argparse.ArgumentParser(description="VoCo models")
 parser.add_argument("--feature_size", default=48, type=int,
                     help="feature size: 48 Base (B), 96 Large (L), 192 Huge (H)")
 parser.add_argument("--in_channels", default=1, type=int, help="number of input channels")
-parser.add_argument("--out_channels", default=2, type=int, help="number of output channels")
+parser.add_argument("--out_channels", default=21, type=int, help="number of output channels")
 parser.add_argument("--roi_x", default=96, type=int, help="roi size in x direction")
 parser.add_argument("--roi_y", default=96, type=int, help="roi size in y direction")
 parser.add_argument("--roi_z", default=96, type=int, help="roi size in z direction")
@@ -108,6 +110,7 @@ pretrained_path = './pretrained/VoComni_B.pt'
 model_dict = torch.load(pretrained_path, map_location=torch.device('cpu'))
 model = load(model, model_dict)
 ```
+**NOTE THAT**: "roi" is flexible according to your own settings. Your need to adjust "in_channels" and "out_channels" for specific datasets. If "in_channels != 1" or "out_channels != 21", the first layer or the last layer would not be loaded.
 
 ## Fine-tuning
 
