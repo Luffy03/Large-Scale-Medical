@@ -23,7 +23,7 @@ If you don't want to train from scratch, you can use our pre-trained models.
 | VoComni_H       |   1.2B |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_H.pt?download=true)    |
 
 ### Dataset
-You can download our [VoComni](https://huggingface.co/datasets/Luffy503/VoComni) and assign them as labeled sets.
+You can download our [VoComni](https://huggingface.co/datasets/Luffy503/VoComni) and assign them as labeled sets. For unlabeled sets, you can aggregate different sources of datasets into "imagesUn", it should be with same classes as [VoComni.json](./VoComni.json). Here, we only provide a baseline for training.
 
 The path should be organized as:
 ```
