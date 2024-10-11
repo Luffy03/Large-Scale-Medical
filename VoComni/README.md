@@ -25,7 +25,7 @@ If you do not want to train from scratch, you can choose to resume our pre-train
 
 ## Download Dataset
 
-Download our  [VoComni](https://huggingface.co/datasets/Luffy503/VoComni) for pre-training.
+Download our [VoComni](https://huggingface.co/datasets/Luffy503/VoComni) for pre-training.
 
 We organize the path like [nnUNet](https://github.com/MIC-DKFZ/nnUNet), so you can also use [nnUNet](https://github.com/MIC-DKFZ/nnUNet) for training. I specify the name as Dataset503, since 503 is my name (◕‿◕✿).
 
