@@ -29,6 +29,7 @@ This work presents VoCo, a new method for Large-Scale 3D Medical Image Pre-train
 - **Pre-training**:
 - - **[Fully-supervised](VoComni):** Pre-training with labeled data
 - - **[Self-supervised](Self-supervised):** Pre-training with unlabeled data
+- - **[Semi-supervised](Semi-supervised):** Pre-training with labeled and unlabeled data
 - - **[Omni-supervised](Omni-supervised):** Pre-training with labeled and unlabeled data
 
 ## Pre-trained Models
@@ -49,8 +50,6 @@ We provide various models for downstream tasks. For nnUNet, please refer to [nnu
 | VoComni_H       |   1.2B |    [Download](https://huggingface.co/Luffy503/VoCo/resolve/main/VoComni_H.pt?download=true)    |
 
 We download checkpoints of previous methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!).
-
-**Summary**: We spent over 10,000 GPU hours evaluating 50+ tasks. Seems that **among the previous methods**, [SuPreM](https://github.com/MrGiovanni/SuPreM) is the only one that can achieve overall improvements. You can try them in [Downstream](Downstream).
 
 The path of pre-trained models should be organized as:
 ```
@@ -143,7 +142,7 @@ Please refer to:
 
 - [Fully-supervised pre-training](./VoComni/).
 - [Self-supervised pre-training](./Self-supervised/).
-- Semi-supervised pre-training (comming soon).
+- [Semi-supervised pre-training](./Semi-supervised).
 - [Omni-supervised pre-training](./Omni-supervised/). 
 
 
