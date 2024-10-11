@@ -10,6 +10,7 @@
 
 To effectively unleash the power of labeled and unlabeled data, we propose to combine self- and semi-supervised learning for omni-supervised pre-training.
 
+![framework](assets/decision.png)
 
 ## Pre-trained Models
 
