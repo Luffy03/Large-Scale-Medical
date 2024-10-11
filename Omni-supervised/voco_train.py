@@ -60,7 +60,7 @@ def main():
             with autocast(enabled=args.amp):
                 loss, semi_outputs = model(img, crops, labels, omni_img, omni_label)
 
-            if step > args.num_steps // 2:
+            if step == args.num_steps // 2:
                 ### start semi on unlabeled data !!!
                 teacher_model = SwinUNETR(
                     img_size=(args.roi_x, args.roi_y, args.roi_z),
@@ -75,6 +75,7 @@ def main():
                 teacher_model.cuda()
                 teacher_model.eval()
 
+            if step > args.num_steps // 2:
                 with autocast(enabled=args.amp):
                     with torch.no_grad():
                         ## pseudo labels for unlabeled data
