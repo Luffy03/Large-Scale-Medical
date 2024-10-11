@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Large-Scale 3D Medical Image Pre-training</h1>
+<h1>Large-Scale 3D Medical Image Pre-training with Geometric Context Priors</h1>
 
 <a href="https://github.com/Luffy03/Large-Scale-Medical"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
 <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wu_VoCo_A_Simple-yet-Effective_Volume_Contrastive_Learning_Framework_for_3D_Medical_CVPR_2024_paper.html"><img src='https://img.shields.io/badge/CVPR-Conference-red' alt='Paper PDF'></a>
@@ -11,10 +11,10 @@
     <img src="assets/positions.png" alt="positions" width="500"/>
 </div>
 
-We observe that 3D medical images contain consistent geometric context, i.e., consistent geometric relations between different organs, which leads to a promising way for us to learn consistent representations in pre-training.
-Motivated by this, we propose a simple-yet-effective **Vo**lume **Co**ntrast (**VoCo**) framework to leverage the geometric context priors for self-supervision. 
-Specifically, we extract a group of base crops from different regions, aiming to construct positive and negative pairs for contrastive learning. Then we predict the contextual position of a random crop by contrasting its similarity with the base crops.
-Through learning to predict contextual positions, VoCo implicitly encodes the inherent geometric relations into model representations, enabling us to learn high-level semantics without annotations.
+We observe that 3D medical images contain consistent geometric context, *i.e.*, consistent geometric relations between different organs, which leads to a promising way for learning consistent representations.
+Motivated by this, we propose a simple-yet-effective **Vo**lume **Co**ntrast (**VoCo**) framework to leverage geometric context priors for self-supervision. 
+Given an input volume, we extract base crops from different regions to construct positive and negative pairs for contrastive learning. Then we predict the contextual position of a random crop by contrasting its similarity to the base crops.
+In this way, VoCo implicitly encodes the inherent geometric context into model representations, facilitating high-level semantic learning without annotations.
 
 ![framework](assets/framework.png)
 
