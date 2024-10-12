@@ -110,7 +110,7 @@ pretrained_path = './pretrained/VoComni_B.pt'
 model_dict = torch.load(pretrained_path, map_location=torch.device('cpu'))
 model = load(model, model_dict)
 ```
-**NOTE THAT**: "roi" is flexible according to your own settings. Your need to adjust "in_channels" and "out_channels" for specific datasets. If "in_channels != 1" or "out_channels != 21", the first layer or the last layer would not be loaded.
+**NOTE**: "roi" is flexible according to your own settings. Your need to adjust "in_channels" and "out_channels" for specific datasets. If "in_channels != 1" or "out_channels != 21", only the first layer or the last layer would not be loaded.
 
 ## Fine-tuning
 
