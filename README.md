@@ -51,7 +51,7 @@ We provide various models for downstream tasks. For nnUNet, please refer to [nnu
 
 We download checkpoints of previous methods from [SuPreM](https://github.com/MrGiovanni/SuPreM) for comparison (Thanks for their great efforts!).
 
-**Summary**: We spent over 10,000 hours in evaluating 50+ downstream tasks. [SuPreM](https://github.com/MrGiovanni/SuPreM) appears to be the best in **previous methods**. You can try these models in [Downstram](./Downstream).
+**Summary**: We spent over 10,000 hours in evaluating 50+ downstream tasks. [SuPreM](https://github.com/MrGiovanni/SuPreM) appears to be the best in **previous methods**. You can try these models in [Downstream](./Downstream).
 
 The path of pre-trained models should be organized as:
 ```
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 Please refer to [Acknowledgment](#Acknowledgment). Download our pre-processed [downstream datasets](https://huggingface.co/datasets/Luffy503/VoCo_Downstream) for downstream tasks.
 
 ### Implementations
-Please refer to [Downstream](./Downstream): **50+** downstream tasks implementations (updating).
+Please refer to [Downstream](./Downstream): **50+** downstream tasks implementations.
 
 ## Pre-training <a name="Pre-training"></a>
 
