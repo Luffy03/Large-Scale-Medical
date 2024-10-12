@@ -88,8 +88,8 @@ We provide both [monai](monai) and [nnUNet](nnUNet) implementations. For [nnUNet
 
 We provide various models for fine-tuning downstream tasks. For nnUNet, please refer to [nnunet trainer](./Downstream/nnUNet).
 
-- SSL_head represents trained by [Self-supervised pre-training](./Self-supervised).
-- Omni represents trained by [Omni-supervised pre-training](./Omni-supervised). 
+- SSL_head represents trained by [Self-supervised pre-training](../Self-supervised).
+- Omni represents trained by [Omni-supervised pre-training](../Omni-supervised). 
 
 | Model           | Params |                                           Checkpoint                                           |
 |:----------------|-------:|:----------------------------------------------------------------------------------------------:|
@@ -204,7 +204,7 @@ Please refer to [M2KT](monai/M2KT) and [CT_CLIP](monai/CT_CLIP). Please cite [CT
 Please refer to [VoCovid](VoCOVID) for Semi-supervised Covid Segmentation. Dataset can be downloaded from [hugging face](https://huggingface.co/datasets/Luffy503/VoCovid).
 
 ## Downstream Checkpoints
-We are uploading our fine-tuning checkpoints to [BaiduYun](https://github.com/Luffy03/Large-Scale-Medical/Downstream). A bit slow, so sorry for that!(╥﹏╥)
+We are uploading our fine-tuning checkpoints to [BaiduYun](https://pan.baidu.com/s/1w75cJWoWfCt2FSjMDYl1FA?pwd=r1rp). A bit slow, so sorry for that!(╥﹏╥)
 
 ## Citation
 
