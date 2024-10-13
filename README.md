@@ -126,10 +126,10 @@ pip install -r requirements.txt
 
 Please refer to [Acknowledgment](#Acknowledgment). Download our pre-processed [downstream datasets](https://huggingface.co/datasets/Luffy503/VoCo_Downstream) for downstream tasks.
 
-**We are uploading our fine-tuning checkpoints to [BaiduYun](https://pan.baidu.com/s/1w75cJWoWfCt2FSjMDYl1FA?pwd=r1rp) to make sure fair comparisons**. A bit slow, so sorry for that!(╥﹏╥)
-
 ### Implementations
 Please refer to [Downstream](./Downstream): **50+** downstream tasks implementations.
+
+**We are uploading our fine-tuning checkpoints to [BaiduYun](https://pan.baidu.com/s/1w75cJWoWfCt2FSjMDYl1FA?pwd=r1rp) to make sure fair comparisons**. A bit slow, so sorry for that!(╥﹏╥)
 
 ## Pre-training <a name="Pre-training"></a>
 
