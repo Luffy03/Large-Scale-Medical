@@ -46,10 +46,10 @@ The path of PreCT-160K should be organized as:
 **WARNING**: 
 - It requires **22.6 TB** space to store the original datasets. For pre-training, it requires **30 TB** more space to cache the data, otherwise the pre-training will be very slow. And please store them in SSD.
 
-Some cases:
+**Some cases:**
 ![prior](assets/prior.png)
 
-Descriptions:
+**Descriptions:**
 ![table1](assets/table1.png)
 
 
