@@ -1,6 +1,6 @@
 <div align="center">
 <h1>VoCovid: Semi-supervised Covid Segmentation</h1>
-<a href='https://huggingface.co/datasets/Luffy503/VoCovid'><img src='https://img.shields.io/badge/Dataset-VoCovid-pink' alt='Dataset'></a>
+<a href='https://huggingface.co/datasets/Luffy503/VoCovid'><img src='https://img.shields.io/badge/Dataset-VoCovid-green' alt='Dataset'></a>
 </div>
 
 We use VoCo to generate pseudo labels for semi-supervised covid segmentation, just for fun. If you are interested in this topic, you can follow the following instructions.
