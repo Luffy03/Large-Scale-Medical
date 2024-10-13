@@ -3,8 +3,8 @@
 <a href="https://github.com/Luffy03/Large-Scale-Medical"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
 <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wu_VoCo_A_Simple-yet-Effective_Volume_Contrastive_Learning_Framework_for_3D_Medical_CVPR_2024_paper.html"><img src='https://img.shields.io/badge/CVPR-Conference-red' alt='Paper PDF'></a>
 <a href='https://huggingface.co/Luffy503/VoCo/tree/main'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
-<a href='https://huggingface.co/datasets/Luffy503/VoCo_Downstream'><img src='https://img.shields.io/badge/Dataset-Downsteam-pink' alt='Dataset'></a>
-<a href='https://huggingface.co/datasets/Luffy503/VoCovid'><img src='https://img.shields.io/badge/Dataset-VoCovid-pink' alt='Dataset'></a>
+<a href='https://huggingface.co/datasets/Luffy503/VoCo_Downstream'><img src='https://img.shields.io/badge/Dataset-Downsteam-green' alt='Dataset'></a>
+<a href='https://huggingface.co/datasets/Luffy503/VoCovid'><img src='https://img.shields.io/badge/Dataset-VoCovid-green' alt='Dataset'></a>
 </div>
 
 We release implementations of **50+** downstream datasets across various medical tasks, including segmentation, classification, registration, and vision-language. We will consistently update this repo to build a comprehensive validation benchmark for medical pre-training.
@@ -159,6 +159,13 @@ torchrun --master_port=21503 main.py \
 - **cache_dir**: The path you want to cache your dataset (activated by 'use_persistent_dataset')
 - **use_ssl_pretrained**: If True, use 'VoCo_SSL_head'. Else, 'VoComni'
 - **use_persistent_dataset**: If True, it would cache data in 'cache_dir' for fast training. **WARNING**: it requires extra storage space !!!!!
+
+### For Pre-processing Settings
+
+We meticulously default settings for different downstream tasks, including "a_min, a_max, roi, spacing". We learn a lot from [nnUNet](https://github.com/MIC-DKFZ/nnUNet) and after consuming over 10,000 GPU hours in evaluation, we assume the current settings in 'main.py' are relatively better. 
+
+**The settings may not be consistent with pre-training**, *e.g.*, 'roi=64' in pre-training while 'roi=96' in some downstream tasks. You can re-define these parameters yourself, but for fair comparisons, we recommend you to adopt our settings.
+
 
 ### Validation and Testing 
 
