@@ -45,14 +45,14 @@ We release implementations of **50+** downstream datasets across various medical
 | [MM-WHS-MRI](monai/MM-WHS-MRI/)             | MRI      | Heart Seg.              |
 | [ACDC](monai/ACDC/)                         | MRI      | Heart Seg.              |
 | [ATLAS-MRI](monai/ATLAS-MRI/)               | MRI      | Liver Tumor Seg.        |
-| [BraTs21](monai/BraTS21/)                   | MRI      | Brain Tumor Seg.        |
+| [BraTs21](monai/BRATS21/)                   | MRI      | Brain Tumor Seg.        |
 | [IXI](monai/Registration/)                  | MRI      | Brain MRI Registration  |
 | [OASIS](monai/Registration/)                | MRI      | Brain MRI Registration  |
 | [CTRG-Chest](monai/M2KT/)                   | VLP      | Report Generation       |
 | [CT-RATE](monai/CT_CLIP/)                   | VLP      | Vocabulary Classi.      |
 | [CT-RATE](monai/CT_CLIP/)                   | VLP      | Report-Volume Retrieval |
 | MSD Challenge                               |          |                         |
-| [Task01 Brain](monai/BraTS/)                | MRI      | Brain Tumor Seg.        |
+| [Task01 Brain](monai/BRATS/)                | MRI      | Brain Tumor Seg.        |
 | [Task02 Heart](monai/Heart/)                | MRI      | Heart Seg.              |
 | [Task03 Liver](monai/LiTs/)                 | CT       | Liver Tumor Seg.        |
 | [Task04 Hip.](monai/Hip/)                   | MRI      | Hip. Seg.               |
