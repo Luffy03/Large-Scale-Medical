@@ -11,7 +11,7 @@
 
 This work presents **VoCo**, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** volumes (**42M** slices) for pre-training, **31M~1.2B** params of pre-trained models, various pre-training recipes, and **50+** downstream tasks implementation.
 
-Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=en&user=Z_t5DjwAAAAJ">**Hao Chen**</a>. [**"Large-Scale 3D Medical Image Pre-training with Geometric Context Priors"**](./assets/main_paper.pdf). CVPR 2024 Extension. [中文解读](https://zhuanlan.zhihu.com/p/1008807520).
+Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=en&user=Z_t5DjwAAAAJ">**Hao Chen**</a>. [**"Large-Scale 3D Medical Image Pre-training with Geometric Context Priors"**](./assets/main_paper.pdf). CVPR 2024 Extension.
 
 ![teaser](assets/data.png)
 
@@ -33,6 +33,7 @@ Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=
 - - **[Self-supervised](Self-supervised):** Pre-training with unlabeled data
 - - **[Semi-supervised](Semi-supervised):** Pre-training with labeled and unlabeled data
 - - **[Omni-supervised](Omni-supervised):** Pre-training with labeled and unlabeled data
+- [中文解读](https://zhuanlan.zhihu.com/p/1008807520)
 
 ## Pre-trained Models
 
