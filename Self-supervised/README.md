@@ -77,6 +77,12 @@ sh dist_H.sh
 If you find this repo useful for your research, please consider citing the paper as follows:
 
 ```bibtex
+@article{wu2024large,
+  title={Large-Scale 3D Medical Image Pre-training with Geometric Context Priors},
+  author={Wu, Linshan and Zhuang, Jiaxin and Chen, Hao},
+  journal={arXiv preprint arXiv:2410.09890},
+  year={2024}
+}
 @InProceedings{voco-v1,
     author    = {Wu, Linshan and Zhuang, Jiaxin and Chen, Hao},
     title     = {VoCo: A Simple-yet-Effective Volume Contrastive Learning Framework for 3D Medical Image Analysis},
