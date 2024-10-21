@@ -117,6 +117,14 @@ model = load(model, model_dict)
 
 ## Fine-tuning
 
+### Installation
+```bash
+git clone https://github.com/Luffy03/Large-Scale-Medical
+cd Large-Scale-Medical
+pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+```
+
 ### Download Downstream Datasets
 
 Please refer to [Acknowledgment](#Acknowledgment). Download our pre-processed [downstream datasets](https://huggingface.co/datasets/Luffy503/VoCo_Downstream) for downstream tasks.
