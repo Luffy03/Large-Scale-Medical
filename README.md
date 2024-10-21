@@ -117,14 +117,6 @@ model = load(model, model_dict)
 
 ## Fine-tuning
 
-### Installation
-
-```bash
-git clone https://github.com/Luffy03/Large-Scale-Medical
-cd Large-Scale-Medical
-pip install -r requirements.txt
-```
-
 ### Download Downstream Datasets
 
 Please refer to [Acknowledgment](#Acknowledgment). Download our pre-processed [downstream datasets](https://huggingface.co/datasets/Luffy503/VoCo_Downstream) for downstream tasks.
