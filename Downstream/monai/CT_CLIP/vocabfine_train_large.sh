@@ -5,8 +5,8 @@ python ct_vocabfine_train.py \
     --feature_size 96 \
     --warmup_length 10000 \
     --save ./exps_large/ \
-    --swin_pretrained /home/lwubf/nnUNet/model_L.pt \
-    --pretrained /project/medimgfmod/zchenhi/checkpoints/CT-CLIP/CT_CLIP_zeroshot.pt \
-    --data-folder /project/medimgfmod/zchenhi/data/CT-RATE/train_preprocessed/ \
-    --reports-file /project/medimgfmod/CT-RATE/dataset/radiology_text_reports/train_reports.csv \
-    --labels /project/medimgfmod/CT-RATE/dataset/multi_abnormality_labels/train_predicted_labels.csv
+    --swin_pretrained /pretrained/VoCo_H_SSL_head.pt \
+    --pretrained /checkpoints/CT-CLIP/CT_CLIP_zeroshot.pt \
+    --data-folder /CT-RATE/train_preprocessed/ \
+    --reports-file /CT-RATE/dataset/radiology_text_reports/train_reports.csv \
+    --labels /CT-RATE/dataset/multi_abnormality_labels/train_predicted_labels.csv
