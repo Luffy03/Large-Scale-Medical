@@ -1,0 +1,12 @@
+python ct_vocabfine_train.py \
+    --lr 1e-5 \
+    --wd 0.1 \
+    --epochs 10 \
+    --feature_size 192 \
+    --warmup_length 10000 \
+    --save ./exps_huge/ \
+    --swin_pretrained /home/lwubf/nnUNet/model_H.pt \
+    --pretrained /project/medimgfmod/zchenhi/checkpoints/CT-CLIP/CT_CLIP_zeroshot.pt \
+    --data-folder /project/medimgfmod/zchenhi/data/CT-RATE/train_preprocessed/ \
+    --reports-file /project/medimgfmod/CT-RATE/dataset/radiology_text_reports/train_reports.csv \
+    --labels /project/medimgfmod/CT-RATE/dataset/multi_abnormality_labels/train_predicted_labels.csv
