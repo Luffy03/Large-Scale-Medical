@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: transformer-maskgit
+Version: 0.0.0
+Requires-Dist: accelerate
+Requires-Dist: beartype
+Requires-Dist: einops>=0.6
+Requires-Dist: ema-pytorch>=0.2.2
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: sentencepiece
+Requires-Dist: transformers==4.30.1
+Requires-Dist: tqdm
+Requires-Dist: vector-quantize-pytorch==1.1.2
+Requires-Dist: nibabel
+Requires-Dist: openpyxl
