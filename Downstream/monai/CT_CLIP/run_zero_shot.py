@@ -73,11 +73,11 @@ elif backbone == 'swin_unetr':
 
 inference = CTClipInference(
     clip,
-    data_folder = '/jhcnas5/nixuefeng/CT-RATE/valid_preprocessed/',
-    reports_file = "/jhcnas5/nixuefeng/CT-RATE/dataset/radiology_text_reports/validation_reports.csv",
-    labels = "/jhcnas5/nixuefeng/CT-RATE/dataset/multi_abnormality_labels/valid_predicted_labels.csv",
+    data_folder = '/CT-RATE/valid_preprocessed/',
+    reports_file = "/CT-RATE/dataset/radiology_text_reports/validation_reports.csv",
+    labels = "/CT-RATE/dataset/multi_abnormality_labels/valid_predicted_labels.csv",
     batch_size = 1,
-    results_folder="./exps_huge/",    #inference_zeroshot
+    results_folder="./exps/",    # The path to save results
     num_train_steps = 1,
 )
 
