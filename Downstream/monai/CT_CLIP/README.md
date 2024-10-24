@@ -6,10 +6,6 @@
 - labels
 
 Please follow the settings of [CT_CLIP](https://github.com/ibrahimethemhamamci/CT-CLIP).
-You need to download BertTokenizer and BertModel models form their original repo.
-```
-microsoft/BiomedVLP-CXR-BERT-specialized
-```
 
 **Vocabulary classification Training** 
 ```
