@@ -1,4 +1,4 @@
-**Modify pre-trained path**:
+**Modify pre-trained path** in sh files:
 - swin_pretrained
 - pretrained
 - data-folder
