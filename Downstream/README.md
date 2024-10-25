@@ -205,7 +205,7 @@ Please refer to [Registration](monai/Registration). Please cite [TransMorph](htt
 
 ### Vision-language
 
-Please refer to [M2KT](monai/M2KT) and [CT_CLIP](monai/CT_CLIP). Please cite [CT_CLIP](https://github.com/ibrahimethemhamamci/CT-CLIP) and follow their instructions.
+Please refer to [M2KT](monai/M2KT) and [CT_CLIP](monai/CT_CLIP). Please cite [M2KT](https://github.com/LX-doctorAI1/M2KT) and [CT_CLIP](https://github.com/ibrahimethemhamamci/CT-CLIP) and follow their instructions.
 
 ## VoCovid
 Please refer to [VoCovid](VoCOVID) for Semi-supervised Covid Segmentation. Dataset can be downloaded from [hugging face](https://huggingface.co/datasets/Luffy503/VoCovid).
