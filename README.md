@@ -37,7 +37,7 @@ Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=
 
 ## Pre-trained Models
 
-We provide various models for downstream tasks. For nnUNet, please refer to [nnunet trainer](./Downstream/nnUNet). If you want me to pre-train any other **advanced** networks, feel free to raise an issue and I will try to do it (^o^)/.
+We provide various models for downstream tasks. For nnUNet, please refer to [nnunet trainer](./Downstream/nnUNet).
 
 - 'SSL_head' represents trained by [Self-supervised pre-training](./Self-supervised).
 - 'Omni' represents trained by [Omni-supervised pre-training](./Omni-supervised). 
