@@ -46,6 +46,8 @@ resource.setrlimit(resource.RLIMIT_NOFILE, (8192, rlimit[1]))
 print('Setting resource limit:', str(resource.getrlimit(resource.RLIMIT_NOFILE)))
 
 parser = argparse.ArgumentParser(description="Segmentation pipeline")
+parser.add_argument("--name", default='VoCo', help="the name of pre-trained model !!!!!!!!")
+parser.add_argument("--pretrained_root", default='pretrained', help="pre-trained root")
 parser.add_argument("--checkpoint", default=None, help="start training from saved checkpoint")
 parser.add_argument("--logdir", default="logs", type=str, help="directory to save the tensorboard logs")
 parser.add_argument("--pretrained_root", default='pretrained/', help="pre-trained root")
