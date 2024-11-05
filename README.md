@@ -34,6 +34,7 @@ Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=
 - - **[Semi-supervised](Semi-supervised):** Pre-training with labeled and unlabeled data
 - - **[Omni-supervised](Omni-supervised):** Pre-training with labeled and unlabeled data
 - [中文解读](https://zhuanlan.zhihu.com/p/1008807520)
+- [公众号](https://mp.weixin.qq.com/s/vBWXlvhw0ZfCVCoesAPrMA)
 
 ## Pre-trained Models
 
