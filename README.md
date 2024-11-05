@@ -33,7 +33,7 @@ Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=
 - - **[Self-supervised](Self-supervised):** Pre-training with unlabeled data
 - - **[Semi-supervised](Semi-supervised):** Pre-training with labeled and unlabeled data
 - - **[Omni-supervised](Omni-supervised):** Pre-training with labeled and unlabeled data
-- **[CVPR version]**(https://github.com/Luffy03/VoCo)
+- **[CVPR version](https://github.com/Luffy03/VoCo)**
 - [中文解读](https://zhuanlan.zhihu.com/p/1008807520)
 - [公众号](https://mp.weixin.qq.com/s/vBWXlvhw0ZfCVCoesAPrMA)
 
