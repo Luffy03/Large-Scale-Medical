@@ -115,7 +115,7 @@ def get_test_loader(args):
         test_name.append(name)
 
     data_dicts_test = [{'image': image, 'name': name}
-                        for image, label, name in zip(test_img, test_name)]
+                        for image, name in zip(test_img, test_name)]
 
     print('test len {}'.format(len(data_dicts_test)))
 
