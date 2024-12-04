@@ -144,7 +144,7 @@ Please refer to [Acknowledgment](#Acknowledgment). Download our  [PreCT-160K](ht
 
 **WARNING**: 
 - It requires **22.6 TB** space to store the original datasets. For pre-training, it requires extra **30 TB** space to cache the data, otherwise the pre-training will be very slow. And please store them in SSD.
-- If you do not have enough space for PreCT-160K, you can try our [VoComni dataset](https://huggingface.co/datasets/Luffy503/VoComni). It requires less than **10 TB** only (?).
+- If you do not have enough space for PreCT-160K, you can try our [VoComni dataset](https://huggingface.co/datasets/Luffy503/VoComni). It requires less than **10 TB** only.
 
 ### Various Pre-training recipes
 
