@@ -89,16 +89,13 @@ def random_crop(image, label, crop_size=(128, 128, 128)):
 
     depth, height, width = image.shape
 
-    # 确保裁剪尺寸不大于体积尺寸
     if (depth < crop_size[0]) or (height < crop_size[1]) or (width < crop_size[2]):
         raise ValueError("Crop size must be smaller than the volume size.")
 
-    # 生成随机裁剪的起始坐标
     z_start = random.randint(0, depth - crop_size[0])
     y_start = random.randint(0, height - crop_size[1])
     x_start = random.randint(0, width - crop_size[2])
 
-    # 裁剪三维体积
     cropped_image = image[z_start:z_start + crop_size[0],
                      y_start:y_start + crop_size[1],
                      x_start:x_start + crop_size[2]]
