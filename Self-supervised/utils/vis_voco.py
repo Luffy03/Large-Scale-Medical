@@ -122,7 +122,7 @@ def vis():
 
     args = parser.parse_args()
 
-    path = './cache_data/BTCV'
+    path = './cache_data'
     ls = os.listdir(path)
     save_path = './cases_voco'
 
