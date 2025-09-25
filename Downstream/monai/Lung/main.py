@@ -76,7 +76,7 @@ parser.add_argument("--space_y", default=1.25, type=float, help="spacing in y di
 parser.add_argument("--space_z", default=5.0, type=float, help="spacing in z direction")
 parser.add_argument("--roi_x", default=128, type=int, help="roi size in x direction")
 parser.add_argument("--roi_y", default=128, type=int, help="roi size in y direction")
-parser.add_argument("--roi_z", default=32, type=int, help="roi size in z direction")
+parser.add_argument("--roi_z", default=128, type=int, help="roi size in z direction")
 parser.add_argument("--dropout_rate", default=0.0, type=float, help="dropout rate")
 parser.add_argument("--dropout_path_rate", default=0.0, type=float, help="drop path rate")
 parser.add_argument("--RandFlipd_prob", default=0.2, type=float, help="RandFlipd aug probability")
