@@ -10,7 +10,7 @@
     "modality": {
         "0": "CT"
     },
-    "name": "lits",
+    "name": "kits",
     "numTraining": 391,
     "reference": "",
     "release": "0.0",
@@ -1976,3 +1976,4 @@
         }
     ]
 }
+
