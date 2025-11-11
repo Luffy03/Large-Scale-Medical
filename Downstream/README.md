@@ -206,7 +206,7 @@ Please refer to [Registration](monai/Registration). Please cite [TransMorph](htt
 Please refer to [M2KT](monai/M2KT) and [CT_CLIP](monai/CT_CLIP). Please cite [M2KT](https://github.com/LX-doctorAI1/M2KT) and [CT_CLIP](https://github.com/ibrahimethemhamamci/CT-CLIP) and follow their instructions.
 
 ## Downstream Checkpoints
-We are uploading our fine-tuning checkpoints to [BaiduYun](https://pan.baidu.com/s/1w75cJWoWfCt2FSjMDYl1FA?pwd=r1rp). A bit slow, so sorry for that!(╥﹏╥)
+We are uploading our fine-tuning checkpoints to [BaiduYun](https://pan.baidu.com/s/1w75cJWoWfCt2FSjMDYl1FA?pwd=r1rp).
 
 ## Citation
 
@@ -243,4 +243,5 @@ If you find this repo useful for your research, please consider citing the paper
   year={2021},
 }
 ```
+
 
