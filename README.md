@@ -6,7 +6,6 @@
 <a href='https://huggingface.co/Luffy503/VoCo/tree/main'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
 <a href='https://huggingface.co/datasets/Luffy503/PreCT-160K'><img src='https://img.shields.io/badge/Dataset-PreCT--160K-green' alt='Dataset'></a>
 <a href='https://huggingface.co/datasets/Luffy503/VoComni'><img src='https://img.shields.io/badge/Dataset-VoComni-green' alt='Dataset'></a>
-<a href='https://huggingface.co/datasets/Luffy503/VoCovid'><img src='https://img.shields.io/badge/Dataset-VoCovid-green' alt='Dataset'></a>
 </div>
 
 This work presents **VoCo**, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** volumes (**42M** slices) for pre-training, **31M~1.2B** params of pre-trained models, various pre-training recipes, and **50+** downstream tasks implementation.
