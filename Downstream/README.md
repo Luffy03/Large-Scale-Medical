@@ -39,7 +39,6 @@ We release implementations of **50+** downstream datasets across various medical
 | [Parse22](monai/Parse22/)                   | CT       | Pulmonary Artery Seg.   |
 | [AIIB23](monai/AIIB23/)                     | CT       | Fibrotic Lung Seg.      |
 | [CC-CCII](monai/CC-CCII/)                   | CT       | Covid Classi.           |
-| [LUNA16](monai/LUNA16/)                     | CT       | Lung Nodule Classi.     |
 | [AutoPET-II23](nnUNet)                      | PET-CT   | HeadNeck Lesion Seg.    |
 | [AMOS-MRI](monai/AMOS-MRI/)                 | MRI      | Abdomen Seg.            |
 | [MM-WHS-MRI](monai/MM-WHS-MRI/)             | MRI      | Heart Seg.              |
@@ -243,5 +242,6 @@ If you find this repo useful for your research, please consider citing the paper
   year={2021},
 }
 ```
+
 
 
