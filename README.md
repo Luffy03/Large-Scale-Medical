@@ -159,9 +159,6 @@ Please refer to:
 
 To facilitate the following research, we use VoCo to generate pseudo labels on **20K volumes**, with 20 organ and tumor classes. Please refer to [VoComni](./VoComni).
 
-## VoCovid
-Please refer to [VoCovid](Downstream/VoCOVID) for **Semi-supervised Covid Segmentation**. Dataset can be downloaded from [hugging face](https://huggingface.co/datasets/Luffy503/VoCovid).
-
 ## Acknowledgement <a name="Acknowledgment"></a>
 
  **NOTE THAT** we are not the authors of these datasets. Although all these datasets are publicly available for academic research, you need to cite the original works as shown in our paper. For certain datasets (e.g., [WORD](https://github.com/HiLab-git/WORD)) that necessitate approval from the authors, you need to download it from the original link.
