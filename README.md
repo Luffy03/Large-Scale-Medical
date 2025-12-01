@@ -8,7 +8,7 @@
 <a href='https://huggingface.co/datasets/Luffy503/VoComni'><img src='https://img.shields.io/badge/Dataset-VoComni-green' alt='Dataset'></a>
 </div>
 
-This work presents **VoCo**, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** volumes (**42M** slices) for pre-training, **31M~1.2B** params of pre-trained models, various pre-training recipes, and 50+ downstream tasks implementation.
+This work presents **VoCo**, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** volumes (42M slices) for pre-training, 31M~1.2B params of pre-trained models, various pre-training recipes, and 50+ downstream tasks implementation.
 
 Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=en&user=Z_t5DjwAAAAJ">**Hao Chen**</a>. [**"Large-Scale 3D Medical Image Pre-training with Geometric Context Priors"**](https://arxiv.org/abs/2410.09890). **TPAMI 2025**.
 
