@@ -12,7 +12,7 @@ This work presents **VoCo**, a new method for Large-Scale 3D Medical Image Pre-t
 
 Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=en&user=Z_t5DjwAAAAJ">**Hao Chen**</a>. [**"Large-Scale 3D Medical Image Pre-training with Geometric Context Priors"**](https://arxiv.org/abs/2410.09890). **TPAMI 2025**.
 
-![teaser](assets/data.png)
+![teaser](assets/data.svg)
 
 [//]: # (## News)
 
