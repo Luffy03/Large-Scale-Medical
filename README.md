@@ -26,7 +26,6 @@ Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=
 - **Datasets**:
 - - **[PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K):** **The existing largest dataset in this field: 160K** CT volumes (**42M** slices)
 - - **[VoComni](https://huggingface.co/datasets/Luffy503/VoComni):** **20K** volumes with pseudo labels (20 organ & tumor classes)
-- - **[VoCovid](/Downstream/VoCOVID):** Semi-supervised covid segmentation
 - **Pre-training**:
 - - **[Fully-supervised](VoComni):** Pre-training with labeled data
 - - **[Self-supervised](Self-supervised):** Pre-training with unlabeled data
