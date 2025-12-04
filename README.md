@@ -24,7 +24,7 @@ Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=
 - **[Models](https://huggingface.co/Luffy503/VoCo/tree/main):** **31M~1.2B** params of pre-trained models.
 - **[Downstream](Downstream):** **50+** tasks implementations (segmentation, classification, registration, vision-language).
 - **Datasets**:
-- - **[PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K):** **The existing largest dataset in this field: 160K** CT volumes (**42M** slices)
+- - **[PreCT-160K](https://huggingface.co/datasets/Luffy503/PreCT-160K):** **The existing largest dataset in this field: 160K** CT volumes
 - - **[VoComni](https://huggingface.co/datasets/Luffy503/VoComni):** **20K** volumes with pseudo labels (20 organ & tumor classes)
 - **Pre-training**:
 - - **[Fully-supervised](VoComni):** Pre-training with labeled data
