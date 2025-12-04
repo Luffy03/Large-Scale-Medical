@@ -1,7 +1,6 @@
 <div align="center">
 <h1>Large-Scale 3D Medical Image Pre-training</h1>
 
-<a href="[https://arxiv.org/abs/2410.09890](https://ieeexplore.ieee.org/document/11274411)"><img src='https://img.shields.io/badge/IEEE-00629a?logo=ieee&logoColor=white' alt='IEEE'></a>
 <a href="https://arxiv.org/abs/2410.09890"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
 <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wu_VoCo_A_Simple-yet-Effective_Volume_Contrastive_Learning_Framework_for_3D_Medical_CVPR_2024_paper.html"><img src='https://img.shields.io/badge/CVPR-Conference-red' alt='Paper PDF'></a>
 <a href='https://huggingface.co/Luffy503/VoCo/tree/main'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
