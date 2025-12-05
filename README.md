@@ -33,7 +33,7 @@ Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=
 - - **[Omni-supervised](Omni-supervised):** Pre-training with labeled and unlabeled data
 - **[CVPR version](https://github.com/Luffy03/VoCo)**
 - [中文解读](https://zhuanlan.zhihu.com/p/1008807520)
-- [公众号](https://mp.weixin.qq.com/s/vBWXlvhw0ZfCVCoesAPrMA)
+- [公众号](https://mp.weixin.qq.com/s/IKd_DUHlN6sJXiaUVoaSgw)
 
 ## Pre-trained Models
 
