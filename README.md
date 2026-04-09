@@ -10,7 +10,7 @@
 
 This work presents **VoCo**, a new method for Large-Scale 3D Medical Image Pre-training. We release a new benchmark, including **160K** volumes (42M slices) for pre-training, 31M~1.2B params of pre-trained models, various pre-training recipes, and 50+ downstream tasks implementation.
 
-Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=en&user=Z_t5DjwAAAAJ">**Hao Chen^**</a>. [**"Large-Scale 3D Medical Image Pre-training with Geometric Context Priors"**](https://ieeexplore.ieee.org/document/11274411). **TPAMI 2025**.
+Linshan Wu, Jiaxin Zhuang, and <a href="https://scholar.google.com/citations?hl=en&user=Z_t5DjwAAAAJ">**Hao Chen^**</a>. [**"Large-Scale 3D Medical Image Pre-training with Geometric Context Priors"**](https://ieeexplore.ieee.org/document/11274411). **TPAMI 2026**.
 
 ![teaser](assets/data.svg)
 
@@ -170,7 +170,7 @@ If you find this repo useful for your research, please consider citing the paper
   title={Large-Scale 3D Medical Image Pre-training with Geometric Context Priors},
   author={Wu, Linshan and Zhuang, Jiaxin and Chen, Hao},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2025},
+  year={2026},
   publisher={IEEE}
 }
 @InProceedings{voco-v1,
